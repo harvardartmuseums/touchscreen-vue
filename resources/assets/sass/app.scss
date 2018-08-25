@@ -1,0 +1,37 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+@import "node_modules/font-awesome/scss/font-awesome";
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.prevnext {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.saved {
+  color:#17bf21;
+  transition: color 0.5s ease;
+}
+
+#questionBox {
+  animation: fadein 1.5s;
+  animation-timing-function: ease-in;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
