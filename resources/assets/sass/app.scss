@@ -6,32 +6,108 @@
 // Variables
 @import "variables";
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
-
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+#app {
+  width: 100%;
+  height: 100%;
+  position:relative;
 }
 
-.prevnext {
-  margin-top: 1em;
+body  {
+  background-image: url('../images/map.png');
+  background-size: contain; 
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: 'Neutral Std', sans-serif;
+  font-weight: 500;
+  overflow: hidden;
+}
+//Svg img styling
+#overlay {
+  width: 100%;
+  height: 100%;
+}
+
+
+//Overlay Styling
+
+#thumbstrip {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  position:absolute;
+  top:2vw;
+  width: 100vw;
 }
 
-.saved {
-  color:#17bf21;
-  transition: color 0.5s ease;
+.thumbcontainer {
+  width: 6vw;
+  height: 12vh;
+  display: block;
+  background-color: black;
+  margin-left: 2vw;
+  position: relative;
 }
 
-#questionBox {
-  animation: fadein 1.5s;
-  animation-timing-function: ease-in;
+.thumbcontainer:first-child {
+  margin-left: 0;
 }
 
-@keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+.thumb {
+  height: 100%;
+  width: auto;
+}
+
+.thumbnumber {
+  position: absolute;
+  top: .5vw;
+  left: .5vw;
+  color: white;
+}
+
+//Era Control
+#erastrip {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+  position: absolute;
+  bottom:2vw;
+}
+
+.eracontainer {
+  height: 4vw;
+  width: 19vw;
+  background-color: #C7C8CA;
+  border: 1px black;
+  color: white;
+}
+
+.agecontainer {
+  text-align: center;
+  vertical-align: center;
+  line-height: normal;
+  height: 100%;
+  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dates {
+  font-size: .75em;
+}
+
+.active {
+  background-color: #E6E7E8;
+  color: #231F20;
+}
+
+//Modal
+
+#modal {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }

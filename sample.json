@@ -1,0 +1,30 @@
+
+
+{
+    "eras": {
+      "1": {
+        "name":"The Bronze Age",
+        "dates": "100-500BCE",
+        "overlay": "bronze.svg",
+        "objects": {
+          "1": {
+            "name": "Poopship",
+            "tombstone": "Persepolis: amphora with zoomorphic handles sam et faccatus doloreperionse quassimilit omni debitat ibusdaecus eationsequae cusam,inciderchici a duntiis sit eum net quodit, es re lam, se volorendel eate",
+            "thumbnail": "poopship_thumb.jpg",
+            "media": {
+              "1": {
+                "type":"image",
+                "file":"poopship.jpg",
+                "config":"none"
+              },
+              "2": {
+                "type":"image",
+                "file":"poopship.jpg",
+                "config":"none"
+              }
+            }
+          }
+        }
+      }
+    }
+}

@@ -1,0 +1,19 @@
+basemap
+
+eras
+    era
+        order
+        name
+        dates
+        overlay (svg, touchpoint ids should be index)
+        objects
+            object
+                index
+                name
+                tombstone (markdown?)
+                thumbnail
+                media
+                    item
+                        type (image, video, 360)
+                        file
+                        config

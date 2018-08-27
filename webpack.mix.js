@@ -15,4 +15,6 @@ mix.js('resources/assets/js/app.js', 'public/js')
    .scripts('resources/assets/js/custom.js', 'public/js/custom.js')
    .sass('resources/assets/sass/app.scss', 'public/css')
    .copy('node_modules/font-awesome/fonts', 'public/fonts')
+   .copy('resources/assets/images', 'public/images')
+   .options({ processCssUrls: false })
    .setPublicPath('./');
