@@ -23,6 +23,9 @@
         "font-awesome": "^4.7.0",
         "vue-stash": "^2.0.1-beta",
         "vue2-editor": "^2.5.0",
-        "vuex": "^3.0.1"
+        "vuex": "^3.0.1",
+        "spin-360": "0.0.5",
+        "ajv": "^6.0.0",
+        "imagemin": "^5.0.0"
     }
 }
