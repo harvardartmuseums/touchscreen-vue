@@ -6,6 +6,11 @@
 // Variables
 @import "variables";
 
+html, body {
+  user-select: none;
+  touch-action: none;
+}
+
 html {
 min-height: 100% !important;
 height: 100%;
@@ -184,7 +189,7 @@ body  {
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 3;
-}
+}  
 
 #imagewrapper {
   display: flex;
