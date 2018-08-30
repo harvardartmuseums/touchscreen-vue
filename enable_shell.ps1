@@ -1,0 +1,47 @@
+$COMPUTER = "localhost"
+$NAMESPACE = "root\standardcimv2\embedded"
+
+# Create a handle to the class instance so we can call the static methods.
+$ShellLauncherClass = [wmiclass]"\\$COMPUTER\${NAMESPACE}:WESL_UserSetting"
+
+
+# This well-known security identifier (SID) corresponds to the BUILTIN\Administrators group.
+
+$Admins_SID = "S-1-5-32-544"
+
+# Create a function to retrieve the SID for a user account on a machine.
+
+function Get-UsernameSID($AccountName) {
+
+    $NTUserObject = New-Object System.Security.Principal.NTAccount($AccountName)
+    $NTUserSID = $NTUserObject.Translate([System.Security.Principal.SecurityIdentifier])
+
+    return $NTUserSID.Value
+
+}
+
+# Get the SID for a user account named "Diet-kiosk".
+
+$Diet_SID = Get-UsernameSID("diet-kiosk")
+
+# Define actions to take when the shell program exits.
+
+$restart_shell = 0
+$restart_device = 1
+$shutdown_device = 2
+
+# Set Chrome as the shell for "diet", and restart the machine if it's closed.
+
+$ShellLauncherClass.SetCustomShell($Diet_SID, "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe --kiosk --incognito file:///C:/touchscreen-vue/public/index.html", ($null), ($null), $restart_device)
+
+
+# View all the custom shells defined.
+
+"`nCurrent settings for custom shells:"
+Get-WmiObject -namespace $NAMESPACE -computer $COMPUTER -class WESL_UserSetting | Select Sid, Shell, DefaultAction
+
+# Enable Shell Launcher
+
+$ShellLauncherClass.SetEnabled($TRUE)
+
+"`nEnabled is set to " + $DefaultShellObject.IsEnabled()
