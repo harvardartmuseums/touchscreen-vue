@@ -3043,6 +3043,15 @@
   clip: auto;
 }
 
+html, body {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -ms-touch-action: none;
+      touch-action: none;
+}
+
 html {
   min-height: 100% !important;
   height: 100%;

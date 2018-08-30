@@ -50719,7 +50719,7 @@ exports = module.exports = __webpack_require__(3)(false);
 
 
 // module
-exports.push([module.i, "\n#erastrip {\n    font-size: 0.9em;\n}\n\n", ""]);
+exports.push([module.i, "\n#erastrip {\n}\n\n", ""]);
 
 // exports
 
