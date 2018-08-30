@@ -68,10 +68,10 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__api__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__api__ = __webpack_require__(18);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__api__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_0__api__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__boot__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__boot__ = __webpack_require__(19);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_1__boot__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_1__boot__["b"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_1__boot__["c"]; });
@@ -84,29 +84,29 @@
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_2__constants__["c"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_2__constants__["d"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "w", function() { return __WEBPACK_IMPORTED_MODULE_2__constants__["e"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__input__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__input__ = __webpack_require__(58);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_3__input__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "z", function() { return __WEBPACK_IMPORTED_MODULE_3__input__["b"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "D", function() { return __WEBPACK_IMPORTED_MODULE_3__input__["c"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__layout__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__layout__ = __webpack_require__(22);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_4__layout__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__playback__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__playback__ = __webpack_require__(23);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_5__playback__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_5__playback__["b"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "A", function() { return __WEBPACK_IMPORTED_MODULE_5__playback__["c"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "B", function() { return __WEBPACK_IMPORTED_MODULE_5__playback__["d"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "C", function() { return __WEBPACK_IMPORTED_MODULE_5__playback__["e"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__plugins__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__plugins__ = __webpack_require__(24);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_6__plugins__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_6__plugins__["b"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "x", function() { return __WEBPACK_IMPORTED_MODULE_6__plugins__["c"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "y", function() { return __WEBPACK_IMPORTED_MODULE_6__plugins__["d"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__state__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__state__ = __webpack_require__(9);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_7__state__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "s", function() { return __WEBPACK_IMPORTED_MODULE_7__state__["b"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "t", function() { return __WEBPACK_IMPORTED_MODULE_7__state__["c"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "v", function() { return __WEBPACK_IMPORTED_MODULE_7__state__["d"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__jquery__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__jquery__ = __webpack_require__(59);
 
 
 
@@ -124,27 +124,27 @@
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__jquery__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__jquery__ = __webpack_require__(51);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "$", function() { return __WEBPACK_IMPORTED_MODULE_0__jquery__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__cursor__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__cursor__ = __webpack_require__(52);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "getCursorPosition", function() { return __WEBPACK_IMPORTED_MODULE_1__cursor__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__detectSubsampling__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__detectSubsampling__ = __webpack_require__(20);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "detectSubsampling", function() { return __WEBPACK_IMPORTED_MODULE_2__detectSubsampling__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__layout__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__layout__ = __webpack_require__(53);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "getOuterSize", function() { return __WEBPACK_IMPORTED_MODULE_3__layout__["d"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "getComputedSize", function() { return __WEBPACK_IMPORTED_MODULE_3__layout__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "getInnerSize", function() { return __WEBPACK_IMPORTED_MODULE_3__layout__["c"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "getInnerLayout", function() { return __WEBPACK_IMPORTED_MODULE_3__layout__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__measure__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__measure__ = __webpack_require__(54);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "measure", function() { return __WEBPACK_IMPORTED_MODULE_4__measure__["b"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "findSpecs", function() { return __WEBPACK_IMPORTED_MODULE_4__measure__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__naturalSize__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__naturalSize__ = __webpack_require__(21);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "naturalSize", function() { return __WEBPACK_IMPORTED_MODULE_5__naturalSize__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__preload__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__preload__ = __webpack_require__(55);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "preload", function() { return __WEBPACK_IMPORTED_MODULE_6__preload__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__sourceArray__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__sourceArray__ = __webpack_require__(56);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "sourceArray", function() { return __WEBPACK_IMPORTED_MODULE_7__sourceArray__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils__ = __webpack_require__(57);
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "noop", function() { return __WEBPACK_IMPORTED_MODULE_8__utils__["f"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "log", function() { return __WEBPACK_IMPORTED_MODULE_8__utils__["e"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "warn", function() { return __WEBPACK_IMPORTED_MODULE_8__utils__["k"]; });
@@ -175,8 +175,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 "use strict";
 
 
-var bind = __webpack_require__(19);
-var isBuffer = __webpack_require__(59);
+var bind = __webpack_require__(12);
+var isBuffer = __webpack_require__(33);
 
 /*global toString:true*/
 
@@ -1019,72 +1019,13 @@ module.exports = function normalizeComponent (
 
 /***/ }),
 /* 8 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (immutable) */ __webpack_exports__["c"] = getState;
-/* harmony export (immutable) */ __webpack_exports__["b"] = getPluginState;
-/* harmony export (immutable) */ __webpack_exports__["d"] = is;
-/* harmony export (immutable) */ __webpack_exports__["a"] = flag;
-/**
- * Gets a state object by name.
- * @internal
- * @param data - The SpriteSpin instance data
- * @param name - The name of the state object
- */
-function getState(data, name) {
-    data.state = data.state || {};
-    data.state[name] = data.state[name] || {};
-    return data.state[name];
-}
-/**
- * Gets a plugin state object by name.
- *
- * @remarks
- * Plugins should use this method to get or create a state object where they can
- * store any instance variables.
- *
- * @public
- * @param data - The SpriteSpin instance data
- * @param name - The name of the plugin
- */
-function getPluginState(data, name) {
-    var state = getState(data, 'plugin');
-    state[name] = state[name] || {};
-    return state[name];
-}
-/**
- * Checks whether a flag is set. See {@link flag}.
- *
- * @public
- * @param data - The SpriteSpin instance data
- * @param key - The name of the flag
- */
-function is(data, key) {
-    return !!getState(data, 'flags')[key];
-}
-/**
- * Sets a flag value. See {@link is}.
- *
- * @public
- * @param data - The SpriteSpin instance data
- * @param key - The name of the flag
- * @param value - The value to set
- */
-function flag(data, key, value) {
-    getState(data, 'flags')[key] = !!value;
-}
-//# sourceMappingURL=state.js.map
-
-/***/ }),
-/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process) {
 
 var utils = __webpack_require__(2);
-var normalizeHeaderName = __webpack_require__(61);
+var normalizeHeaderName = __webpack_require__(35);
 
 var DEFAULT_CONTENT_TYPE = {
   'Content-Type': 'application/x-www-form-urlencoded'
@@ -1100,10 +1041,10 @@ function getDefaultAdapter() {
   var adapter;
   if (typeof XMLHttpRequest !== 'undefined') {
     // For browsers use XHR adapter
-    adapter = __webpack_require__(21);
+    adapter = __webpack_require__(14);
   } else if (typeof process !== 'undefined') {
     // For node use HTTP adapter
-    adapter = __webpack_require__(21);
+    adapter = __webpack_require__(14);
   }
   return adapter;
 }
@@ -1178,7 +1119,66 @@ utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
 
 module.exports = defaults;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(20)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(13)))
+
+/***/ }),
+/* 9 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["c"] = getState;
+/* harmony export (immutable) */ __webpack_exports__["b"] = getPluginState;
+/* harmony export (immutable) */ __webpack_exports__["d"] = is;
+/* harmony export (immutable) */ __webpack_exports__["a"] = flag;
+/**
+ * Gets a state object by name.
+ * @internal
+ * @param data - The SpriteSpin instance data
+ * @param name - The name of the state object
+ */
+function getState(data, name) {
+    data.state = data.state || {};
+    data.state[name] = data.state[name] || {};
+    return data.state[name];
+}
+/**
+ * Gets a plugin state object by name.
+ *
+ * @remarks
+ * Plugins should use this method to get or create a state object where they can
+ * store any instance variables.
+ *
+ * @public
+ * @param data - The SpriteSpin instance data
+ * @param name - The name of the plugin
+ */
+function getPluginState(data, name) {
+    var state = getState(data, 'plugin');
+    state[name] = state[name] || {};
+    return state[name];
+}
+/**
+ * Checks whether a flag is set. See {@link flag}.
+ *
+ * @public
+ * @param data - The SpriteSpin instance data
+ * @param key - The name of the flag
+ */
+function is(data, key) {
+    return !!getState(data, 'flags')[key];
+}
+/**
+ * Sets a flag value. See {@link is}.
+ *
+ * @public
+ * @param data - The SpriteSpin instance data
+ * @param key - The name of the flag
+ * @param value - The value to set
+ */
+function flag(data, key, value) {
+    getState(data, 'flags')[key] = !!value;
+}
+//# sourceMappingURL=state.js.map
 
 /***/ }),
 /* 10 */
@@ -3723,675 +3723,6 @@ Popper.Defaults = Defaults;
 
 /***/ }),
 /* 11 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Api; });
-/* harmony export (immutable) */ __webpack_exports__["b"] = extendApi;
-/**
- * @internal
- */
-var Api = /** @class */ (function () {
-    function Api(data) {
-        this.data = data;
-    }
-    return Api;
-}());
-
-/**
- * Adds methods to the SpriteSpin api
- *
- * @public
- */
-function extendApi(methods) {
-    var api = Api.prototype;
-    for (var key in methods) {
-        if (methods.hasOwnProperty(key)) {
-            if (api[key]) {
-                throw new Error('API method is already defined: ' + key);
-            }
-            else {
-                api[key] = methods[key];
-            }
-        }
-    }
-    return api;
-}
-//# sourceMappingURL=api.js.map
-
-/***/ }),
-/* 12 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return instances; });
-/* harmony export (immutable) */ __webpack_exports__["a"] = applyEvents;
-/* harmony export (immutable) */ __webpack_exports__["b"] = boot;
-/* harmony export (immutable) */ __webpack_exports__["c"] = create;
-/* harmony export (immutable) */ __webpack_exports__["d"] = createOrUpdate;
-/* harmony export (immutable) */ __webpack_exports__["e"] = destroy;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__constants__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__layout__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__playback__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__plugins__ = __webpack_require__(17);
-
-
-
-
-
-var $ = __WEBPACK_IMPORTED_MODULE_0__utils__["$"];
-var counter = 0;
-/**
- * Collection of all SpriteSpin instances
- */
-var instances = {};
-function pushInstance(data) {
-    counter += 1;
-    data.id = String(counter);
-    instances[data.id] = data;
-}
-function popInstance(data) {
-    delete instances[data.id];
-}
-function eachInstance(cb) {
-    for (var id in instances) {
-        if (instances.hasOwnProperty(id)) {
-            cb(instances[id]);
-        }
-    }
-}
-var lazyinit = function () {
-    // replace function with a noop
-    // this logic must run only once
-    lazyinit = function () { };
-    function onEvent(eventName, e) {
-        eachInstance(function (data) {
-            for (var _i = 0, _a = data.plugins; _i < _a.length; _i++) {
-                var module_1 = _a[_i];
-                if (typeof module_1[eventName] === 'function') {
-                    module_1[eventName].apply(data.target, [e, data]);
-                }
-            }
-        });
-    }
-    function onResize() {
-        eachInstance(function (data) {
-            if (data.responsive) {
-                boot(data);
-            }
-        });
-    }
-    var _loop_1 = function (eventName) {
-        $(window.document).bind(eventName + '.' + __WEBPACK_IMPORTED_MODULE_1__constants__["e" /* namespace */], function (e) {
-            onEvent('document' + eventName, e);
-        });
-    };
-    for (var _i = 0, eventNames_1 = __WEBPACK_IMPORTED_MODULE_1__constants__["c" /* eventNames */]; _i < eventNames_1.length; _i++) {
-        var eventName = eventNames_1[_i];
-        _loop_1(eventName);
-    }
-    var resizeTimeout = null;
-    $(window).on('resize', function () {
-        window.clearTimeout(resizeTimeout);
-        resizeTimeout = window.setTimeout(onResize, 100);
-    });
-};
-/**
- * (re)binds all spritespin events on the target element
- *
- * @internal
- */
-function applyEvents(data) {
-    var target = data.target;
-    // Clear all SpriteSpin events on the target element
-    __WEBPACK_IMPORTED_MODULE_0__utils__["unbind"](target);
-    // disable all default browser behavior on the following events
-    // mainly prevents image drag operation
-    for (var _i = 0, eventsToPrevent_1 = __WEBPACK_IMPORTED_MODULE_1__constants__["d" /* eventsToPrevent */]; _i < eventsToPrevent_1.length; _i++) {
-        var eName = eventsToPrevent_1[_i];
-        __WEBPACK_IMPORTED_MODULE_0__utils__["bind"](target, eName, __WEBPACK_IMPORTED_MODULE_0__utils__["prevent"]);
-    }
-    // Bind module functions to SpriteSpin events
-    for (var _a = 0, _b = data.plugins; _a < _b.length; _a++) {
-        var plugin = _b[_a];
-        for (var _c = 0, eventNames_2 = __WEBPACK_IMPORTED_MODULE_1__constants__["c" /* eventNames */]; _c < eventNames_2.length; _c++) {
-            var eName = eventNames_2[_c];
-            __WEBPACK_IMPORTED_MODULE_0__utils__["bind"](target, eName, plugin[eName]);
-        }
-        for (var _d = 0, callbackNames_1 = __WEBPACK_IMPORTED_MODULE_1__constants__["a" /* callbackNames */]; _d < callbackNames_1.length; _d++) {
-            var eName = callbackNames_1[_d];
-            __WEBPACK_IMPORTED_MODULE_0__utils__["bind"](target, eName, plugin[eName]);
-        }
-    }
-    // bind auto start function to load event.
-    __WEBPACK_IMPORTED_MODULE_0__utils__["bind"](target, 'onLoad', function (e, d) {
-        Object(__WEBPACK_IMPORTED_MODULE_3__playback__["a" /* applyAnimation */])(d);
-    });
-    // bind all user events that have been passed on initialization
-    for (var _e = 0, callbackNames_2 = __WEBPACK_IMPORTED_MODULE_1__constants__["a" /* callbackNames */]; _e < callbackNames_2.length; _e++) {
-        var eName = callbackNames_2[_e];
-        __WEBPACK_IMPORTED_MODULE_0__utils__["bind"](target, eName, data[eName]);
-    }
-}
-function applyMetrics(data) {
-    if (!data.images) {
-        data.metrics = [];
-    }
-    data.metrics = __WEBPACK_IMPORTED_MODULE_0__utils__["measure"](data.images, data);
-    var spec = __WEBPACK_IMPORTED_MODULE_0__utils__["findSpecs"](data.metrics, data.frames, 0, 0);
-    if (spec.sprite) {
-        // TODO: try to remove frameWidth/frameHeight
-        data.frameWidth = spec.sprite.width;
-        data.frameHeight = spec.sprite.height;
-    }
-}
-/**
- * Runs the boot process.
- *
- * @remarks
- * (re)initializes plugins, (re)initializes the layout, (re)binds events and loads source images.
- *
- * @internal
- */
-function boot(data) {
-    Object(__WEBPACK_IMPORTED_MODULE_4__plugins__["a" /* applyPlugins */])(data);
-    applyEvents(data);
-    Object(__WEBPACK_IMPORTED_MODULE_2__layout__["a" /* applyLayout */])(data);
-    data.source = __WEBPACK_IMPORTED_MODULE_0__utils__["toArray"](data.source);
-    data.loading = true;
-    data.target
-        .addClass('loading')
-        .trigger('onInit.' + __WEBPACK_IMPORTED_MODULE_1__constants__["e" /* namespace */], data);
-    __WEBPACK_IMPORTED_MODULE_0__utils__["preload"]({
-        source: data.source,
-        preloadCount: data.preloadCount,
-        progress: function (progress) {
-            data.progress = progress;
-            data.target.trigger('onProgress.' + __WEBPACK_IMPORTED_MODULE_1__constants__["e" /* namespace */], data);
-        },
-        complete: function (images) {
-            data.images = images;
-            data.loading = false;
-            data.frames = data.frames || images.length;
-            applyMetrics(data);
-            Object(__WEBPACK_IMPORTED_MODULE_2__layout__["a" /* applyLayout */])(data);
-            data.stage.show();
-            data.target
-                .removeClass('loading')
-                .trigger('onLoad.' + __WEBPACK_IMPORTED_MODULE_1__constants__["e" /* namespace */], data)
-                .trigger('onFrame.' + __WEBPACK_IMPORTED_MODULE_1__constants__["e" /* namespace */], data)
-                .trigger('onDraw.' + __WEBPACK_IMPORTED_MODULE_1__constants__["e" /* namespace */], data)
-                .trigger('onComplete.' + __WEBPACK_IMPORTED_MODULE_1__constants__["e" /* namespace */], data);
-        }
-    });
-}
-/**
- * Creates a new SpriteSpin instance
- *
- * @public
- */
-function create(options) {
-    var _this = this;
-    var target = options.target;
-    // SpriteSpin is not initialized
-    // Create default settings object and extend with given options
-    var data = $.extend(true, {}, __WEBPACK_IMPORTED_MODULE_1__constants__["b" /* defaults */], options);
-    // ensure source is set
-    data.source = data.source || [];
-    // ensure plugins are set
-    data.plugins = data.plugins || [];
-    // if image tags are contained inside this DOM element
-    // use these images as the source files
-    target.find('img').each(function () {
-        if (!Array.isArray(data.source)) {
-            data.source = [];
-        }
-        data.source.push($(_this).attr('src'));
-    });
-    // build inner html
-    // <div>
-    //   <div class='spritespin-stage'></div>
-    //   <canvas class='spritespin-canvas'></canvas>
-    // </div>
-    target
-        .empty()
-        .addClass('spritespin-instance')
-        .append("<div class='spritespin-stage'></div>");
-    // add the canvas element if canvas rendering is enabled and supported
-    if (data.renderer === 'canvas') {
-        var canvas = document.createElement('canvas');
-        if (!!(canvas.getContext && canvas.getContext('2d'))) {
-            data.canvas = $(canvas).addClass('spritespin-canvas');
-            data.context = canvas.getContext('2d');
-            target.append(data.canvas);
-            target.addClass('with-canvas');
-        }
-        else {
-            // fallback to image rendering mode
-            data.renderer = 'image';
-        }
-    }
-    // setup references to DOM elements
-    data.target = target;
-    data.stage = target.find('.spritespin-stage');
-    // store the data
-    target.data(__WEBPACK_IMPORTED_MODULE_1__constants__["e" /* namespace */], data);
-    pushInstance(data);
-    return data;
-}
-/**
- * Creates a new SpriteSpin instance, or updates an existing one
- *
- * @public
- */
-function createOrUpdate(options) {
-    lazyinit();
-    var data = options.target.data(__WEBPACK_IMPORTED_MODULE_1__constants__["e" /* namespace */]);
-    if (!data) {
-        data = create(options);
-    }
-    else {
-        $.extend(data, options);
-    }
-    boot(data);
-    return data;
-}
-/**
- * Destroys the SpriteSpin instance
- *
- * @remarks
- * - stops running animation
- * - unbinds all events
- * - deletes the data on the target element
- *
- * @public
- */
-function destroy(data) {
-    popInstance(data);
-    Object(__WEBPACK_IMPORTED_MODULE_3__playback__["d" /* stopAnimation */])(data);
-    data.target
-        .trigger('onDestroy', data)
-        .html(null)
-        .attr('style', null)
-        .attr('unselectable', null)
-        .removeClass(['spritespin-instance', 'with-canvas']);
-    __WEBPACK_IMPORTED_MODULE_0__utils__["unbind"](data.target);
-    data.target.removeData(__WEBPACK_IMPORTED_MODULE_1__constants__["e" /* namespace */]);
-}
-//# sourceMappingURL=boot.js.map
-
-/***/ }),
-/* 13 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (immutable) */ __webpack_exports__["a"] = detectSubsampling;
-var canvas;
-var context;
-function detectionContext() {
-    if (context) {
-        return context;
-    }
-    if (!canvas) {
-        canvas = document.createElement('canvas');
-    }
-    if (!canvas || !canvas.getContext) {
-        return null;
-    }
-    context = canvas.getContext('2d');
-    return context;
-}
-/**
- * Idea taken from https://github.com/stomita/ios-imagefile-megapixel
- * Detects whether the image has been sub sampled by the browser and does not have its original dimensions.
- * This method unfortunately does not work for images that have transparent background.
- */
-function detectSubsampling(img, width, height) {
-    if (!detectionContext()) {
-        return false;
-    }
-    // sub sampling happens on images above 1 megapixel
-    if (width * height <= 1024 * 1024) {
-        return false;
-    }
-    // set canvas to 1x1 pixel size and fill it with magenta color
-    canvas.width = canvas.height = 1;
-    context.fillStyle = '#FF00FF';
-    context.fillRect(0, 0, 1, 1);
-    // render the image with a negative offset to the left so that it would
-    // fill the canvas pixel with the top right pixel of the image.
-    context.drawImage(img, -width + 1, 0);
-    // check color value to confirm image is covering edge pixel or not.
-    // if color still magenta, the image is assumed to be sub sampled.
-    try {
-        var dat = context.getImageData(0, 0, 1, 1).data;
-        return (dat[0] === 255) && (dat[1] === 0) && (dat[2] === 255);
-    }
-    catch (err) {
-        // avoids cross origin exception for chrome when code runs without a server
-        return false;
-    }
-}
-//# sourceMappingURL=detectSubsampling.js.map
-
-/***/ }),
-/* 14 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (immutable) */ __webpack_exports__["a"] = naturalSize;
-var img;
-/**
- * gets the original width and height of an image element
- */
-function naturalSize(image) {
-    // for browsers that support naturalWidth and naturalHeight properties
-    if (image.naturalWidth) {
-        return {
-            height: image.naturalHeight,
-            width: image.naturalWidth
-        };
-    }
-    // browsers that do not support naturalWidth and naturalHeight properties have to fall back to the width and
-    // height properties. However, the image might have a css style applied so width and height would return the
-    // css size. To avoid thet create a new Image object that is free of css rules and grab width and height
-    // properties
-    //
-    // assume that the src has already been downloaded, so no onload callback is needed.
-    img = img || new Image();
-    img.src = image.src;
-    return {
-        height: img.height,
-        width: img.width
-    };
-}
-//# sourceMappingURL=naturalSize.js.map
-
-/***/ }),
-/* 15 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (immutable) */ __webpack_exports__["a"] = applyLayout;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(1);
-
-/**
- * Applies css attributes to layout the SpriteSpin containers.
- *
- * @internal
- */
-function applyLayout(data) {
-    // disable selection
-    data.target
-        .attr('unselectable', 'on')
-        .css({
-        width: '',
-        height: '',
-        '-ms-user-select': 'none',
-        '-moz-user-select': 'none',
-        '-khtml-user-select': 'none',
-        '-webkit-user-select': 'none',
-        'user-select': 'none'
-    });
-    var size = data.responsive ? __WEBPACK_IMPORTED_MODULE_0__utils__["getComputedSize"](data) : __WEBPACK_IMPORTED_MODULE_0__utils__["getOuterSize"](data);
-    var layout = __WEBPACK_IMPORTED_MODULE_0__utils__["getInnerLayout"](data.sizeMode, __WEBPACK_IMPORTED_MODULE_0__utils__["getInnerSize"](data), size);
-    // apply layout on target
-    data.target.css({
-        width: size.width,
-        height: size.height,
-        position: 'relative',
-        overflow: 'hidden'
-    });
-    // apply layout on stage
-    data.stage
-        .css(layout)
-        .hide();
-    if (!data.canvas) {
-        return;
-    }
-    // apply layout on canvas
-    data.canvas.css(layout).hide();
-    // apply pixel ratio on canvas
-    data.canvasRatio = data.canvasRatio || __WEBPACK_IMPORTED_MODULE_0__utils__["pixelRatio"](data.context);
-    if (typeof layout.width === 'number' && typeof layout.height === 'number') {
-        data.canvas[0].width = (layout.width * data.canvasRatio) || size.width;
-        data.canvas[0].height = (layout.height * data.canvasRatio) || size.height;
-    }
-    else {
-        data.canvas[0].width = (size.width * data.canvasRatio);
-        data.canvas[0].height = (size.height * data.canvasRatio);
-    }
-    // width and height must be set before calling scale
-    data.context.scale(data.canvasRatio, data.canvasRatio);
-}
-//# sourceMappingURL=layout.js.map
-
-/***/ }),
-/* 16 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (immutable) */ __webpack_exports__["b"] = getPlaybackState;
-/* harmony export (immutable) */ __webpack_exports__["e"] = updateFrame;
-/* harmony export (immutable) */ __webpack_exports__["d"] = stopAnimation;
-/* harmony export (immutable) */ __webpack_exports__["a"] = applyAnimation;
-/* harmony export (immutable) */ __webpack_exports__["c"] = startAnimation;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__constants__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__state__ = __webpack_require__(8);
-
-
-
-/**
- * Gets the playback state
- *
- * @public
- * @param data - The SpriteSpin instance data
- */
-function getPlaybackState(data) {
-    return Object(__WEBPACK_IMPORTED_MODULE_2__state__["c" /* getState */])(data, 'playback');
-}
-function updateLane(data, lane) {
-    data.lane = data.wrapLane
-        ? Object(__WEBPACK_IMPORTED_MODULE_0__utils__["wrap"])(lane, 0, data.lanes - 1, data.lanes)
-        : Object(__WEBPACK_IMPORTED_MODULE_0__utils__["clamp"])(lane, 0, data.lanes - 1);
-}
-function updateAnimationFrame(data) {
-    data.frame += (data.reverse ? -1 : 1);
-    // wrap the frame value to fit in range [0, data.frames)
-    data.frame = Object(__WEBPACK_IMPORTED_MODULE_0__utils__["wrap"])(data.frame, 0, data.frames - 1, data.frames);
-    // stop animation if loop is disabled and the stopFrame is reached
-    if (!data.loop && (data.frame === data.stopFrame)) {
-        stopAnimation(data);
-    }
-}
-function updateInputFrame(data, frame) {
-    data.frame = Number(frame);
-    data.frame = data.wrap
-        ? Object(__WEBPACK_IMPORTED_MODULE_0__utils__["wrap"])(data.frame, 0, data.frames - 1, data.frames)
-        : Object(__WEBPACK_IMPORTED_MODULE_0__utils__["clamp"])(data.frame, 0, data.frames - 1);
-}
-function updateAnimation(data) {
-    var state = getPlaybackState(data);
-    if (state.handler) {
-        updateBefore(data);
-        updateAnimationFrame(data);
-        updateAfter(data);
-    }
-}
-function updateBefore(data) {
-    var state = getPlaybackState(data);
-    state.lastFrame = data.frame;
-    state.lastLane = data.lane;
-}
-function updateAfter(data) {
-    var state = getPlaybackState(data);
-    if (state.lastFrame !== data.frame || state.lastLane !== data.lane) {
-        data.target.trigger('onFrameChanged.' + __WEBPACK_IMPORTED_MODULE_1__constants__["e" /* namespace */], data);
-    }
-    data.target.trigger('onFrame.' + __WEBPACK_IMPORTED_MODULE_1__constants__["e" /* namespace */], data);
-    data.target.trigger('onDraw.' + __WEBPACK_IMPORTED_MODULE_1__constants__["e" /* namespace */], data);
-}
-/**
- * Updates the frame or lane number of the SpriteSpin data.
- *
- * @public
- * @param data - The SpriteSpin instance data
- * @param frame - The frame number to set
- * @param lane - The lane number to set
- */
-function updateFrame(data, frame, lane) {
-    updateBefore(data);
-    if (frame != null) {
-        updateInputFrame(data, frame);
-    }
-    if (lane != null) {
-        updateLane(data, lane);
-    }
-    updateAfter(data);
-}
-/**
- * Stops the running animation.
- *
- * @public
- * @param data - The SpriteSpin instance data
- */
-function stopAnimation(data) {
-    data.animate = false;
-    var state = getPlaybackState(data);
-    if (state.handler != null) {
-        window.clearInterval(state.handler);
-        state.handler = null;
-    }
-}
-/**
- * Starts animation playback if needed.
- *
- * @remarks
- * Starts animation playback if `animate` property is `true` and the animation is not yet running.
- *
- * @public
- * @param data - The SpriteSpin instance data
- */
-function applyAnimation(data) {
-    var state = getPlaybackState(data);
-    if (state.handler && (!data.animate || state.frameTime !== data.frameTime)) {
-        stopAnimation(data);
-    }
-    if (data.animate && !state.handler) {
-        state.frameTime = data.frameTime;
-        state.handler = window.setInterval(function () { return updateAnimation(data); }, state.frameTime);
-    }
-}
-/**
- * Starts the animation playback
- *
- * @remarks
- * Starts the animation playback and also sets the `animate` property to `true`
- *
- * @public
- * @param data - The SpriteSpin instance data
- */
-function startAnimation(data) {
-    data.animate = true;
-    applyAnimation(data);
-}
-//# sourceMappingURL=playback.js.map
-
-/***/ }),
-/* 17 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (immutable) */ __webpack_exports__["d"] = registerPlugin;
-/* harmony export (immutable) */ __webpack_exports__["c"] = registerModule;
-/* harmony export (immutable) */ __webpack_exports__["b"] = getPlugin;
-/* harmony export (immutable) */ __webpack_exports__["a"] = applyPlugins;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(1);
-
-var plugins = {};
-/**
- * Registers a plugin.
- *
- * @remarks
- * Use this to add custom Rendering or Updating modules that can be addressed with the 'module' option.
- *
- * @public
- * @param name - The name of the plugin
- * @param plugin - The plugin implementation
- */
-function registerPlugin(name, plugin) {
-    if (plugins[name]) {
-        Object(__WEBPACK_IMPORTED_MODULE_0__utils__["error"])("Plugin name \"" + name + "\" is already taken");
-        return;
-    }
-    plugin = plugin || {};
-    plugins[name] = plugin;
-    return plugin;
-}
-/**
- * Registers a plugin.
- *
- * @public
- * @deprecated Use {@link registerPlugin} instead
- * @param name - The name of the plugin
- * @param plugin - The plugin implementation
- */
-function registerModule(name, plugin) {
-    Object(__WEBPACK_IMPORTED_MODULE_0__utils__["warn"])('"registerModule" is deprecated, use "registerPlugin" instead');
-    registerPlugin(name, plugin);
-}
-/**
- * Gets an active plugin by name
- *
- * @internal
- * @param name - The name of the plugin
- */
-function getPlugin(name) {
-    return plugins[name];
-}
-/**
- * Replaces module names on given SpriteSpin data and replaces them with actual implementations.
- * @internal
- */
-function applyPlugins(data) {
-    fixPlugins(data);
-    for (var i = 0; i < data.plugins.length; i += 1) {
-        var name_1 = data.plugins[i];
-        if (typeof name_1 !== 'string') {
-            continue;
-        }
-        var plugin = getPlugin(name_1);
-        if (!plugin) {
-            Object(__WEBPACK_IMPORTED_MODULE_0__utils__["error"])('No plugin found with name ' + name_1);
-            continue;
-        }
-        data.plugins[i] = plugin;
-    }
-}
-function fixPlugins(data) {
-    // tslint:disable no-string-literal
-    if (data['mods']) {
-        Object(__WEBPACK_IMPORTED_MODULE_0__utils__["warn"])('"mods" option is deprecated, use "plugins" instead');
-        data.plugins = data['mods'];
-        delete data['mods'];
-    }
-    if (data['behavior']) {
-        Object(__WEBPACK_IMPORTED_MODULE_0__utils__["warn"])('"behavior" option is deprecated, use "plugins" instead');
-        data.plugins.push(data['behavior']);
-        delete data['behavior'];
-    }
-    if (data['module']) {
-        Object(__WEBPACK_IMPORTED_MODULE_0__utils__["warn"])('"module" option is deprecated, use "plugins" instead');
-        data.plugins.push(data['module']);
-        delete data['module'];
-    }
-}
-//# sourceMappingURL=plugins.js.map
-
-/***/ }),
-/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -14762,7 +14093,7 @@ return jQuery;
 
 
 /***/ }),
-/* 19 */
+/* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14780,7 +14111,7 @@ module.exports = function bind(fn, thisArg) {
 
 
 /***/ }),
-/* 20 */
+/* 13 */
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -14970,19 +14301,19 @@ process.umask = function() { return 0; };
 
 
 /***/ }),
-/* 21 */
+/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 var utils = __webpack_require__(2);
-var settle = __webpack_require__(62);
-var buildURL = __webpack_require__(64);
-var parseHeaders = __webpack_require__(65);
-var isURLSameOrigin = __webpack_require__(66);
-var createError = __webpack_require__(22);
-var btoa = (typeof window !== 'undefined' && window.btoa && window.btoa.bind(window)) || __webpack_require__(67);
+var settle = __webpack_require__(36);
+var buildURL = __webpack_require__(38);
+var parseHeaders = __webpack_require__(39);
+var isURLSameOrigin = __webpack_require__(40);
+var createError = __webpack_require__(15);
+var btoa = (typeof window !== 'undefined' && window.btoa && window.btoa.bind(window)) || __webpack_require__(41);
 
 module.exports = function xhrAdapter(config) {
   return new Promise(function dispatchXhrRequest(resolve, reject) {
@@ -15079,7 +14410,7 @@ module.exports = function xhrAdapter(config) {
     // This is only done if running in a standard browser environment.
     // Specifically not if we're in a web worker, or react-native.
     if (utils.isStandardBrowserEnv()) {
-      var cookies = __webpack_require__(68);
+      var cookies = __webpack_require__(42);
 
       // Add xsrf header
       var xsrfValue = (config.withCredentials || isURLSameOrigin(config.url)) && config.xsrfCookieName ?
@@ -15157,13 +14488,13 @@ module.exports = function xhrAdapter(config) {
 
 
 /***/ }),
-/* 22 */
+/* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var enhanceError = __webpack_require__(63);
+var enhanceError = __webpack_require__(37);
 
 /**
  * Create an Error with the specified message, config, error code, request and response.
@@ -15182,7 +14513,7 @@ module.exports = function createError(message, config, code, request, response) 
 
 
 /***/ }),
-/* 23 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15194,7 +14525,7 @@ module.exports = function isCancel(value) {
 
 
 /***/ }),
-/* 24 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15220,11 +14551,680 @@ module.exports = Cancel;
 
 
 /***/ }),
+/* 18 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Api; });
+/* harmony export (immutable) */ __webpack_exports__["b"] = extendApi;
+/**
+ * @internal
+ */
+var Api = /** @class */ (function () {
+    function Api(data) {
+        this.data = data;
+    }
+    return Api;
+}());
+
+/**
+ * Adds methods to the SpriteSpin api
+ *
+ * @public
+ */
+function extendApi(methods) {
+    var api = Api.prototype;
+    for (var key in methods) {
+        if (methods.hasOwnProperty(key)) {
+            if (api[key]) {
+                throw new Error('API method is already defined: ' + key);
+            }
+            else {
+                api[key] = methods[key];
+            }
+        }
+    }
+    return api;
+}
+//# sourceMappingURL=api.js.map
+
+/***/ }),
+/* 19 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return instances; });
+/* harmony export (immutable) */ __webpack_exports__["a"] = applyEvents;
+/* harmony export (immutable) */ __webpack_exports__["b"] = boot;
+/* harmony export (immutable) */ __webpack_exports__["c"] = create;
+/* harmony export (immutable) */ __webpack_exports__["d"] = createOrUpdate;
+/* harmony export (immutable) */ __webpack_exports__["e"] = destroy;
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__constants__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__layout__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__playback__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__plugins__ = __webpack_require__(24);
+
+
+
+
+
+var $ = __WEBPACK_IMPORTED_MODULE_0__utils__["$"];
+var counter = 0;
+/**
+ * Collection of all SpriteSpin instances
+ */
+var instances = {};
+function pushInstance(data) {
+    counter += 1;
+    data.id = String(counter);
+    instances[data.id] = data;
+}
+function popInstance(data) {
+    delete instances[data.id];
+}
+function eachInstance(cb) {
+    for (var id in instances) {
+        if (instances.hasOwnProperty(id)) {
+            cb(instances[id]);
+        }
+    }
+}
+var lazyinit = function () {
+    // replace function with a noop
+    // this logic must run only once
+    lazyinit = function () { };
+    function onEvent(eventName, e) {
+        eachInstance(function (data) {
+            for (var _i = 0, _a = data.plugins; _i < _a.length; _i++) {
+                var module_1 = _a[_i];
+                if (typeof module_1[eventName] === 'function') {
+                    module_1[eventName].apply(data.target, [e, data]);
+                }
+            }
+        });
+    }
+    function onResize() {
+        eachInstance(function (data) {
+            if (data.responsive) {
+                boot(data);
+            }
+        });
+    }
+    var _loop_1 = function (eventName) {
+        $(window.document).bind(eventName + '.' + __WEBPACK_IMPORTED_MODULE_1__constants__["e" /* namespace */], function (e) {
+            onEvent('document' + eventName, e);
+        });
+    };
+    for (var _i = 0, eventNames_1 = __WEBPACK_IMPORTED_MODULE_1__constants__["c" /* eventNames */]; _i < eventNames_1.length; _i++) {
+        var eventName = eventNames_1[_i];
+        _loop_1(eventName);
+    }
+    var resizeTimeout = null;
+    $(window).on('resize', function () {
+        window.clearTimeout(resizeTimeout);
+        resizeTimeout = window.setTimeout(onResize, 100);
+    });
+};
+/**
+ * (re)binds all spritespin events on the target element
+ *
+ * @internal
+ */
+function applyEvents(data) {
+    var target = data.target;
+    // Clear all SpriteSpin events on the target element
+    __WEBPACK_IMPORTED_MODULE_0__utils__["unbind"](target);
+    // disable all default browser behavior on the following events
+    // mainly prevents image drag operation
+    for (var _i = 0, eventsToPrevent_1 = __WEBPACK_IMPORTED_MODULE_1__constants__["d" /* eventsToPrevent */]; _i < eventsToPrevent_1.length; _i++) {
+        var eName = eventsToPrevent_1[_i];
+        __WEBPACK_IMPORTED_MODULE_0__utils__["bind"](target, eName, __WEBPACK_IMPORTED_MODULE_0__utils__["prevent"]);
+    }
+    // Bind module functions to SpriteSpin events
+    for (var _a = 0, _b = data.plugins; _a < _b.length; _a++) {
+        var plugin = _b[_a];
+        for (var _c = 0, eventNames_2 = __WEBPACK_IMPORTED_MODULE_1__constants__["c" /* eventNames */]; _c < eventNames_2.length; _c++) {
+            var eName = eventNames_2[_c];
+            __WEBPACK_IMPORTED_MODULE_0__utils__["bind"](target, eName, plugin[eName]);
+        }
+        for (var _d = 0, callbackNames_1 = __WEBPACK_IMPORTED_MODULE_1__constants__["a" /* callbackNames */]; _d < callbackNames_1.length; _d++) {
+            var eName = callbackNames_1[_d];
+            __WEBPACK_IMPORTED_MODULE_0__utils__["bind"](target, eName, plugin[eName]);
+        }
+    }
+    // bind auto start function to load event.
+    __WEBPACK_IMPORTED_MODULE_0__utils__["bind"](target, 'onLoad', function (e, d) {
+        Object(__WEBPACK_IMPORTED_MODULE_3__playback__["a" /* applyAnimation */])(d);
+    });
+    // bind all user events that have been passed on initialization
+    for (var _e = 0, callbackNames_2 = __WEBPACK_IMPORTED_MODULE_1__constants__["a" /* callbackNames */]; _e < callbackNames_2.length; _e++) {
+        var eName = callbackNames_2[_e];
+        __WEBPACK_IMPORTED_MODULE_0__utils__["bind"](target, eName, data[eName]);
+    }
+}
+function applyMetrics(data) {
+    if (!data.images) {
+        data.metrics = [];
+    }
+    data.metrics = __WEBPACK_IMPORTED_MODULE_0__utils__["measure"](data.images, data);
+    var spec = __WEBPACK_IMPORTED_MODULE_0__utils__["findSpecs"](data.metrics, data.frames, 0, 0);
+    if (spec.sprite) {
+        // TODO: try to remove frameWidth/frameHeight
+        data.frameWidth = spec.sprite.width;
+        data.frameHeight = spec.sprite.height;
+    }
+}
+/**
+ * Runs the boot process.
+ *
+ * @remarks
+ * (re)initializes plugins, (re)initializes the layout, (re)binds events and loads source images.
+ *
+ * @internal
+ */
+function boot(data) {
+    Object(__WEBPACK_IMPORTED_MODULE_4__plugins__["a" /* applyPlugins */])(data);
+    applyEvents(data);
+    Object(__WEBPACK_IMPORTED_MODULE_2__layout__["a" /* applyLayout */])(data);
+    data.source = __WEBPACK_IMPORTED_MODULE_0__utils__["toArray"](data.source);
+    data.loading = true;
+    data.target
+        .addClass('loading')
+        .trigger('onInit.' + __WEBPACK_IMPORTED_MODULE_1__constants__["e" /* namespace */], data);
+    __WEBPACK_IMPORTED_MODULE_0__utils__["preload"]({
+        source: data.source,
+        preloadCount: data.preloadCount,
+        progress: function (progress) {
+            data.progress = progress;
+            data.target.trigger('onProgress.' + __WEBPACK_IMPORTED_MODULE_1__constants__["e" /* namespace */], data);
+        },
+        complete: function (images) {
+            data.images = images;
+            data.loading = false;
+            data.frames = data.frames || images.length;
+            applyMetrics(data);
+            Object(__WEBPACK_IMPORTED_MODULE_2__layout__["a" /* applyLayout */])(data);
+            data.stage.show();
+            data.target
+                .removeClass('loading')
+                .trigger('onLoad.' + __WEBPACK_IMPORTED_MODULE_1__constants__["e" /* namespace */], data)
+                .trigger('onFrame.' + __WEBPACK_IMPORTED_MODULE_1__constants__["e" /* namespace */], data)
+                .trigger('onDraw.' + __WEBPACK_IMPORTED_MODULE_1__constants__["e" /* namespace */], data)
+                .trigger('onComplete.' + __WEBPACK_IMPORTED_MODULE_1__constants__["e" /* namespace */], data);
+        }
+    });
+}
+/**
+ * Creates a new SpriteSpin instance
+ *
+ * @public
+ */
+function create(options) {
+    var _this = this;
+    var target = options.target;
+    // SpriteSpin is not initialized
+    // Create default settings object and extend with given options
+    var data = $.extend(true, {}, __WEBPACK_IMPORTED_MODULE_1__constants__["b" /* defaults */], options);
+    // ensure source is set
+    data.source = data.source || [];
+    // ensure plugins are set
+    data.plugins = data.plugins || [];
+    // if image tags are contained inside this DOM element
+    // use these images as the source files
+    target.find('img').each(function () {
+        if (!Array.isArray(data.source)) {
+            data.source = [];
+        }
+        data.source.push($(_this).attr('src'));
+    });
+    // build inner html
+    // <div>
+    //   <div class='spritespin-stage'></div>
+    //   <canvas class='spritespin-canvas'></canvas>
+    // </div>
+    target
+        .empty()
+        .addClass('spritespin-instance')
+        .append("<div class='spritespin-stage'></div>");
+    // add the canvas element if canvas rendering is enabled and supported
+    if (data.renderer === 'canvas') {
+        var canvas = document.createElement('canvas');
+        if (!!(canvas.getContext && canvas.getContext('2d'))) {
+            data.canvas = $(canvas).addClass('spritespin-canvas');
+            data.context = canvas.getContext('2d');
+            target.append(data.canvas);
+            target.addClass('with-canvas');
+        }
+        else {
+            // fallback to image rendering mode
+            data.renderer = 'image';
+        }
+    }
+    // setup references to DOM elements
+    data.target = target;
+    data.stage = target.find('.spritespin-stage');
+    // store the data
+    target.data(__WEBPACK_IMPORTED_MODULE_1__constants__["e" /* namespace */], data);
+    pushInstance(data);
+    return data;
+}
+/**
+ * Creates a new SpriteSpin instance, or updates an existing one
+ *
+ * @public
+ */
+function createOrUpdate(options) {
+    lazyinit();
+    var data = options.target.data(__WEBPACK_IMPORTED_MODULE_1__constants__["e" /* namespace */]);
+    if (!data) {
+        data = create(options);
+    }
+    else {
+        $.extend(data, options);
+    }
+    boot(data);
+    return data;
+}
+/**
+ * Destroys the SpriteSpin instance
+ *
+ * @remarks
+ * - stops running animation
+ * - unbinds all events
+ * - deletes the data on the target element
+ *
+ * @public
+ */
+function destroy(data) {
+    popInstance(data);
+    Object(__WEBPACK_IMPORTED_MODULE_3__playback__["d" /* stopAnimation */])(data);
+    data.target
+        .trigger('onDestroy', data)
+        .html(null)
+        .attr('style', null)
+        .attr('unselectable', null)
+        .removeClass(['spritespin-instance', 'with-canvas']);
+    __WEBPACK_IMPORTED_MODULE_0__utils__["unbind"](data.target);
+    data.target.removeData(__WEBPACK_IMPORTED_MODULE_1__constants__["e" /* namespace */]);
+}
+//# sourceMappingURL=boot.js.map
+
+/***/ }),
+/* 20 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["a"] = detectSubsampling;
+var canvas;
+var context;
+function detectionContext() {
+    if (context) {
+        return context;
+    }
+    if (!canvas) {
+        canvas = document.createElement('canvas');
+    }
+    if (!canvas || !canvas.getContext) {
+        return null;
+    }
+    context = canvas.getContext('2d');
+    return context;
+}
+/**
+ * Idea taken from https://github.com/stomita/ios-imagefile-megapixel
+ * Detects whether the image has been sub sampled by the browser and does not have its original dimensions.
+ * This method unfortunately does not work for images that have transparent background.
+ */
+function detectSubsampling(img, width, height) {
+    if (!detectionContext()) {
+        return false;
+    }
+    // sub sampling happens on images above 1 megapixel
+    if (width * height <= 1024 * 1024) {
+        return false;
+    }
+    // set canvas to 1x1 pixel size and fill it with magenta color
+    canvas.width = canvas.height = 1;
+    context.fillStyle = '#FF00FF';
+    context.fillRect(0, 0, 1, 1);
+    // render the image with a negative offset to the left so that it would
+    // fill the canvas pixel with the top right pixel of the image.
+    context.drawImage(img, -width + 1, 0);
+    // check color value to confirm image is covering edge pixel or not.
+    // if color still magenta, the image is assumed to be sub sampled.
+    try {
+        var dat = context.getImageData(0, 0, 1, 1).data;
+        return (dat[0] === 255) && (dat[1] === 0) && (dat[2] === 255);
+    }
+    catch (err) {
+        // avoids cross origin exception for chrome when code runs without a server
+        return false;
+    }
+}
+//# sourceMappingURL=detectSubsampling.js.map
+
+/***/ }),
+/* 21 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["a"] = naturalSize;
+var img;
+/**
+ * gets the original width and height of an image element
+ */
+function naturalSize(image) {
+    // for browsers that support naturalWidth and naturalHeight properties
+    if (image.naturalWidth) {
+        return {
+            height: image.naturalHeight,
+            width: image.naturalWidth
+        };
+    }
+    // browsers that do not support naturalWidth and naturalHeight properties have to fall back to the width and
+    // height properties. However, the image might have a css style applied so width and height would return the
+    // css size. To avoid thet create a new Image object that is free of css rules and grab width and height
+    // properties
+    //
+    // assume that the src has already been downloaded, so no onload callback is needed.
+    img = img || new Image();
+    img.src = image.src;
+    return {
+        height: img.height,
+        width: img.width
+    };
+}
+//# sourceMappingURL=naturalSize.js.map
+
+/***/ }),
+/* 22 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["a"] = applyLayout;
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(1);
+
+/**
+ * Applies css attributes to layout the SpriteSpin containers.
+ *
+ * @internal
+ */
+function applyLayout(data) {
+    // disable selection
+    data.target
+        .attr('unselectable', 'on')
+        .css({
+        width: '',
+        height: '',
+        '-ms-user-select': 'none',
+        '-moz-user-select': 'none',
+        '-khtml-user-select': 'none',
+        '-webkit-user-select': 'none',
+        'user-select': 'none'
+    });
+    var size = data.responsive ? __WEBPACK_IMPORTED_MODULE_0__utils__["getComputedSize"](data) : __WEBPACK_IMPORTED_MODULE_0__utils__["getOuterSize"](data);
+    var layout = __WEBPACK_IMPORTED_MODULE_0__utils__["getInnerLayout"](data.sizeMode, __WEBPACK_IMPORTED_MODULE_0__utils__["getInnerSize"](data), size);
+    // apply layout on target
+    data.target.css({
+        width: size.width,
+        height: size.height,
+        position: 'relative',
+        overflow: 'hidden'
+    });
+    // apply layout on stage
+    data.stage
+        .css(layout)
+        .hide();
+    if (!data.canvas) {
+        return;
+    }
+    // apply layout on canvas
+    data.canvas.css(layout).hide();
+    // apply pixel ratio on canvas
+    data.canvasRatio = data.canvasRatio || __WEBPACK_IMPORTED_MODULE_0__utils__["pixelRatio"](data.context);
+    if (typeof layout.width === 'number' && typeof layout.height === 'number') {
+        data.canvas[0].width = (layout.width * data.canvasRatio) || size.width;
+        data.canvas[0].height = (layout.height * data.canvasRatio) || size.height;
+    }
+    else {
+        data.canvas[0].width = (size.width * data.canvasRatio);
+        data.canvas[0].height = (size.height * data.canvasRatio);
+    }
+    // width and height must be set before calling scale
+    data.context.scale(data.canvasRatio, data.canvasRatio);
+}
+//# sourceMappingURL=layout.js.map
+
+/***/ }),
+/* 23 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["b"] = getPlaybackState;
+/* harmony export (immutable) */ __webpack_exports__["e"] = updateFrame;
+/* harmony export (immutable) */ __webpack_exports__["d"] = stopAnimation;
+/* harmony export (immutable) */ __webpack_exports__["a"] = applyAnimation;
+/* harmony export (immutable) */ __webpack_exports__["c"] = startAnimation;
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__constants__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__state__ = __webpack_require__(9);
+
+
+
+/**
+ * Gets the playback state
+ *
+ * @public
+ * @param data - The SpriteSpin instance data
+ */
+function getPlaybackState(data) {
+    return Object(__WEBPACK_IMPORTED_MODULE_2__state__["c" /* getState */])(data, 'playback');
+}
+function updateLane(data, lane) {
+    data.lane = data.wrapLane
+        ? Object(__WEBPACK_IMPORTED_MODULE_0__utils__["wrap"])(lane, 0, data.lanes - 1, data.lanes)
+        : Object(__WEBPACK_IMPORTED_MODULE_0__utils__["clamp"])(lane, 0, data.lanes - 1);
+}
+function updateAnimationFrame(data) {
+    data.frame += (data.reverse ? -1 : 1);
+    // wrap the frame value to fit in range [0, data.frames)
+    data.frame = Object(__WEBPACK_IMPORTED_MODULE_0__utils__["wrap"])(data.frame, 0, data.frames - 1, data.frames);
+    // stop animation if loop is disabled and the stopFrame is reached
+    if (!data.loop && (data.frame === data.stopFrame)) {
+        stopAnimation(data);
+    }
+}
+function updateInputFrame(data, frame) {
+    data.frame = Number(frame);
+    data.frame = data.wrap
+        ? Object(__WEBPACK_IMPORTED_MODULE_0__utils__["wrap"])(data.frame, 0, data.frames - 1, data.frames)
+        : Object(__WEBPACK_IMPORTED_MODULE_0__utils__["clamp"])(data.frame, 0, data.frames - 1);
+}
+function updateAnimation(data) {
+    var state = getPlaybackState(data);
+    if (state.handler) {
+        updateBefore(data);
+        updateAnimationFrame(data);
+        updateAfter(data);
+    }
+}
+function updateBefore(data) {
+    var state = getPlaybackState(data);
+    state.lastFrame = data.frame;
+    state.lastLane = data.lane;
+}
+function updateAfter(data) {
+    var state = getPlaybackState(data);
+    if (state.lastFrame !== data.frame || state.lastLane !== data.lane) {
+        data.target.trigger('onFrameChanged.' + __WEBPACK_IMPORTED_MODULE_1__constants__["e" /* namespace */], data);
+    }
+    data.target.trigger('onFrame.' + __WEBPACK_IMPORTED_MODULE_1__constants__["e" /* namespace */], data);
+    data.target.trigger('onDraw.' + __WEBPACK_IMPORTED_MODULE_1__constants__["e" /* namespace */], data);
+}
+/**
+ * Updates the frame or lane number of the SpriteSpin data.
+ *
+ * @public
+ * @param data - The SpriteSpin instance data
+ * @param frame - The frame number to set
+ * @param lane - The lane number to set
+ */
+function updateFrame(data, frame, lane) {
+    updateBefore(data);
+    if (frame != null) {
+        updateInputFrame(data, frame);
+    }
+    if (lane != null) {
+        updateLane(data, lane);
+    }
+    updateAfter(data);
+}
+/**
+ * Stops the running animation.
+ *
+ * @public
+ * @param data - The SpriteSpin instance data
+ */
+function stopAnimation(data) {
+    data.animate = false;
+    var state = getPlaybackState(data);
+    if (state.handler != null) {
+        window.clearInterval(state.handler);
+        state.handler = null;
+    }
+}
+/**
+ * Starts animation playback if needed.
+ *
+ * @remarks
+ * Starts animation playback if `animate` property is `true` and the animation is not yet running.
+ *
+ * @public
+ * @param data - The SpriteSpin instance data
+ */
+function applyAnimation(data) {
+    var state = getPlaybackState(data);
+    if (state.handler && (!data.animate || state.frameTime !== data.frameTime)) {
+        stopAnimation(data);
+    }
+    if (data.animate && !state.handler) {
+        state.frameTime = data.frameTime;
+        state.handler = window.setInterval(function () { return updateAnimation(data); }, state.frameTime);
+    }
+}
+/**
+ * Starts the animation playback
+ *
+ * @remarks
+ * Starts the animation playback and also sets the `animate` property to `true`
+ *
+ * @public
+ * @param data - The SpriteSpin instance data
+ */
+function startAnimation(data) {
+    data.animate = true;
+    applyAnimation(data);
+}
+//# sourceMappingURL=playback.js.map
+
+/***/ }),
+/* 24 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["d"] = registerPlugin;
+/* harmony export (immutable) */ __webpack_exports__["c"] = registerModule;
+/* harmony export (immutable) */ __webpack_exports__["b"] = getPlugin;
+/* harmony export (immutable) */ __webpack_exports__["a"] = applyPlugins;
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(1);
+
+var plugins = {};
+/**
+ * Registers a plugin.
+ *
+ * @remarks
+ * Use this to add custom Rendering or Updating modules that can be addressed with the 'module' option.
+ *
+ * @public
+ * @param name - The name of the plugin
+ * @param plugin - The plugin implementation
+ */
+function registerPlugin(name, plugin) {
+    if (plugins[name]) {
+        Object(__WEBPACK_IMPORTED_MODULE_0__utils__["error"])("Plugin name \"" + name + "\" is already taken");
+        return;
+    }
+    plugin = plugin || {};
+    plugins[name] = plugin;
+    return plugin;
+}
+/**
+ * Registers a plugin.
+ *
+ * @public
+ * @deprecated Use {@link registerPlugin} instead
+ * @param name - The name of the plugin
+ * @param plugin - The plugin implementation
+ */
+function registerModule(name, plugin) {
+    Object(__WEBPACK_IMPORTED_MODULE_0__utils__["warn"])('"registerModule" is deprecated, use "registerPlugin" instead');
+    registerPlugin(name, plugin);
+}
+/**
+ * Gets an active plugin by name
+ *
+ * @internal
+ * @param name - The name of the plugin
+ */
+function getPlugin(name) {
+    return plugins[name];
+}
+/**
+ * Replaces module names on given SpriteSpin data and replaces them with actual implementations.
+ * @internal
+ */
+function applyPlugins(data) {
+    fixPlugins(data);
+    for (var i = 0; i < data.plugins.length; i += 1) {
+        var name_1 = data.plugins[i];
+        if (typeof name_1 !== 'string') {
+            continue;
+        }
+        var plugin = getPlugin(name_1);
+        if (!plugin) {
+            Object(__WEBPACK_IMPORTED_MODULE_0__utils__["error"])('No plugin found with name ' + name_1);
+            continue;
+        }
+        data.plugins[i] = plugin;
+    }
+}
+function fixPlugins(data) {
+    // tslint:disable no-string-literal
+    if (data['mods']) {
+        Object(__WEBPACK_IMPORTED_MODULE_0__utils__["warn"])('"mods" option is deprecated, use "plugins" instead');
+        data.plugins = data['mods'];
+        delete data['mods'];
+    }
+    if (data['behavior']) {
+        Object(__WEBPACK_IMPORTED_MODULE_0__utils__["warn"])('"behavior" option is deprecated, use "plugins" instead');
+        data.plugins.push(data['behavior']);
+        delete data['behavior'];
+    }
+    if (data['module']) {
+        Object(__WEBPACK_IMPORTED_MODULE_0__utils__["warn"])('"module" option is deprecated, use "plugins" instead');
+        data.plugins.push(data['module']);
+        delete data['module'];
+    }
+}
+//# sourceMappingURL=plugins.js.map
+
+/***/ }),
 /* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(26);
-module.exports = __webpack_require__(102);
+module.exports = __webpack_require__(107);
 
 
 /***/ }),
@@ -15258,7 +15258,7 @@ Object.defineProperties(Vue.prototype, {
     }
 });
 
-var mapConfig = { "eras": { "1": { "id": "bronze", "name": "The Bronze Age", "dates": "2000-1200 BCE", "overlay": "<svg id=\"_1_-_BRONZE\" data-name=\"1 - BRONZE\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 4096 2190\"><defs><style>.cls-1,.cls-28,.cls-50,.cls-52,.cls-55,.cls-63{font-size:13.27px;}.cls-1{fill:#939598;}.cls-1,.cls-70{font-family:NeutralStd-Regular, Neutral Std;}.cls-2{letter-spacing:0em;}.cls-3{letter-spacing:-0.01em;}.cls-4{letter-spacing:-0.02em;}.cls-5{letter-spacing:-0.03em;}.cls-6{letter-spacing:-0.01em;}.cls-7{letter-spacing:0em;}.cls-8{letter-spacing:0em;}.cls-9{letter-spacing:-0.09em;}.cls-10{letter-spacing:-0.03em;}.cls-11{letter-spacing:0em;}.cls-12{letter-spacing:0em;}.cls-13{letter-spacing:-0.04em;}.cls-14{letter-spacing:0.01em;}.cls-15{letter-spacing:0.02em;}.cls-16{letter-spacing:0em;}.cls-17{letter-spacing:-0.02em;}.cls-18{letter-spacing:-0.01em;}.cls-19{letter-spacing:-0.01em;}.cls-20{letter-spacing:-0.01em;}.cls-21{letter-spacing:0em;}.cls-22{letter-spacing:0.03em;}.cls-23{letter-spacing:0.01em;}.cls-24{letter-spacing:-0.07em;}.cls-25{letter-spacing:0em;}.cls-26{letter-spacing:0em;}.cls-27{letter-spacing:0em;}.cls-28,.cls-42,.cls-50,.cls-52,.cls-55,.cls-63,.cls-69{fill:#231f20;}.cls-28,.cls-42,.cls-50,.cls-52,.cls-55,.cls-63{font-family:NeutralStd-RegularItalic, Neutral Std;font-style:italic;}.cls-28{letter-spacing:0.35em;}.cls-29{letter-spacing:0.35em;}.cls-30{letter-spacing:0.34em;}.cls-31{letter-spacing:0.34em;}.cls-32{letter-spacing:0.33em;}.cls-33{letter-spacing:0.34em;}.cls-34{letter-spacing:0.34em;}.cls-35{letter-spacing:0.34em;}.cls-36{letter-spacing:0.34em;}.cls-37{letter-spacing:0.34em;}.cls-38{letter-spacing:0.35em;}.cls-39{letter-spacing:0.35em;}.cls-40{letter-spacing:0.35em;}.cls-41{letter-spacing:0.35em;}.cls-42{font-size:13.27px;letter-spacing:0.35em;}.cls-43{letter-spacing:0.34em;}.cls-44{letter-spacing:0.34em;}.cls-45{letter-spacing:0.35em;}.cls-46{letter-spacing:0.35em;}.cls-47{letter-spacing:0.34em;}.cls-48{letter-spacing:0.33em;}.cls-49{letter-spacing:0.34em;}.cls-50{letter-spacing:0.34em;}.cls-51{letter-spacing:0.35em;}.cls-52{letter-spacing:0.33em;}.cls-53{letter-spacing:0.34em;}.cls-54{letter-spacing:0.34em;}.cls-55{letter-spacing:0.35em;}.cls-56{letter-spacing:0.34em;}.cls-57{letter-spacing:0.34em;}.cls-58{letter-spacing:0.34em;}.cls-59{letter-spacing:0.35em;}.cls-60{letter-spacing:0.35em;}.cls-61{letter-spacing:0.34em;}.cls-62{letter-spacing:0.33em;}.cls-63{letter-spacing:0.31em;}.cls-64{letter-spacing:0.34em;}.cls-65{letter-spacing:0.34em;}.cls-66{letter-spacing:0.34em;}.cls-67{letter-spacing:0.34em;}.cls-68{letter-spacing:0.33em;}.cls-70{font-size:33.17px;fill:#fff;letter-spacing:-0.02em;}.cls-71{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:1.18px;}</style></defs><title>bronze</title><text class=\"cls-1\" transform=\"translate(900.84 963.79)\"><tspan class=\"cls-2\">G</tspan><tspan class=\"cls-3\" x=\"10.22\" y=\"0\">R</tspan><tspan class=\"cls-4\" x=\"19.21\" y=\"0\">E</tspan><tspan class=\"cls-5\" x=\"27.41\" y=\"0\">E</tspan><tspan class=\"cls-6\" x=\"35.53\" y=\"0\">C</tspan><tspan x=\"45.24\" y=\"0\">E</tspan></text><text class=\"cls-1\" transform=\"translate(1155.05 953.65)\"><tspan class=\"cls-7\">A</tspan><tspan class=\"cls-8\" x=\"9.62\" y=\"0\">N</tspan><tspan class=\"cls-9\" x=\"19.67\" y=\"0\">A</tspan><tspan class=\"cls-10\" x=\"28.16\" y=\"0\">T</tspan><tspan class=\"cls-11\" x=\"36.08\" y=\"0\">O</tspan><tspan class=\"cls-12\" x=\"46.56\" y=\"0\">L</tspan><tspan class=\"cls-8\" x=\"54.34\" y=\"0\">I</tspan><tspan x=\"58.14\" y=\"0\">A</tspan></text><text class=\"cls-1\" transform=\"translate(1027.28 1322.59)\"><tspan class=\"cls-5\">E</tspan><tspan class=\"cls-13\" x=\"8.12\" y=\"0\">G</tspan><tspan class=\"cls-7\" x=\"17.87\" y=\"0\">Y</tspan><tspan class=\"cls-14\" x=\"26.63\" y=\"0\">P</tspan><tspan x=\"35.25\" y=\"0\">T</tspan></text><text class=\"cls-1\" transform=\"translate(1540.3 1450.05)\"><tspan class=\"cls-7\">A</tspan><tspan class=\"cls-15\" x=\"9.62\" y=\"0\">R</tspan><tspan class=\"cls-7\" x=\"19.05\" y=\"0\">A</tspan><tspan x=\"28.67\" y=\"0\">B</tspan><tspan class=\"cls-8\" x=\"38\" y=\"0\">I</tspan><tspan class=\"cls-7\" x=\"41.79\" y=\"0\">A</tspan><tspan x=\"51.42\" y=\"0\">N</tspan><tspan class=\"cls-16\" x=\"-7.77\" y=\"14.93\">P</tspan><tspan class=\"cls-17\" x=\"0.64\" y=\"14.93\">E</tspan><tspan class=\"cls-18\" x=\"8.85\" y=\"14.93\">NI</tspan><tspan class=\"cls-19\" x=\"22.58\" y=\"14.93\">N</tspan><tspan class=\"cls-20\" x=\"32.48\" y=\"14.93\">S</tspan><tspan class=\"cls-21\" x=\"41.44\" y=\"14.93\">U</tspan><tspan class=\"cls-22\" x=\"51.39\" y=\"14.93\">L</tspan><tspan x=\"59.61\" y=\"14.93\">A</tspan></text><text class=\"cls-1\" transform=\"translate(1297.81 1147.13)\"><tspan class=\"cls-12\">L</tspan><tspan class=\"cls-23\" x=\"7.78\" y=\"0\">E</tspan><tspan class=\"cls-24\" x=\"16.37\" y=\"0\">V</tspan><tspan class=\"cls-25\" x=\"24.93\" y=\"0\">A</tspan><tspan class=\"cls-26\" x=\"34.56\" y=\"0\">N</tspan><tspan x=\"44.6\" y=\"0\">T</tspan></text><text class=\"cls-1\" transform=\"translate(989.51 1100.36)\"><tspan class=\"cls-6\">C</tspan><tspan class=\"cls-3\" x=\"9.71\" y=\"0\">R</tspan><tspan class=\"cls-23\" x=\"18.7\" y=\"0\">E</tspan><tspan class=\"cls-8\" x=\"27.29\" y=\"0\">T</tspan><tspan x=\"35.6\" y=\"0\">E</tspan></text><text class=\"cls-1\" transform=\"translate(1018.6 1603.33)\"><tspan class=\"cls-27\">NU</tspan><tspan x=\"19.97\" y=\"0\">B</tspan><tspan class=\"cls-8\" x=\"29.29\" y=\"0\">I</tspan><tspan x=\"33.09\" y=\"0\">A</tspan></text><text class=\"cls-28\" transform=\"translate(735.31 1107.83)\">M<tspan class=\"cls-29\" x=\"16.86\" y=\"0\">e</tspan><tspan class=\"cls-30\" x=\"29.25\" y=\"0\">d</tspan><tspan class=\"cls-31\" x=\"42.03\" y=\"0\">i</tspan><tspan class=\"cls-32\" x=\"50.02\" y=\"0\">t</tspan><tspan class=\"cls-33\" x=\"59.32\" y=\"0\">e</tspan><tspan class=\"cls-34\" x=\"71.59\" y=\"0\">r</tspan><tspan class=\"cls-35\" x=\"81.17\" y=\"0\">r</tspan><tspan class=\"cls-36\" x=\"90.78\" y=\"0\">a</tspan><tspan class=\"cls-37\" x=\"102.76\" y=\"0\">n</tspan><tspan class=\"cls-38\" x=\"115.2\" y=\"0\">e</tspan><tspan class=\"cls-36\" x=\"127.49\" y=\"0\">a</tspan><tspan class=\"cls-39\" x=\"139.47\" y=\"0\">n </tspan><tspan class=\"cls-40\" x=\"160\" y=\"0\">S</tspan><tspan class=\"cls-38\" x=\"173.31\" y=\"0\">e</tspan><tspan class=\"cls-41\" x=\"185.6\" y=\"0\">a</tspan></text><text class=\"cls-42\" transform=\"matrix(1, 0.01, -0.01, 1, 1142.7, 1482.01)\">N<tspan class=\"cls-43\" x=\"14.45\" y=\"0\">i</tspan><tspan class=\"cls-44\" x=\"22.4\" y=\"0\">l</tspan><tspan class=\"cls-45\" x=\"30.39\" y=\"0\">e</tspan><tspan class=\"cls-46\"><tspan x=\"-5.99\" y=\"14.1\">R</tspan><tspan class=\"cls-47\" x=\"7.38\" y=\"14.1\">i</tspan><tspan class=\"cls-48\" x=\"15.28\" y=\"14.1\">v</tspan><tspan class=\"cls-49\" x=\"26.77\" y=\"14.1\">e</tspan><tspan class=\"cls-45\" x=\"39.04\" y=\"14.1\">r</tspan></tspan></text><text class=\"cls-50\" transform=\"translate(1315.39 1439.82)\">R<tspan class=\"cls-51\" x=\"13.27\" y=\"0\">e</tspan><tspan class=\"cls-39\" x=\"25.66\" y=\"0\">d</tspan><tspan class=\"cls-40\"><tspan x=\"0.43\" y=\"14.1\">S</tspan><tspan class=\"cls-38\" x=\"13.74\" y=\"14.1\">e</tspan><tspan class=\"cls-39\" x=\"26.03\" y=\"14.1\">a</tspan></tspan></text><text class=\"cls-52\" transform=\"translate(963.79 939.82)\">A<tspan class=\"cls-39\" x=\"13.87\" y=\"0\">e</tspan><tspan class=\"cls-53\" x=\"26.22\" y=\"0\">g</tspan><tspan class=\"cls-38\" x=\"39.08\" y=\"0\">e</tspan><tspan class=\"cls-54\" x=\"51.37\" y=\"0\">a</tspan><tspan class=\"cls-39\" x=\"63.35\" y=\"0\">n</tspan><tspan class=\"cls-40\"><tspan x=\"19.08\" y=\"14.1\">S</tspan><tspan class=\"cls-38\" x=\"32.39\" y=\"14.1\">e</tspan><tspan class=\"cls-39\" x=\"44.68\" y=\"14.1\">a</tspan></tspan></text><text class=\"cls-55\" transform=\"translate(1470.52 1082.73)\">T<tspan class=\"cls-56\" x=\"12.78\" y=\"0\">i</tspan><tspan class=\"cls-57\" x=\"20.73\" y=\"0\">g</tspan><tspan class=\"cls-34\" x=\"33.59\" y=\"0\">r</tspan><tspan class=\"cls-58\" x=\"43.17\" y=\"0\">i</tspan><tspan class=\"cls-59\" x=\"51.1\" y=\"0\">s</tspan><tspan class=\"cls-60\"><tspan x=\"3.84\" y=\"14.1\">R</tspan><tspan class=\"cls-61\" x=\"17.2\" y=\"14.1\">i</tspan><tspan class=\"cls-62\" x=\"25.1\" y=\"14.1\">v</tspan><tspan class=\"cls-33\" x=\"36.6\" y=\"14.1\">e</tspan><tspan class=\"cls-41\" x=\"48.87\" y=\"14.1\">r</tspan></tspan></text><text class=\"cls-63\" transform=\"translate(1446.31 1168.38)\">E<tspan class=\"cls-64\" x=\"12.58\" y=\"0\">u</tspan><tspan class=\"cls-65\" x=\"24.96\" y=\"0\">p</tspan><tspan class=\"cls-66\" x=\"37.68\" y=\"0\">h</tspan><tspan class=\"cls-67\" x=\"50.09\" y=\"0\">r</tspan><tspan class=\"cls-68\" x=\"59.7\" y=\"0\">a</tspan><tspan class=\"cls-32\" x=\"71.55\" y=\"0\">t</tspan><tspan class=\"cls-39\" x=\"80.85\" y=\"0\">es</tspan><tspan class=\"cls-60\"><tspan x=\"24.89\" y=\"14.1\">R</tspan><tspan class=\"cls-61\" x=\"38.25\" y=\"14.1\">i</tspan><tspan class=\"cls-62\" x=\"46.16\" y=\"14.1\">v</tspan><tspan class=\"cls-33\" x=\"57.65\" y=\"14.1\">e</tspan><tspan class=\"cls-41\" x=\"69.92\" y=\"14.1\">r</tspan></tspan></text><circle class=\"cls-69\" cx=\"1222.82\" cy=\"1090.82\" r=\"2.97\"/><circle class=\"cls-69\" cx=\"1240.18\" cy=\"1076.85\" r=\"2.97\"/><circle class=\"cls-69\" cx=\"1290.84\" cy=\"1063.9\" r=\"2.97\"/><g id=\"_1\" data-name=\"1\"><circle class=\"cls-69\" cx=\"1262.05\" cy=\"979.46\" r=\"25.45\"/><text class=\"cls-70\" transform=\"translate(1254.59 991.66)\">1</text></g><g id=\"_2\" data-name=\"2\"><circle class=\"cls-69\" cx=\"1151.59\" cy=\"1552.79\" r=\"25.45\"/><text class=\"cls-70\" transform=\"translate(1141.19 1564.99)\">2</text></g><g id=\"_3\" data-name=\"3\"><circle class=\"cls-69\" cx=\"1064.89\" cy=\"1061.01\" r=\"25.45\"/><text class=\"cls-70\" transform=\"translate(1054.28 1073.22)\">3</text></g><g id=\"_4\" data-name=\"4\"><circle class=\"cls-69\" cx=\"1237.07\" cy=\"1221.99\" r=\"25.45\"/><text class=\"cls-70\" transform=\"translate(1226.63 1234.2)\">4</text></g><g id=\"_5\" data-name=\"5\"><circle class=\"cls-69\" cx=\"1305.05\" cy=\"1221.99\" r=\"25.45\"/><text class=\"cls-70\" transform=\"translate(1294.52 1234.2)\">5</text></g><g id=\"_6\" data-name=\"6\"><circle class=\"cls-69\" cx=\"1542.1\" cy=\"974.52\" r=\"25.45\"/><text class=\"cls-70\" transform=\"translate(1531.25 986.73)\">6</text></g><line class=\"cls-71\" x1=\"1299.92\" y1=\"1201.66\" x2=\"1240.18\" y2=\"1076.85\"/><line class=\"cls-71\" x1=\"1223.52\" y1=\"1091.49\" x2=\"1236.35\" y2=\"1200.67\"/><line class=\"cls-71\" x1=\"1519.66\" y1=\"982.52\" x2=\"1291.04\" y2=\"1064.25\"/></svg>", "objects": { "1": { "name": "Lion BIBRÛ", "tombstone": "Anatolian, Old Assyrian Trading Colony Period, early 2nd millennium BCE\nPainted terracotta\nFrom Kanesh (Kültepe, Turkey)\nMusée du Louvre, Paris, AM 1517\nErich Lessing/Art Resource, NY", "thumbnail": "Louvre1.jpg", "media": { "1": { "type": "image", "file": "Louvre1.jpg", "config": "none" } } }, "2": { "name": "Pitcher in the Form of a Hippopotamus", "tombstone": "Nubian, 1700–1550 BCE\nTerracotta\nFrom Tomb K 330 in the South Cemetery at Kerma (Sudan)\nMuseum of Fine Arts, Boston, Harvard University—Boston Museum of Fine Arts Expedition, 21.11804\n© 2018 Museum of Fine Arts, Boston", "thumbnail": "MFA2.jpg", "media": { "1": { "type": "image", "file": "MFA2.jpg", "config": "none" } } }, "3": { "name": "Bull Head Rhyton", "tombstone": "Minoan (Late Minoan IIIA:2), 14th–13th century BCE\nPainted terracotta\nFrom Karpathos (Greece)\nThe British Museum, London, Donated by W. R. Paton, 1887,0501.6 (A871)\n© The Trustees of the British Museum. All rights reserved    \n", "thumbnail": "BM2.jpg", "media": { "1": { "type": "image", "file": "BM2.jpg", "config": "none" } } }, "4": { "name": "Bull Rhyton", "tombstone": "Cypriot, 14th–13th century BCE\nPainted terracotta, Base Ring Ware\nFrom Tomb 15 at Maroni (Cyprus)\nThe British Museum, London, Excavated by the British Museum, 1898,1201.142 (A45)\n© The Trustees of the British Museum. All rights reserved    \n", "thumbnail": "BM3.jpg", "media": { "1": { "type": "image", "file": "BM3.jpg", "config": "none" } } }, "5": { "name": "Ram Head Cup", "tombstone": "Levantine, 14th–13th century BCE \nFrom Tomb 86 at Enkomi (Cyprus)\nFaience\nThe British Museum, London, Excavated by the Turner Bequest Excavations, 1897,0401.1212\n© The Trustees of the British Museum. All rights reserved    \n", "thumbnail": "BM1.jpg", "media": { "1": { "type": "image", "file": "BM1.jpg", "config": "none" } } }, "6": { "name": "Ram Head Rhyton", "tombstone": "Mycenaean (Late Helladic A:2), 14th–13th century BCE\nPainted terracotta\nFrom Ras Shamra–Ugarit (Minet el-Beida, Syria)\nMusée du Louvre, Paris, AO 19932\nErich Lessing/Art Resource, NY    \n", "thumbnail": "Louvre2.jpg", "media": { "1": { "type": "image", "file": "Louvre2.jpg", "config": "none" } } } } }, "2": { "id": "iron", "name": "The Iron Age", "dates": "1200–500 BCE", "overlay": "<svg id=\"_2_-_IRON\" data-name=\"2 - IRON\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 4096 2190\"><defs><style>.cls-1,.cls-100,.cls-25,.cls-31,.cls-54,.cls-75,.cls-8,.cls-80,.cls-89{font-size:13.27px;}.cls-1,.cls-54{fill:#939598;}.cls-1,.cls-103,.cls-54{font-family:NeutralStd-Regular, Neutral Std;}.cls-2{letter-spacing:0em;}.cls-3{letter-spacing:0em;}.cls-4{letter-spacing:-0.09em;}.cls-5{letter-spacing:-0.03em;}.cls-6{letter-spacing:0em;}.cls-7{letter-spacing:0em;}.cls-100,.cls-25,.cls-31,.cls-57,.cls-75,.cls-8,.cls-80,.cls-89,.cls-99{fill:#231f20;}.cls-100,.cls-25,.cls-31,.cls-57,.cls-75,.cls-8,.cls-80,.cls-89{font-family:NeutralStd-RegularItalic, Neutral Std;font-style:italic;}.cls-8{letter-spacing:0.31em;}.cls-9{letter-spacing:0.34em;}.cls-10{letter-spacing:0.34em;}.cls-11{letter-spacing:0.34em;}.cls-12{letter-spacing:0.34em;}.cls-13{letter-spacing:0.33em;}.cls-14{letter-spacing:0.33em;}.cls-15{letter-spacing:0.35em;}.cls-16{letter-spacing:0.35em;}.cls-17{letter-spacing:0.34em;}.cls-18{letter-spacing:0.33em;}.cls-19{letter-spacing:0.34em;}.cls-20{letter-spacing:0.35em;}.cls-21{letter-spacing:0.01em;}.cls-22{letter-spacing:-0.07em;}.cls-23{letter-spacing:0em;}.cls-24{letter-spacing:0em;}.cls-25{letter-spacing:0.35em;}.cls-26{letter-spacing:0.34em;}.cls-27{letter-spacing:0.34em;}.cls-28{letter-spacing:0.34em;}.cls-29{letter-spacing:0.34em;}.cls-30{letter-spacing:0.35em;}.cls-31{letter-spacing:0.34em;}.cls-32{letter-spacing:0.34em;}.cls-33{letter-spacing:0.35em;}.cls-34,.cls-80{letter-spacing:0.35em;}.cls-35{letter-spacing:0.34em;}.cls-36{letter-spacing:0.33em;}.cls-37{letter-spacing:0.33em;}.cls-38{letter-spacing:0.34em;}.cls-39{letter-spacing:0.34em;}.cls-40{letter-spacing:0em;}.cls-41{letter-spacing:0.02em;}.cls-42{letter-spacing:-0.01em;}.cls-43{letter-spacing:0em;}.cls-44{letter-spacing:-0.03em;}.cls-45{letter-spacing:-0.04em;}.cls-46{letter-spacing:0.01em;}.cls-47{letter-spacing:0em;}.cls-48{letter-spacing:-0.02em;}.cls-49,.cls-54{letter-spacing:-0.01em;}.cls-50{letter-spacing:-0.01em;}.cls-51{letter-spacing:-0.01em;}.cls-52{letter-spacing:0em;}.cls-53{letter-spacing:0.03em;}.cls-55{letter-spacing:0.02em;}.cls-56{letter-spacing:0em;}.cls-57{font-size:13.27px;letter-spacing:0.35em;}.cls-58{letter-spacing:0.34em;}.cls-59{letter-spacing:0.34em;}.cls-60{letter-spacing:0.35em;}.cls-61{letter-spacing:0.35em;}.cls-62{letter-spacing:0.34em;}.cls-63{letter-spacing:0.33em;}.cls-64{letter-spacing:0.34em;}.cls-65{letter-spacing:0em;}.cls-66{letter-spacing:-0.02em;}.cls-67{letter-spacing:-0.01em;}.cls-68{letter-spacing:0em;}.cls-69{letter-spacing:-0.02em;}.cls-70{letter-spacing:0em;}.cls-71{letter-spacing:0em;}.cls-72{letter-spacing:0.01em;}.cls-73{letter-spacing:-0.03em;}.cls-74{letter-spacing:0em;}.cls-75{letter-spacing:0.35em;}.cls-76{letter-spacing:0.34em;}.cls-77{letter-spacing:0.34em;}.cls-78{letter-spacing:0.35em;}.cls-79{letter-spacing:0.35em;}.cls-81{letter-spacing:0.35em;}.cls-82{letter-spacing:0.34em;}.cls-83{letter-spacing:0.34em;}.cls-84{letter-spacing:0.34em;}.cls-85{letter-spacing:0.34em;}.cls-86{letter-spacing:0.34em;}.cls-87{letter-spacing:0.35em;}.cls-88{letter-spacing:0.35em;}.cls-89{letter-spacing:0.36em;}.cls-90{letter-spacing:0.34em;}.cls-91{letter-spacing:0.34em;}.cls-92{letter-spacing:0.34em;}.cls-93{letter-spacing:0.35em;}.cls-94{letter-spacing:0.34em;}.cls-95{letter-spacing:0.34em;}.cls-96{letter-spacing:-0.02em;}.cls-97{letter-spacing:0em;}.cls-98{letter-spacing:-0.01em;}.cls-100{letter-spacing:0.34em;}.cls-101{letter-spacing:0.35em;}.cls-102{letter-spacing:0.35em;}.cls-103{font-size:33.17px;fill:#fff;letter-spacing:-0.02em;}.cls-104{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:1.18px;}</style></defs><title>iron</title><text class=\"cls-1\" transform=\"translate(1156.19 954.79)\"><tspan class=\"cls-2\">A</tspan><tspan class=\"cls-3\" x=\"9.62\" y=\"0\">N</tspan><tspan class=\"cls-4\" x=\"19.67\" y=\"0\">A</tspan><tspan class=\"cls-5\" x=\"28.16\" y=\"0\">T</tspan><tspan class=\"cls-6\" x=\"36.08\" y=\"0\">O</tspan><tspan class=\"cls-7\" x=\"46.56\" y=\"0\">L</tspan><tspan class=\"cls-3\" x=\"54.34\" y=\"0\">I</tspan><tspan x=\"58.14\" y=\"0\">A</tspan></text><text class=\"cls-8\" transform=\"translate(1446.04 1168.37)\">E<tspan class=\"cls-9\" x=\"12.58\" y=\"0\">u</tspan><tspan class=\"cls-10\" x=\"24.96\" y=\"0\">p</tspan><tspan class=\"cls-11\" x=\"37.68\" y=\"0\">h</tspan><tspan class=\"cls-12\" x=\"50.09\" y=\"0\">r</tspan><tspan class=\"cls-13\" x=\"59.7\" y=\"0\">a</tspan><tspan class=\"cls-14\" x=\"71.55\" y=\"0\">t</tspan><tspan class=\"cls-15\" x=\"80.85\" y=\"0\">es</tspan><tspan class=\"cls-16\"><tspan x=\"24.89\" y=\"14.1\">R</tspan><tspan class=\"cls-17\" x=\"38.25\" y=\"14.1\">i</tspan><tspan class=\"cls-18\" x=\"46.16\" y=\"14.1\">v</tspan><tspan class=\"cls-19\" x=\"57.65\" y=\"14.1\">e</tspan><tspan class=\"cls-20\" x=\"69.92\" y=\"14.1\">r</tspan></tspan></text><text class=\"cls-1\" transform=\"translate(1297.81 1147.13)\"><tspan class=\"cls-7\">L</tspan><tspan class=\"cls-21\" x=\"7.78\" y=\"0\">E</tspan><tspan class=\"cls-22\" x=\"16.37\" y=\"0\">V</tspan><tspan class=\"cls-23\" x=\"24.93\" y=\"0\">A</tspan><tspan class=\"cls-24\" x=\"34.56\" y=\"0\">N</tspan><tspan x=\"44.6\" y=\"0\">T</tspan></text><text class=\"cls-25\" transform=\"translate(1470.52 1082.73)\">T<tspan class=\"cls-26\" x=\"12.78\" y=\"0\">i</tspan><tspan class=\"cls-27\" x=\"20.73\" y=\"0\">g</tspan><tspan class=\"cls-28\" x=\"33.59\" y=\"0\">r</tspan><tspan class=\"cls-29\" x=\"43.17\" y=\"0\">i</tspan><tspan class=\"cls-30\" x=\"51.1\" y=\"0\">s</tspan><tspan class=\"cls-16\"><tspan x=\"3.84\" y=\"14.1\">R</tspan><tspan class=\"cls-17\" x=\"17.2\" y=\"14.1\">i</tspan><tspan class=\"cls-18\" x=\"25.1\" y=\"14.1\">v</tspan><tspan class=\"cls-19\" x=\"36.6\" y=\"14.1\">e</tspan><tspan class=\"cls-20\" x=\"48.87\" y=\"14.1\">r</tspan></tspan></text><text class=\"cls-31\" transform=\"translate(1627.65 1141.57)\">Z<tspan class=\"cls-32\" x=\"12.81\" y=\"0\">ag</tspan><tspan class=\"cls-12\" x=\"37.65\" y=\"0\">r</tspan><tspan class=\"cls-33\" x=\"47.26\" y=\"0\">o</tspan><tspan class=\"cls-15\" x=\"59.81\" y=\"0\">s</tspan><tspan class=\"cls-34\"><tspan x=\"-17.96\" y=\"14.1\">M</tspan><tspan class=\"cls-35\" x=\"-1.1\" y=\"14.1\">ou</tspan><tspan class=\"cls-36\" x=\"23.77\" y=\"14.1\">n</tspan><tspan class=\"cls-37\" x=\"36.07\" y=\"14.1\">t</tspan><tspan class=\"cls-38\" x=\"45.43\" y=\"14.1\">a</tspan><tspan class=\"cls-26\" x=\"57.41\" y=\"14.1\">i</tspan><tspan class=\"cls-39\" x=\"65.36\" y=\"14.1\">n</tspan><tspan class=\"cls-30\" x=\"77.77\" y=\"14.1\">s</tspan></tspan></text><text class=\"cls-1\" transform=\"translate(1471.22 960.81)\"><tspan class=\"cls-40\">U</tspan><tspan class=\"cls-41\" x=\"9.96\" y=\"0\">R</tspan><tspan class=\"cls-2\" x=\"19.38\" y=\"0\">A</tspan><tspan class=\"cls-42\" x=\"29.01\" y=\"0\">R</tspan><tspan class=\"cls-43\" x=\"38\" y=\"0\">T</tspan><tspan x=\"46.34\" y=\"0\">U</tspan></text><text class=\"cls-1\" transform=\"translate(1027.28 1322.59)\"><tspan class=\"cls-44\">E</tspan><tspan class=\"cls-45\" x=\"8.12\" y=\"0\">G</tspan><tspan class=\"cls-2\" x=\"17.87\" y=\"0\">Y</tspan><tspan class=\"cls-46\" x=\"26.63\" y=\"0\">P</tspan><tspan x=\"35.25\" y=\"0\">T</tspan></text><text class=\"cls-1\" transform=\"translate(1540.3 1450.05)\"><tspan class=\"cls-2\">A</tspan><tspan class=\"cls-41\" x=\"9.62\" y=\"0\">R</tspan><tspan class=\"cls-2\" x=\"19.05\" y=\"0\">A</tspan><tspan x=\"28.67\" y=\"0\">B</tspan><tspan class=\"cls-3\" x=\"38\" y=\"0\">I</tspan><tspan class=\"cls-2\" x=\"41.79\" y=\"0\">A</tspan><tspan x=\"51.42\" y=\"0\">N</tspan><tspan class=\"cls-47\" x=\"-7.77\" y=\"14.93\">P</tspan><tspan class=\"cls-48\" x=\"0.64\" y=\"14.93\">E</tspan><tspan class=\"cls-49\" x=\"8.85\" y=\"14.93\">NI</tspan><tspan class=\"cls-50\" x=\"22.58\" y=\"14.93\">N</tspan><tspan class=\"cls-51\" x=\"32.48\" y=\"14.93\">S</tspan><tspan class=\"cls-52\" x=\"41.44\" y=\"14.93\">U</tspan><tspan class=\"cls-53\" x=\"51.39\" y=\"14.93\">L</tspan><tspan x=\"59.61\" y=\"14.93\">A</tspan></text><text class=\"cls-54\" transform=\"translate(1782.58 1168.37)\">I<tspan class=\"cls-55\" x=\"3.74\" y=\"0\">R</tspan><tspan class=\"cls-23\" x=\"13.17\" y=\"0\">A</tspan><tspan class=\"cls-56\" x=\"22.79\" y=\"0\">N</tspan></text><text class=\"cls-57\" transform=\"matrix(1, 0.01, -0.01, 1, 1142.7, 1482.01)\">N<tspan class=\"cls-58\" x=\"14.45\" y=\"0\">i</tspan><tspan class=\"cls-59\" x=\"22.4\" y=\"0\">l</tspan><tspan class=\"cls-60\" x=\"30.39\" y=\"0\">e</tspan><tspan class=\"cls-61\"><tspan x=\"-5.99\" y=\"14.1\">R</tspan><tspan class=\"cls-62\" x=\"7.38\" y=\"14.1\">i</tspan><tspan class=\"cls-63\" x=\"15.28\" y=\"14.1\">v</tspan><tspan class=\"cls-64\" x=\"26.77\" y=\"14.1\">e</tspan><tspan class=\"cls-60\" x=\"39.04\" y=\"14.1\">r</tspan></tspan></text><text class=\"cls-1\" transform=\"translate(887.62 962.9)\"><tspan class=\"cls-65\">G</tspan><tspan class=\"cls-42\" x=\"10.22\" y=\"0\">R</tspan><tspan class=\"cls-66\" x=\"19.21\" y=\"0\">E</tspan><tspan class=\"cls-44\" x=\"27.41\" y=\"0\">E</tspan><tspan class=\"cls-67\" x=\"35.53\" y=\"0\">C</tspan><tspan x=\"45.24\" y=\"0\">E</tspan></text><text class=\"cls-1\" transform=\"translate(1403.09 1121.82)\"><tspan class=\"cls-68\">M</tspan><tspan class=\"cls-69\" x=\"12.47\" y=\"0\">E</tspan><tspan class=\"cls-70\" x=\"20.71\" y=\"0\">S</tspan><tspan class=\"cls-71\" x=\"29.73\" y=\"0\">O</tspan><tspan class=\"cls-72\" x=\"40.21\" y=\"0\">P</tspan><tspan class=\"cls-73\" x=\"48.78\" y=\"0\">O</tspan><tspan class=\"cls-4\" x=\"58.94\" y=\"0\">T</tspan><tspan class=\"cls-2\" x=\"66.12\" y=\"0\">A</tspan><tspan class=\"cls-74\" x=\"75.74\" y=\"0\">M</tspan><tspan class=\"cls-3\" x=\"88.21\" y=\"0\">I</tspan><tspan x=\"92\" y=\"0\">A</tspan></text><text class=\"cls-75\" transform=\"translate(1192.06 806.95)\">B<tspan class=\"cls-76\" x=\"13.74\" y=\"0\">l</tspan><tspan class=\"cls-77\" x=\"21.65\" y=\"0\">a</tspan><tspan class=\"cls-9\" x=\"33.66\" y=\"0\">c</tspan><tspan class=\"cls-15\" x=\"45.47\" y=\"0\">k </tspan><tspan class=\"cls-78\" x=\"65.31\" y=\"0\">S</tspan><tspan class=\"cls-79\" x=\"78.62\" y=\"0\">e</tspan><tspan class=\"cls-15\" x=\"90.91\" y=\"0\">a</tspan></text><text class=\"cls-80\" transform=\"translate(735.31 1107.83)\">M<tspan class=\"cls-81\" x=\"16.86\" y=\"0\">e</tspan><tspan class=\"cls-82\" x=\"29.25\" y=\"0\">d</tspan><tspan class=\"cls-83\" x=\"42.03\" y=\"0\">i</tspan><tspan class=\"cls-14\" x=\"50.02\" y=\"0\">t</tspan><tspan class=\"cls-19\" x=\"59.32\" y=\"0\">e</tspan><tspan class=\"cls-28\" x=\"71.59\" y=\"0\">r</tspan><tspan class=\"cls-84\" x=\"81.17\" y=\"0\">r</tspan><tspan class=\"cls-85\" x=\"90.78\" y=\"0\">a</tspan><tspan class=\"cls-86\" x=\"102.76\" y=\"0\">n</tspan><tspan class=\"cls-87\" x=\"115.2\" y=\"0\">e</tspan><tspan class=\"cls-85\" x=\"127.49\" y=\"0\">a</tspan><tspan class=\"cls-15\" x=\"139.47\" y=\"0\">n </tspan><tspan class=\"cls-88\" x=\"160\" y=\"0\">S</tspan><tspan class=\"cls-87\" x=\"173.31\" y=\"0\">e</tspan><tspan class=\"cls-20\" x=\"185.6\" y=\"0\">a</tspan></text><text class=\"cls-89\" transform=\"translate(1633.28 835.38)\">C<tspan class=\"cls-82\" x=\"14.28\" y=\"0\">a</tspan><tspan class=\"cls-90\" x=\"26.26\" y=\"0\">s</tspan><tspan class=\"cls-86\" x=\"37.45\" y=\"0\">p</tspan><tspan class=\"cls-91\" x=\"50.17\" y=\"0\">i</tspan><tspan class=\"cls-85\" x=\"58.1\" y=\"0\">a</tspan><tspan class=\"cls-15\" x=\"70.07\" y=\"0\">n</tspan><tspan class=\"cls-88\"><tspan x=\"22.45\" y=\"14.1\">S</tspan><tspan class=\"cls-87\" x=\"35.75\" y=\"14.1\">e</tspan><tspan class=\"cls-15\" x=\"48.04\" y=\"14.1\">a</tspan></tspan></text><text class=\"cls-89\" transform=\"translate(1479.01 824.58)\">C<tspan class=\"cls-92\" x=\"14.28\" y=\"0\">a</tspan><tspan class=\"cls-32\" x=\"26.2\" y=\"0\">u</tspan><tspan class=\"cls-93\" x=\"38.6\" y=\"0\">c</tspan><tspan class=\"cls-94\" x=\"50.54\" y=\"0\">a</tspan><tspan class=\"cls-95\" x=\"62.52\" y=\"0\">su</tspan><tspan class=\"cls-15\" x=\"86.03\" y=\"0\">s</tspan><tspan class=\"cls-34\"><tspan x=\"-4.85\" y=\"14.1\">M</tspan><tspan class=\"cls-35\" x=\"12.01\" y=\"14.1\">ou</tspan><tspan class=\"cls-36\" x=\"36.88\" y=\"14.1\">n</tspan><tspan class=\"cls-37\" x=\"49.18\" y=\"14.1\">t</tspan><tspan class=\"cls-38\" x=\"58.54\" y=\"14.1\">a</tspan><tspan class=\"cls-26\" x=\"70.52\" y=\"14.1\">i</tspan><tspan class=\"cls-39\" x=\"78.47\" y=\"14.1\">n</tspan><tspan class=\"cls-30\" x=\"90.88\" y=\"14.1\">s</tspan></tspan></text><text class=\"cls-1\" transform=\"translate(623.27 792.74)\"><tspan class=\"cls-21\">E</tspan><tspan class=\"cls-3\" x=\"8.59\" y=\"0\">T</tspan><tspan class=\"cls-96\" x=\"16.89\" y=\"0\">R</tspan><tspan class=\"cls-97\" x=\"25.78\" y=\"0\">U</tspan><tspan class=\"cls-24\" x=\"35.81\" y=\"0\">T</tspan><tspan class=\"cls-98\" x=\"44.11\" y=\"0\">R</tspan><tspan class=\"cls-3\" x=\"53.11\" y=\"0\">I</tspan><tspan x=\"56.9\" y=\"0\">A</tspan></text><circle class=\"cls-99\" cx=\"663.89\" cy=\"819.27\" r=\"2.97\"/><circle class=\"cls-99\" cx=\"1498.03\" cy=\"1103.87\" r=\"2.97\"/><circle class=\"cls-99\" cx=\"1730.72\" cy=\"1057.84\" r=\"2.97\"/><circle class=\"cls-99\" cx=\"1663.85\" cy=\"1081.97\" r=\"2.97\"/><circle class=\"cls-99\" cx=\"1720.71\" cy=\"1104.08\" r=\"2.97\"/><text class=\"cls-54\" transform=\"translate(1782.58 1168.37)\">I<tspan class=\"cls-55\" x=\"3.74\" y=\"0\">R</tspan><tspan class=\"cls-23\" x=\"13.17\" y=\"0\">A</tspan><tspan class=\"cls-56\" x=\"22.79\" y=\"0\">N</tspan></text><text class=\"cls-100\" transform=\"translate(1987.75 1572)\">Ar<tspan class=\"cls-85\" x=\"23.62\" y=\"0\">a</tspan><tspan class=\"cls-101\" x=\"35.59\" y=\"0\">b</tspan><tspan class=\"cls-91\" x=\"48.33\" y=\"0\">i</tspan><tspan class=\"cls-85\" x=\"56.26\" y=\"0\">a</tspan><tspan class=\"cls-15\" x=\"68.23\" y=\"0\">n </tspan><tspan class=\"cls-78\" x=\"88.77\" y=\"0\">S</tspan><tspan class=\"cls-102\" x=\"102.08\" y=\"0\">e</tspan><tspan class=\"cls-15\" x=\"114.37\" y=\"0\">a</tspan></text><g id=\"_1\" data-name=\"1\"><circle class=\"cls-99\" cx=\"1944.03\" cy=\"1005.91\" r=\"25.45\"/><text class=\"cls-103\" transform=\"translate(1936.56 1018.12)\">1</text></g><g id=\"_2\" data-name=\"2\"><circle class=\"cls-99\" cx=\"1944.03\" cy=\"1157.24\" r=\"25.45\"/><text class=\"cls-103\" transform=\"translate(1933.63 1169.44)\">2</text></g><g id=\"_3\" data-name=\"3\"><circle class=\"cls-99\" cx=\"1365.96\" cy=\"1078.76\" r=\"25.45\"/><text class=\"cls-103\" transform=\"translate(1355.35 1090.96)\">3</text></g><g id=\"_4\" data-name=\"4\"><circle class=\"cls-99\" cx=\"1944.03\" cy=\"1081.57\" r=\"25.45\"/><text class=\"cls-103\" transform=\"translate(1933.58 1093.78)\">4</text></g><g id=\"_5\" data-name=\"5\"><circle class=\"cls-99\" cx=\"966.17\" cy=\"975.11\" r=\"25.45\"/><text class=\"cls-103\" transform=\"translate(955.64 987.32)\">5</text></g><g id=\"_6\" data-name=\"6\"><circle class=\"cls-99\" cx=\"659.75\" cy=\"824.79\" r=\"25.45\"/><text class=\"cls-103\" transform=\"translate(648.9 837)\">6</text></g><line class=\"cls-104\" x1=\"1921.25\" y1=\"1009.79\" x2=\"1732.11\" y2=\"1057.37\"/><line class=\"cls-104\" x1=\"1920.93\" y1=\"1082.61\" x2=\"1665.06\" y2=\"1081.43\"/><line class=\"cls-104\" x1=\"1922.7\" y1=\"1154.57\" x2=\"1721.03\" y2=\"1104.53\"/><line class=\"cls-104\" x1=\"1388.92\" y1=\"1082.28\" x2=\"1498.03\" y2=\"1103.87\"/></svg>", "objects": { "1": { "name": "Vessel in the Form of a Hump-backed Bull", "tombstone": "Iranian, 1350–1000 BCE\nTerracotta\nAshmolean Museum of Art and Archaeology, University of Oxford, AN1964.347\n© Ashmolean Museum, University of Oxford", "thumbnail": "Ashmolean1.jpg", "media": { "1": { "type": "image", "file": "Ashmolean1.jpg", "config": "none" } } }, "2": { "name": "Beak-Spouted Pitcher", "tombstone": "Iranian, 9th–8th century BCE\nPainted terracotta\nHarvard Art Museums/Arthur M. Sackler Museum, Anonymous gift, 1937.12\n© President and Fellows of Harvard College\n", "thumbnail": "HAM1.jpg", "media": { "1": { "type": "image", "file": "HAM1.jpg", "config": "none" } } }, "3": { "name": "Fragmentary ram-headed beaker", "tombstone": "Neo-Assyrian, 8th–7th century BCE\nTerracotta\nFrom House 15 (Ass 8518, cE 6IV) at Ashur (Qalʿat Sherqat, Iraq)\nVorderasiatisches Museum, Staatliche Museen zu Berlin, VA 8831\n© Staatliche Museen zu Berlin - Vorderasiatisches Museum, Photo: Olaf M. Teßmer", "thumbnail": "Vorderasiatisches1.jpg", "media": { "1": { "type": "image", "file": "Vorderasiatisches1.jpg", "config": "none" } } }, "4": { "name": "Beaker with the forepart of a crested and winged lion", "tombstone": "Iranian, 6th century BCE\nGold\nMetropolitan Museum of Art, New York, Fletcher Fund, 1954, 54.3.3\n© The Metropolitan Museum of Art. Image source: Art Resource, NY", "thumbnail": "Met1.jpg", "media": { "1": { "type": "image", "file": "Met1.jpg", "config": "none" } } }, "5": { "name": "Boar-Shaped Cup", "tombstone": "Greek, Boeotian, 575–550 BCE\nTerracotta, black-figure technique\nAntikensammlung, Staatliche Museen zu Berlin, V.I. 3391\nbpk Bildagentur/Antikensammlung, Staatliche Museen, Berlin, Germany/Johaness Laurentius/Art Resource, NY", "thumbnail": "Antikensammlung1.jpg", "media": { "1": { "type": "image", "file": "Antikensammlung1.jpg", "config": "none" } } }, "6": { "name": "Beaker with the forepart of a winged ram", "tombstone": "Etruscan, 550–530 BCE\nTerracotta, bucchero\nFrom Tomb K 136, Crocifisso del Tufo necropolis, at Orvieto (Italy)\nMuseo Archeologico Nazionale di Orvieto, Italy, B 619, F 271, C 33, mag. 103, el. gen. 1326\nCourtesy of the Polo Museale dell'Umbria, Museo Archeologico Nazionale di Orvieto\n", "thumbnail": "Orvieto.jpg", "media": { "1": { "type": "image", "file": "Orvieto.jpg", "config": "none" } } } } }, "3": { "id": "greece", "name": "The Achaemenid Empire and Greece", "dates": "500–300 CE", "overlay": "<svg id=\"_3_-_GREECE\" data-name=\"3 - GREECE\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 4096 2190\"><defs><style>.cls-1,.cls-21,.cls-35,.cls-38,.cls-44,.cls-50,.cls-68{font-size:13.27px;}.cls-1,.cls-35{fill:#939598;}.cls-1,.cls-35,.cls-80,.cls-81{font-family:NeutralStd-Regular, Neutral Std;}.cls-2{letter-spacing:0em;}.cls-3{letter-spacing:0em;}.cls-4{letter-spacing:-0.09em;}.cls-5{letter-spacing:-0.03em;}.cls-6{letter-spacing:0em;}.cls-7{letter-spacing:0em;}.cls-8{letter-spacing:0em;}.cls-9{letter-spacing:-0.01em;}.cls-10{letter-spacing:-0.02em;}.cls-11{letter-spacing:-0.03em;}.cls-12{letter-spacing:-0.01em;}.cls-13{letter-spacing:0.01em;}.cls-14{letter-spacing:-0.02em;}.cls-15{letter-spacing:0em;}.cls-16{letter-spacing:0em;}.cls-17{letter-spacing:-0.01em;}.cls-18{letter-spacing:0em;}.cls-19{letter-spacing:0.02em;}.cls-20{letter-spacing:-0.03em;}.cls-21,.cls-38,.cls-44,.cls-50,.cls-68,.cls-76{fill:#231f20;}.cls-21,.cls-38,.cls-44,.cls-50,.cls-68{font-family:NeutralStd-RegularItalic, Neutral Std;font-style:italic;}.cls-21,.cls-56{letter-spacing:0.35em;}.cls-22{letter-spacing:0.35em;}.cls-23{letter-spacing:0.34em;}.cls-24{letter-spacing:0.34em;}.cls-25{letter-spacing:0.33em;}.cls-26{letter-spacing:0.34em;}.cls-27{letter-spacing:0.34em;}.cls-28{letter-spacing:0.34em;}.cls-29{letter-spacing:0.34em;}.cls-30{letter-spacing:0.34em;}.cls-31{letter-spacing:0.35em;}.cls-32{letter-spacing:0.35em;}.cls-33,.cls-38{letter-spacing:0.35em;}.cls-34{letter-spacing:0.35em;}.cls-35{letter-spacing:-0.01em;}.cls-36{letter-spacing:0em;}.cls-37{letter-spacing:0em;}.cls-39{letter-spacing:0.34em;}.cls-40{letter-spacing:0.34em;}.cls-41{letter-spacing:0.34em;}.cls-42{letter-spacing:0.29em;}.cls-43{letter-spacing:0.32em;}.cls-44{letter-spacing:0.35em;}.cls-45{letter-spacing:0.34em;}.cls-46{letter-spacing:0.34em;}.cls-47{letter-spacing:0.34em;}.cls-48{letter-spacing:0.35em;}.cls-49{letter-spacing:0.35em;}.cls-50{letter-spacing:0.36em;}.cls-51{letter-spacing:0.34em;}.cls-52{letter-spacing:0.34em;}.cls-53{letter-spacing:0.35em;}.cls-54{letter-spacing:0.34em;}.cls-55{letter-spacing:0.34em;}.cls-57{letter-spacing:0.34em;}.cls-58{letter-spacing:0.33em;}.cls-59{letter-spacing:0.33em;}.cls-60{letter-spacing:0.34em;}.cls-61{letter-spacing:0.34em;}.cls-62{letter-spacing:0.34em;}.cls-63{letter-spacing:0.35em;}.cls-64{letter-spacing:0em;}.cls-65{letter-spacing:-0.02em;}.cls-66{letter-spacing:0.03em;}.cls-67{letter-spacing:0em;}.cls-68{letter-spacing:0.35em;}.cls-69{letter-spacing:0.34em;}.cls-70{letter-spacing:0.34em;}.cls-71{letter-spacing:0.35em;}.cls-72{letter-spacing:0.34em;}.cls-73{letter-spacing:0.33em;}.cls-74{letter-spacing:0.34em;}.cls-75{letter-spacing:0.34em;}.cls-77{letter-spacing:-0.04em;}.cls-78{letter-spacing:0.01em;}.cls-79{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:2.37px;}.cls-80,.cls-81{font-size:33.17px;fill:#fff;}.cls-80{letter-spacing:-0.02em;}.cls-81{letter-spacing:-0.1em;}.cls-82{letter-spacing:-0.08em;}</style></defs><title>greece</title><text class=\"cls-1\" transform=\"translate(1155.05 953.65)\"><tspan class=\"cls-2\">A</tspan><tspan class=\"cls-3\" x=\"9.62\" y=\"0\">N</tspan><tspan class=\"cls-4\" x=\"19.67\" y=\"0\">A</tspan><tspan class=\"cls-5\" x=\"28.16\" y=\"0\">T</tspan><tspan class=\"cls-6\" x=\"36.08\" y=\"0\">O</tspan><tspan class=\"cls-7\" x=\"46.56\" y=\"0\">L</tspan><tspan class=\"cls-3\" x=\"54.34\" y=\"0\">I</tspan><tspan x=\"58.14\" y=\"0\">A</tspan></text><text class=\"cls-1\" transform=\"translate(890.58 937.73)\"><tspan class=\"cls-8\">G</tspan><tspan class=\"cls-9\" x=\"10.22\" y=\"0\">R</tspan><tspan class=\"cls-10\" x=\"19.21\" y=\"0\">E</tspan><tspan class=\"cls-11\" x=\"27.41\" y=\"0\">E</tspan><tspan class=\"cls-12\" x=\"35.53\" y=\"0\">C</tspan><tspan x=\"45.24\" y=\"0\">E</tspan></text><text class=\"cls-1\" transform=\"translate(623.27 792.74)\"><tspan class=\"cls-13\">E</tspan><tspan class=\"cls-3\" x=\"8.59\" y=\"0\">T</tspan><tspan class=\"cls-14\" x=\"16.89\" y=\"0\">R</tspan><tspan class=\"cls-15\" x=\"25.78\" y=\"0\">U</tspan><tspan class=\"cls-16\" x=\"35.81\" y=\"0\">T</tspan><tspan class=\"cls-17\" x=\"44.11\" y=\"0\">R</tspan><tspan class=\"cls-3\" x=\"53.11\" y=\"0\">I</tspan><tspan x=\"56.9\" y=\"0\">A</tspan></text><text class=\"cls-1\" transform=\"translate(933.68 829.69)\"><tspan class=\"cls-3\">T</tspan><tspan class=\"cls-18\" x=\"8.3\" y=\"0\">H</tspan><tspan class=\"cls-19\" x=\"18.36\" y=\"0\">R</tspan><tspan class=\"cls-20\" x=\"27.78\" y=\"0\">A</tspan><tspan class=\"cls-12\" x=\"37.02\" y=\"0\">C</tspan><tspan x=\"46.73\" y=\"0\">E</tspan></text><text class=\"cls-21\" transform=\"translate(735.31 1107.83)\">M<tspan class=\"cls-22\" x=\"16.86\" y=\"0\">e</tspan><tspan class=\"cls-23\" x=\"29.25\" y=\"0\">d</tspan><tspan class=\"cls-24\" x=\"42.03\" y=\"0\">i</tspan><tspan class=\"cls-25\" x=\"50.02\" y=\"0\">t</tspan><tspan class=\"cls-26\" x=\"59.32\" y=\"0\">e</tspan><tspan class=\"cls-27\" x=\"71.59\" y=\"0\">r</tspan><tspan class=\"cls-28\" x=\"81.17\" y=\"0\">r</tspan><tspan class=\"cls-29\" x=\"90.78\" y=\"0\">a</tspan><tspan class=\"cls-30\" x=\"102.76\" y=\"0\">n</tspan><tspan class=\"cls-31\" x=\"115.2\" y=\"0\">e</tspan><tspan class=\"cls-29\" x=\"127.49\" y=\"0\">a</tspan><tspan class=\"cls-32\" x=\"139.47\" y=\"0\">n </tspan><tspan class=\"cls-33\" x=\"160\" y=\"0\">S</tspan><tspan class=\"cls-31\" x=\"173.31\" y=\"0\">e</tspan><tspan class=\"cls-34\" x=\"185.6\" y=\"0\">a</tspan></text><text class=\"cls-35\" transform=\"translate(1782.59 1168.37)\">I<tspan class=\"cls-19\" x=\"3.74\" y=\"0\">R</tspan><tspan class=\"cls-36\" x=\"13.17\" y=\"0\">A</tspan><tspan class=\"cls-37\" x=\"22.79\" y=\"0\">N</tspan></text><text class=\"cls-38\" transform=\"translate(2242.9 1168.37)\">I<tspan class=\"cls-39\" x=\"8.32\" y=\"0\">n</tspan><tspan class=\"cls-40\" x=\"20.76\" y=\"0\">d</tspan><tspan class=\"cls-41\" x=\"33.47\" y=\"0\">u</tspan><tspan class=\"cls-32\" x=\"45.84\" y=\"0\">s </tspan><tspan class=\"cls-42\" x=\"65.16\" y=\"0\">V</tspan><tspan class=\"cls-29\" x=\"78.34\" y=\"0\">al</tspan><tspan class=\"cls-24\" x=\"98.29\" y=\"0\">l</tspan><tspan class=\"cls-43\" x=\"106.28\" y=\"0\">e</tspan><tspan class=\"cls-32\" x=\"118.27\" y=\"0\">y</tspan></text><text class=\"cls-44\" transform=\"translate(1192.06 806.95)\">B<tspan class=\"cls-45\" x=\"13.74\" y=\"0\">l</tspan><tspan class=\"cls-46\" x=\"21.65\" y=\"0\">a</tspan><tspan class=\"cls-47\" x=\"33.66\" y=\"0\">c</tspan><tspan class=\"cls-32\" x=\"45.47\" y=\"0\">k </tspan><tspan class=\"cls-48\" x=\"65.31\" y=\"0\">S</tspan><tspan class=\"cls-49\" x=\"78.62\" y=\"0\">e</tspan><tspan class=\"cls-32\" x=\"90.91\" y=\"0\">a</tspan></text><text class=\"cls-50\" transform=\"translate(1479.01 824.58)\">C<tspan class=\"cls-51\" x=\"14.28\" y=\"0\">a</tspan><tspan class=\"cls-52\" x=\"26.2\" y=\"0\">u</tspan><tspan class=\"cls-53\" x=\"38.6\" y=\"0\">c</tspan><tspan class=\"cls-54\" x=\"50.54\" y=\"0\">a</tspan><tspan class=\"cls-55\" x=\"62.52\" y=\"0\">su</tspan><tspan class=\"cls-32\" x=\"86.03\" y=\"0\">s</tspan><tspan class=\"cls-56\"><tspan x=\"-4.85\" y=\"14.1\">M</tspan><tspan class=\"cls-57\" x=\"12.01\" y=\"14.1\">ou</tspan><tspan class=\"cls-58\" x=\"36.88\" y=\"14.1\">n</tspan><tspan class=\"cls-59\" x=\"49.18\" y=\"14.1\">t</tspan><tspan class=\"cls-60\" x=\"58.54\" y=\"14.1\">a</tspan><tspan class=\"cls-61\" x=\"70.52\" y=\"14.1\">i</tspan><tspan class=\"cls-62\" x=\"78.47\" y=\"14.1\">n</tspan><tspan class=\"cls-63\" x=\"90.88\" y=\"14.1\">s</tspan></tspan></text><text class=\"cls-1\" transform=\"translate(1611.67 607.03)\"><tspan class=\"cls-64\">S</tspan><tspan class=\"cls-65\" x=\"9.02\" y=\"0\">C</tspan><tspan class=\"cls-66\" x=\"18.57\" y=\"0\">Y</tspan><tspan class=\"cls-3\" x=\"27.77\" y=\"0\">T</tspan><tspan class=\"cls-67\" x=\"36.07\" y=\"0\">H</tspan><tspan class=\"cls-3\" x=\"46.12\" y=\"0\">I</tspan><tspan x=\"49.91\" y=\"0\">A</tspan></text><text class=\"cls-68\" transform=\"translate(853.53 764.87)\">D<tspan class=\"cls-29\" x=\"14.25\" y=\"0\">a</tspan><tspan class=\"cls-69\" x=\"26.23\" y=\"0\">n</tspan><tspan class=\"cls-70\" x=\"38.59\" y=\"0\">u</tspan><tspan class=\"cls-32\" x=\"50.98\" y=\"0\">be</tspan><tspan class=\"cls-71\"><tspan x=\"10.71\" y=\"14.1\">R</tspan><tspan class=\"cls-72\" x=\"24.07\" y=\"14.1\">i</tspan><tspan class=\"cls-73\" x=\"31.98\" y=\"14.1\">v</tspan><tspan class=\"cls-26\" x=\"43.47\" y=\"14.1\">e</tspan><tspan class=\"cls-34\" x=\"55.74\" y=\"14.1\">r</tspan></tspan></text><text class=\"cls-50\" transform=\"translate(1633.28 835.38)\">C<tspan class=\"cls-23\" x=\"14.28\" y=\"0\">a</tspan><tspan class=\"cls-74\" x=\"26.26\" y=\"0\">s</tspan><tspan class=\"cls-30\" x=\"37.45\" y=\"0\">p</tspan><tspan class=\"cls-75\" x=\"50.17\" y=\"0\">i</tspan><tspan class=\"cls-29\" x=\"58.1\" y=\"0\">a</tspan><tspan class=\"cls-32\" x=\"70.07\" y=\"0\">n</tspan><tspan class=\"cls-33\"><tspan x=\"22.45\" y=\"14.1\">S</tspan><tspan class=\"cls-31\" x=\"35.75\" y=\"14.1\">e</tspan><tspan class=\"cls-32\" x=\"48.04\" y=\"14.1\">a</tspan></tspan></text><circle class=\"cls-76\" cx=\"976.97\" cy=\"989.48\" r=\"2.97\"/><text class=\"cls-1\" transform=\"translate(1027.28 1322.59)\"><tspan class=\"cls-11\">E</tspan><tspan class=\"cls-77\" x=\"8.12\" y=\"0\">G</tspan><tspan class=\"cls-2\" x=\"17.87\" y=\"0\">Y</tspan><tspan class=\"cls-78\" x=\"26.63\" y=\"0\">P</tspan><tspan x=\"35.25\" y=\"0\">T</tspan></text><circle class=\"cls-76\" cx=\"725.19\" cy=\"886.71\" r=\"2.97\"/><line class=\"cls-79\" x1=\"976.97\" y1=\"989.48\" x2=\"536.4\" y2=\"1083.48\"/><g id=\"_3\" data-name=\"3\"><circle class=\"cls-76\" cx=\"724.06\" cy=\"886.27\" r=\"25.45\"/><text class=\"cls-80\" transform=\"translate(713.45 898.48)\">3</text></g><g id=\"_4\" data-name=\"4\"><circle class=\"cls-76\" cx=\"1351.19\" cy=\"1024.47\" r=\"25.45\"/><text class=\"cls-80\" transform=\"translate(1340.74 1036.68)\">4</text></g><g id=\"_5\" data-name=\"5\"><circle class=\"cls-76\" cx=\"1176.76\" cy=\"1236.51\" r=\"25.45\"/><text class=\"cls-80\" transform=\"translate(1166.23 1248.71)\">5</text></g><g id=\"_6\" data-name=\"6\"><circle class=\"cls-76\" cx=\"1368.57\" cy=\"928.18\" r=\"25.45\"/><text class=\"cls-80\" transform=\"translate(1357.72 940.39)\">6</text></g><g id=\"_8\" data-name=\"8\"><circle class=\"cls-76\" cx=\"794.44\" cy=\"881.14\" r=\"25.45\"/><text class=\"cls-80\" transform=\"translate(783.83 893.34)\">8</text></g><g id=\"_1\" data-name=\"1\"><circle class=\"cls-76\" cx=\"518.51\" cy=\"1088.04\" r=\"25.45\"/><text class=\"cls-80\" transform=\"translate(511.04 1100.25)\">1</text></g><g id=\"_2\" data-name=\"2\"><circle class=\"cls-76\" cx=\"518.51\" cy=\"1146.38\" r=\"25.45\"/><text class=\"cls-80\" transform=\"translate(508.11 1158.59)\">2</text></g><g id=\"_7\" data-name=\"7\"><circle class=\"cls-76\" cx=\"518.51\" cy=\"1204.72\" r=\"25.45\"/><text class=\"cls-80\" transform=\"translate(509.29 1216.92)\">7</text></g><g id=\"_9\" data-name=\"9\"><circle class=\"cls-76\" cx=\"518.51\" cy=\"1263.06\" r=\"25.45\"/><text class=\"cls-80\" transform=\"translate(507.71 1275.26)\">9</text></g><g id=\"_10\" data-name=\"10\"><circle class=\"cls-76\" cx=\"1061.56\" cy=\"843.23\" r=\"25.45\"/><text class=\"cls-81\" transform=\"translate(1044.46 855.44)\">1<tspan class=\"cls-82\" x=\"11.52\" y=\"0\">0</tspan></text></g></svg>", "objects": { "1": { "name": "Eye Cup", "tombstone": "Greek, Attic, c. 530 BCE\nTerracotta, black-figure technique\nHarvard Art Museums/Arthur M. Sackler Museum, Bequest of Joseph C. Hoppin, 1925.30.19\n© President and Fellows of Harvard College", "thumbnail": "HAM3.jpg", "media": { "1": { "type": "spin", "file": null, "config": { "source": ["images/objects/spins/cup_animation_0001.png", "images/objects/spins/cup_animation_0002.png", "images/objects/spins/cup_animation_0003.png", "images/objects/spins/cup_animation_0004.png", "images/objects/spins/cup_animation_0005.png", "images/objects/spins/cup_animation_0006.png", "images/objects/spins/cup_animation_0007.png", "images/objects/spins/cup_animation_0008.png", "images/objects/spins/cup_animation_0009.png", "images/objects/spins/cup_animation_0010.png", "images/objects/spins/cup_animation_0011.png", "images/objects/spins/cup_animation_0012.png", "images/objects/spins/cup_animation_0013.png", "images/objects/spins/cup_animation_0014.png", "images/objects/spins/cup_animation_0015.png", "images/objects/spins/cup_animation_0016.png", "images/objects/spins/cup_animation_0017.png", "images/objects/spins/cup_animation_0018.png", "images/objects/spins/cup_animation_0019.png", "images/objects/spins/cup_animation_0020.png", "images/objects/spins/cup_animation_0021.png", "images/objects/spins/cup_animation_0022.png", "images/objects/spins/cup_animation_0023.png", "images/objects/spins/cup_animation_0024.png", "images/objects/spins/cup_animation_0025.png", "images/objects/spins/cup_animation_0026.png", "images/objects/spins/cup_animation_0027.png", "images/objects/spins/cup_animation_0028.png", "images/objects/spins/cup_animation_0029.png", "images/objects/spins/cup_animation_0030.png", "images/objects/spins/cup_animation_0031.png", "images/objects/spins/cup_animation_0032.png", "images/objects/spins/cup_animation_0033.png", "images/objects/spins/cup_animation_0034.png", "images/objects/spins/cup_animation_0035.png", "images/objects/spins/cup_animation_0036.png", "images/objects/spins/cup_animation_0037.png", "images/objects/spins/cup_animation_0038.png", "images/objects/spins/cup_animation_0039.png", "images/objects/spins/cup_animation_0040.png", "images/objects/spins/cup_animation_0041.png", "images/objects/spins/cup_animation_0042.png", "images/objects/spins/cup_animation_0043.png", "images/objects/spins/cup_animation_0044.png", "images/objects/spins/cup_animation_0045.png", "images/objects/spins/cup_animation_0046.png", "images/objects/spins/cup_animation_0047.png", "images/objects/spins/cup_animation_0048.png", "images/objects/spins/cup_animation_0049.png", "images/objects/spins/cup_animation_0050.png", "images/objects/spins/cup_animation_0051.png", "images/objects/spins/cup_animation_0052.png", "images/objects/spins/cup_animation_0053.png", "images/objects/spins/cup_animation_0054.png", "images/objects/spins/cup_animation_0055.png", "images/objects/spins/cup_animation_0056.png", "images/objects/spins/cup_animation_0057.png", "images/objects/spins/cup_animation_0058.png", "images/objects/spins/cup_animation_0059.png", "images/objects/spins/cup_animation_0060.png", "images/objects/spins/cup_animation_0061.png", "images/objects/spins/cup_animation_0062.png", "images/objects/spins/cup_animation_0063.png", "images/objects/spins/cup_animation_0064.png", "images/objects/spins/cup_animation_0065.png", "images/objects/spins/cup_animation_0066.png", "images/objects/spins/cup_animation_0067.png", "images/objects/spins/cup_animation_0068.png", "images/objects/spins/cup_animation_0069.png", "images/objects/spins/cup_animation_0070.png", "images/objects/spins/cup_animation_0071.png", "images/objects/spins/cup_animation_0072.png", "images/objects/spins/cup_animation_0073.png", "images/objects/spins/cup_animation_0074.png", "images/objects/spins/cup_animation_0075.png", "images/objects/spins/cup_animation_0076.png", "images/objects/spins/cup_animation_0077.png", "images/objects/spins/cup_animation_0078.png", "images/objects/spins/cup_animation_0079.png", "images/objects/spins/cup_animation_0080.png", "images/objects/spins/cup_animation_0081.png", "images/objects/spins/cup_animation_0082.png", "images/objects/spins/cup_animation_0083.png", "images/objects/spins/cup_animation_0084.png", "images/objects/spins/cup_animation_0085.png", "images/objects/spins/cup_animation_0086.png", "images/objects/spins/cup_animation_0087.png", "images/objects/spins/cup_animation_0088.png", "images/objects/spins/cup_animation_0089.png", "images/objects/spins/cup_animation_0090.png", "images/objects/spins/cup_animation_0091.png", "images/objects/spins/cup_animation_0092.png", "images/objects/spins/cup_animation_0093.png", "images/objects/spins/cup_animation_0094.png", "images/objects/spins/cup_animation_0095.png", "images/objects/spins/cup_animation_0096.png", "images/objects/spins/cup_animation_0097.png", "images/objects/spins/cup_animation_0098.png", "images/objects/spins/cup_animation_0099.png", "images/objects/spins/cup_animation_0100.png", "images/objects/spins/cup_animation_0101.png", "images/objects/spins/cup_animation_0102.png", "images/objects/spins/cup_animation_0103.png", "images/objects/spins/cup_animation_0104.png", "images/objects/spins/cup_animation_0105.png", "images/objects/spins/cup_animation_0106.png", "images/objects/spins/cup_animation_0107.png", "images/objects/spins/cup_animation_0108.png", "images/objects/spins/cup_animation_0109.png", "images/objects/spins/cup_animation_0110.png", "images/objects/spins/cup_animation_0111.png", "images/objects/spins/cup_animation_0112.png", "images/objects/spins/cup_animation_0113.png", "images/objects/spins/cup_animation_0114.png", "images/objects/spins/cup_animation_0115.png", "images/objects/spins/cup_animation_0116.png", "images/objects/spins/cup_animation_0117.png", "images/objects/spins/cup_animation_0118.png", "images/objects/spins/cup_animation_0119.png", "images/objects/spins/cup_animation_0120.png", "images/objects/spins/cup_animation_0121.png", "images/objects/spins/cup_animation_0122.png", "images/objects/spins/cup_animation_0123.png", "images/objects/spins/cup_animation_0124.png", "images/objects/spins/cup_animation_0125.png", "images/objects/spins/cup_animation_0126.png", "images/objects/spins/cup_animation_0127.png", "images/objects/spins/cup_animation_0128.png", "images/objects/spins/cup_animation_0129.png", "images/objects/spins/cup_animation_0130.png", "images/objects/spins/cup_animation_0131.png", "images/objects/spins/cup_animation_0132.png", "images/objects/spins/cup_animation_0133.png", "images/objects/spins/cup_animation_0134.png", "images/objects/spins/cup_animation_0135.png", "images/objects/spins/cup_animation_0136.png", "images/objects/spins/cup_animation_0137.png", "images/objects/spins/cup_animation_0138.png", "images/objects/spins/cup_animation_0139.png", "images/objects/spins/cup_animation_0140.png", "images/objects/spins/cup_animation_0141.png", "images/objects/spins/cup_animation_0142.png", "images/objects/spins/cup_animation_0143.png", "images/objects/spins/cup_animation_0144.png", "images/objects/spins/cup_animation_0145.png"] }, "sizeMode": "fit", "responsive": "true\n", "frameTime": "240" } } } } }, "4": { "id": "roman", "name": "The Hellenistic, Roman, and Parthian Empires", "dates": "300 BCE-300 CE", "overlay": "<svg id=\"Bronze\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 3840 2160\"><defs><style>.cls-1{font-size:54px;fill:#fff;font-family:MyriadPro-Regular, Myriad Pro;}</style></defs><title>bronze</title><g id=\"_1\" data-name=\"1\"><circle cx=\"1628.25\" cy=\"993.25\" r=\"36.25\"/><text class=\"cls-1\" transform=\"translate(1613 1010.34)\">1</text></g></svg>", "objects": { "1": { "name": "Poopship", "tombstone": "Persepolis: amphora with zoomorphic handles sam et faccatus doloreperionse quassimilit omni debitat ibusdaecus eationsequae cusam,inciderchici a duntiis sit eum net quodit, es re lam, se volorendel eate", "thumbnail": "poopship_thumb.jpg", "media": { "1": { "type": "image", "file": "poopship.jpg", "config": "none" }, "2": { "type": "image", "file": "poopship.jpg", "config": "none" } } } } }, "5": { "id": "china", "name": "From the Sasanian Empire to China", "dates": "300-800 CE", "overlay": "<svg id=\"Bronze\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 3840 2160\"><defs><style>.cls-1{font-size:54px;fill:#fff;font-family:MyriadPro-Regular, Myriad Pro;}</style></defs><title>bronze</title><g id=\"_1\" data-name=\"1\"><circle cx=\"1628.25\" cy=\"993.25\" r=\"36.25\"/><text class=\"cls-1\" transform=\"translate(1613 1010.34)\">1</text></g></svg>", "objects": { "1": { "name": "Poopship", "tombstone": "Persepolis: amphora with zoomorphic handles sam et faccatus doloreperionse quassimilit omni debitat ibusdaecus eationsequae cusam,inciderchici a duntiis sit eum net quodit, es re lam, se volorendel eate", "thumbnail": "poopship_thumb.jpg", "media": { "1": { "type": "image", "file": "poopship.jpg", "config": "none" }, "2": { "type": "image", "file": "poopship.jpg", "config": "none" } } } } } } };
+var mapConfig = { "eras": { "1": { "id": "bronze", "name": "The Bronze Age", "dates": "2000-1200 BCE", "overlay": "<svg id=\"_1_-_BRONZE\" data-name=\"1 - BRONZE\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 4096 2190\"><defs><style>.cls-1,.cls-28,.cls-50,.cls-52,.cls-55,.cls-63{font-size:13.27px;}.cls-1{fill:#939598;}.cls-1,.cls-70{font-family:NeutralStd-Regular, Neutral Std;}.cls-2{letter-spacing:0em;}.cls-3{letter-spacing:-0.01em;}.cls-4{letter-spacing:-0.02em;}.cls-5{letter-spacing:-0.03em;}.cls-6{letter-spacing:-0.01em;}.cls-7{letter-spacing:0em;}.cls-8{letter-spacing:0em;}.cls-9{letter-spacing:-0.09em;}.cls-10{letter-spacing:-0.03em;}.cls-11{letter-spacing:0em;}.cls-12{letter-spacing:0em;}.cls-13{letter-spacing:-0.04em;}.cls-14{letter-spacing:0.01em;}.cls-15{letter-spacing:0.02em;}.cls-16{letter-spacing:0em;}.cls-17{letter-spacing:-0.02em;}.cls-18{letter-spacing:-0.01em;}.cls-19{letter-spacing:-0.01em;}.cls-20{letter-spacing:-0.01em;}.cls-21{letter-spacing:0em;}.cls-22{letter-spacing:0.03em;}.cls-23{letter-spacing:0.01em;}.cls-24{letter-spacing:-0.07em;}.cls-25{letter-spacing:0em;}.cls-26{letter-spacing:0em;}.cls-27{letter-spacing:0em;}.cls-28,.cls-42,.cls-50,.cls-52,.cls-55,.cls-63,.cls-69{fill:#231f20;}.cls-28,.cls-42,.cls-50,.cls-52,.cls-55,.cls-63{font-family:NeutralStd-RegularItalic, Neutral Std;font-style:italic;}.cls-28{letter-spacing:0.35em;}.cls-29{letter-spacing:0.35em;}.cls-30{letter-spacing:0.34em;}.cls-31{letter-spacing:0.34em;}.cls-32{letter-spacing:0.33em;}.cls-33{letter-spacing:0.34em;}.cls-34{letter-spacing:0.34em;}.cls-35{letter-spacing:0.34em;}.cls-36{letter-spacing:0.34em;}.cls-37{letter-spacing:0.34em;}.cls-38{letter-spacing:0.35em;}.cls-39{letter-spacing:0.35em;}.cls-40{letter-spacing:0.35em;}.cls-41{letter-spacing:0.35em;}.cls-42{font-size:13.27px;letter-spacing:0.35em;}.cls-43{letter-spacing:0.34em;}.cls-44{letter-spacing:0.34em;}.cls-45{letter-spacing:0.35em;}.cls-46{letter-spacing:0.35em;}.cls-47{letter-spacing:0.34em;}.cls-48{letter-spacing:0.33em;}.cls-49{letter-spacing:0.34em;}.cls-50{letter-spacing:0.34em;}.cls-51{letter-spacing:0.35em;}.cls-52{letter-spacing:0.33em;}.cls-53{letter-spacing:0.34em;}.cls-54{letter-spacing:0.34em;}.cls-55{letter-spacing:0.35em;}.cls-56{letter-spacing:0.34em;}.cls-57{letter-spacing:0.34em;}.cls-58{letter-spacing:0.34em;}.cls-59{letter-spacing:0.35em;}.cls-60{letter-spacing:0.35em;}.cls-61{letter-spacing:0.34em;}.cls-62{letter-spacing:0.33em;}.cls-63{letter-spacing:0.31em;}.cls-64{letter-spacing:0.34em;}.cls-65{letter-spacing:0.34em;}.cls-66{letter-spacing:0.34em;}.cls-67{letter-spacing:0.34em;}.cls-68{letter-spacing:0.33em;}.cls-70{font-size:33.17px;fill:#fff;letter-spacing:-0.02em;}.cls-71{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:1.18px;}</style></defs><title>bronze</title><text class=\"cls-1\" transform=\"translate(900.84 963.79)\"><tspan class=\"cls-2\">G</tspan><tspan class=\"cls-3\" x=\"10.22\" y=\"0\">R</tspan><tspan class=\"cls-4\" x=\"19.21\" y=\"0\">E</tspan><tspan class=\"cls-5\" x=\"27.41\" y=\"0\">E</tspan><tspan class=\"cls-6\" x=\"35.53\" y=\"0\">C</tspan><tspan x=\"45.24\" y=\"0\">E</tspan></text><text class=\"cls-1\" transform=\"translate(1155.05 953.65)\"><tspan class=\"cls-7\">A</tspan><tspan class=\"cls-8\" x=\"9.62\" y=\"0\">N</tspan><tspan class=\"cls-9\" x=\"19.67\" y=\"0\">A</tspan><tspan class=\"cls-10\" x=\"28.16\" y=\"0\">T</tspan><tspan class=\"cls-11\" x=\"36.08\" y=\"0\">O</tspan><tspan class=\"cls-12\" x=\"46.56\" y=\"0\">L</tspan><tspan class=\"cls-8\" x=\"54.34\" y=\"0\">I</tspan><tspan x=\"58.14\" y=\"0\">A</tspan></text><text class=\"cls-1\" transform=\"translate(1027.28 1322.59)\"><tspan class=\"cls-5\">E</tspan><tspan class=\"cls-13\" x=\"8.12\" y=\"0\">G</tspan><tspan class=\"cls-7\" x=\"17.87\" y=\"0\">Y</tspan><tspan class=\"cls-14\" x=\"26.63\" y=\"0\">P</tspan><tspan x=\"35.25\" y=\"0\">T</tspan></text><text class=\"cls-1\" transform=\"translate(1540.3 1450.05)\"><tspan class=\"cls-7\">A</tspan><tspan class=\"cls-15\" x=\"9.62\" y=\"0\">R</tspan><tspan class=\"cls-7\" x=\"19.05\" y=\"0\">A</tspan><tspan x=\"28.67\" y=\"0\">B</tspan><tspan class=\"cls-8\" x=\"38\" y=\"0\">I</tspan><tspan class=\"cls-7\" x=\"41.79\" y=\"0\">A</tspan><tspan x=\"51.42\" y=\"0\">N</tspan><tspan class=\"cls-16\" x=\"-7.77\" y=\"14.93\">P</tspan><tspan class=\"cls-17\" x=\"0.64\" y=\"14.93\">E</tspan><tspan class=\"cls-18\" x=\"8.85\" y=\"14.93\">NI</tspan><tspan class=\"cls-19\" x=\"22.58\" y=\"14.93\">N</tspan><tspan class=\"cls-20\" x=\"32.48\" y=\"14.93\">S</tspan><tspan class=\"cls-21\" x=\"41.44\" y=\"14.93\">U</tspan><tspan class=\"cls-22\" x=\"51.39\" y=\"14.93\">L</tspan><tspan x=\"59.61\" y=\"14.93\">A</tspan></text><text class=\"cls-1\" transform=\"translate(1297.81 1147.13)\"><tspan class=\"cls-12\">L</tspan><tspan class=\"cls-23\" x=\"7.78\" y=\"0\">E</tspan><tspan class=\"cls-24\" x=\"16.37\" y=\"0\">V</tspan><tspan class=\"cls-25\" x=\"24.93\" y=\"0\">A</tspan><tspan class=\"cls-26\" x=\"34.56\" y=\"0\">N</tspan><tspan x=\"44.6\" y=\"0\">T</tspan></text><text class=\"cls-1\" transform=\"translate(989.51 1100.36)\"><tspan class=\"cls-6\">C</tspan><tspan class=\"cls-3\" x=\"9.71\" y=\"0\">R</tspan><tspan class=\"cls-23\" x=\"18.7\" y=\"0\">E</tspan><tspan class=\"cls-8\" x=\"27.29\" y=\"0\">T</tspan><tspan x=\"35.6\" y=\"0\">E</tspan></text><text class=\"cls-1\" transform=\"translate(1018.6 1603.33)\"><tspan class=\"cls-27\">NU</tspan><tspan x=\"19.97\" y=\"0\">B</tspan><tspan class=\"cls-8\" x=\"29.29\" y=\"0\">I</tspan><tspan x=\"33.09\" y=\"0\">A</tspan></text><text class=\"cls-28\" transform=\"translate(735.31 1107.83)\">M<tspan class=\"cls-29\" x=\"16.86\" y=\"0\">e</tspan><tspan class=\"cls-30\" x=\"29.25\" y=\"0\">d</tspan><tspan class=\"cls-31\" x=\"42.03\" y=\"0\">i</tspan><tspan class=\"cls-32\" x=\"50.02\" y=\"0\">t</tspan><tspan class=\"cls-33\" x=\"59.32\" y=\"0\">e</tspan><tspan class=\"cls-34\" x=\"71.59\" y=\"0\">r</tspan><tspan class=\"cls-35\" x=\"81.17\" y=\"0\">r</tspan><tspan class=\"cls-36\" x=\"90.78\" y=\"0\">a</tspan><tspan class=\"cls-37\" x=\"102.76\" y=\"0\">n</tspan><tspan class=\"cls-38\" x=\"115.2\" y=\"0\">e</tspan><tspan class=\"cls-36\" x=\"127.49\" y=\"0\">a</tspan><tspan class=\"cls-39\" x=\"139.47\" y=\"0\">n </tspan><tspan class=\"cls-40\" x=\"160\" y=\"0\">S</tspan><tspan class=\"cls-38\" x=\"173.31\" y=\"0\">e</tspan><tspan class=\"cls-41\" x=\"185.6\" y=\"0\">a</tspan></text><text class=\"cls-42\" transform=\"matrix(1, 0.01, -0.01, 1, 1142.7, 1482.01)\">N<tspan class=\"cls-43\" x=\"14.45\" y=\"0\">i</tspan><tspan class=\"cls-44\" x=\"22.4\" y=\"0\">l</tspan><tspan class=\"cls-45\" x=\"30.39\" y=\"0\">e</tspan><tspan class=\"cls-46\"><tspan x=\"-5.99\" y=\"14.1\">R</tspan><tspan class=\"cls-47\" x=\"7.38\" y=\"14.1\">i</tspan><tspan class=\"cls-48\" x=\"15.28\" y=\"14.1\">v</tspan><tspan class=\"cls-49\" x=\"26.77\" y=\"14.1\">e</tspan><tspan class=\"cls-45\" x=\"39.04\" y=\"14.1\">r</tspan></tspan></text><text class=\"cls-50\" transform=\"translate(1315.39 1439.82)\">R<tspan class=\"cls-51\" x=\"13.27\" y=\"0\">e</tspan><tspan class=\"cls-39\" x=\"25.66\" y=\"0\">d</tspan><tspan class=\"cls-40\"><tspan x=\"0.43\" y=\"14.1\">S</tspan><tspan class=\"cls-38\" x=\"13.74\" y=\"14.1\">e</tspan><tspan class=\"cls-39\" x=\"26.03\" y=\"14.1\">a</tspan></tspan></text><text class=\"cls-52\" transform=\"translate(963.79 939.82)\">A<tspan class=\"cls-39\" x=\"13.87\" y=\"0\">e</tspan><tspan class=\"cls-53\" x=\"26.22\" y=\"0\">g</tspan><tspan class=\"cls-38\" x=\"39.08\" y=\"0\">e</tspan><tspan class=\"cls-54\" x=\"51.37\" y=\"0\">a</tspan><tspan class=\"cls-39\" x=\"63.35\" y=\"0\">n</tspan><tspan class=\"cls-40\"><tspan x=\"19.08\" y=\"14.1\">S</tspan><tspan class=\"cls-38\" x=\"32.39\" y=\"14.1\">e</tspan><tspan class=\"cls-39\" x=\"44.68\" y=\"14.1\">a</tspan></tspan></text><text class=\"cls-55\" transform=\"translate(1470.52 1082.73)\">T<tspan class=\"cls-56\" x=\"12.78\" y=\"0\">i</tspan><tspan class=\"cls-57\" x=\"20.73\" y=\"0\">g</tspan><tspan class=\"cls-34\" x=\"33.59\" y=\"0\">r</tspan><tspan class=\"cls-58\" x=\"43.17\" y=\"0\">i</tspan><tspan class=\"cls-59\" x=\"51.1\" y=\"0\">s</tspan><tspan class=\"cls-60\"><tspan x=\"3.84\" y=\"14.1\">R</tspan><tspan class=\"cls-61\" x=\"17.2\" y=\"14.1\">i</tspan><tspan class=\"cls-62\" x=\"25.1\" y=\"14.1\">v</tspan><tspan class=\"cls-33\" x=\"36.6\" y=\"14.1\">e</tspan><tspan class=\"cls-41\" x=\"48.87\" y=\"14.1\">r</tspan></tspan></text><text class=\"cls-63\" transform=\"translate(1446.31 1168.38)\">E<tspan class=\"cls-64\" x=\"12.58\" y=\"0\">u</tspan><tspan class=\"cls-65\" x=\"24.96\" y=\"0\">p</tspan><tspan class=\"cls-66\" x=\"37.68\" y=\"0\">h</tspan><tspan class=\"cls-67\" x=\"50.09\" y=\"0\">r</tspan><tspan class=\"cls-68\" x=\"59.7\" y=\"0\">a</tspan><tspan class=\"cls-32\" x=\"71.55\" y=\"0\">t</tspan><tspan class=\"cls-39\" x=\"80.85\" y=\"0\">es</tspan><tspan class=\"cls-60\"><tspan x=\"24.89\" y=\"14.1\">R</tspan><tspan class=\"cls-61\" x=\"38.25\" y=\"14.1\">i</tspan><tspan class=\"cls-62\" x=\"46.16\" y=\"14.1\">v</tspan><tspan class=\"cls-33\" x=\"57.65\" y=\"14.1\">e</tspan><tspan class=\"cls-41\" x=\"69.92\" y=\"14.1\">r</tspan></tspan></text><circle class=\"cls-69\" cx=\"1222.82\" cy=\"1090.82\" r=\"2.97\"/><circle class=\"cls-69\" cx=\"1240.18\" cy=\"1076.85\" r=\"2.97\"/><circle class=\"cls-69\" cx=\"1290.84\" cy=\"1063.9\" r=\"2.97\"/><g id=\"_1\" data-name=\"1\"><circle class=\"cls-69\" cx=\"1262.05\" cy=\"979.46\" r=\"25.45\"/><text class=\"cls-70\" transform=\"translate(1254.59 991.66)\">1</text></g><g id=\"_2\" data-name=\"2\"><circle class=\"cls-69\" cx=\"1151.59\" cy=\"1552.79\" r=\"25.45\"/><text class=\"cls-70\" transform=\"translate(1141.19 1564.99)\">2</text></g><g id=\"_3\" data-name=\"3\"><circle class=\"cls-69\" cx=\"1064.89\" cy=\"1061.01\" r=\"25.45\"/><text class=\"cls-70\" transform=\"translate(1054.28 1073.22)\">3</text></g><g id=\"_4\" data-name=\"4\"><circle class=\"cls-69\" cx=\"1237.07\" cy=\"1221.99\" r=\"25.45\"/><text class=\"cls-70\" transform=\"translate(1226.63 1234.2)\">4</text></g><g id=\"_5\" data-name=\"5\"><circle class=\"cls-69\" cx=\"1305.05\" cy=\"1221.99\" r=\"25.45\"/><text class=\"cls-70\" transform=\"translate(1294.52 1234.2)\">5</text></g><g id=\"_6\" data-name=\"6\"><circle class=\"cls-69\" cx=\"1542.1\" cy=\"974.52\" r=\"25.45\"/><text class=\"cls-70\" transform=\"translate(1531.25 986.73)\">6</text></g><line class=\"cls-71\" x1=\"1299.92\" y1=\"1201.66\" x2=\"1240.18\" y2=\"1076.85\"/><line class=\"cls-71\" x1=\"1223.52\" y1=\"1091.49\" x2=\"1236.35\" y2=\"1200.67\"/><line class=\"cls-71\" x1=\"1519.66\" y1=\"982.52\" x2=\"1291.04\" y2=\"1064.25\"/></svg>", "objects": { "1": { "name": "Lion BIBRÛ", "tombstone": "Anatolian, Old Assyrian Trading Colony Period, early 2nd millennium BCE\nPainted terracotta\nFrom Kanesh (Kültepe, Turkey)\nMusée du Louvre, Paris, AM 1517\nErich Lessing/Art Resource, NY", "thumbnail": "Louvre1.jpg", "media": { "1": { "type": "image", "file": "Louvre1.jpg", "config": "none" } } }, "2": { "name": "Pitcher in the Form of a Hippopotamus", "tombstone": "Nubian, 1700–1550 BCE\nTerracotta\nFrom Tomb K 330 in the South Cemetery at Kerma (Sudan)\nMuseum of Fine Arts, Boston, Harvard University—Boston Museum of Fine Arts Expedition, 21.11804\n© 2018 Museum of Fine Arts, Boston", "thumbnail": "MFA2.jpg", "media": { "1": { "type": "image", "file": "MFA2.jpg", "config": "none" } } }, "3": { "name": "Bull Head Rhyton", "tombstone": "Minoan (Late Minoan IIIA:2), 14th–13th century BCE\nPainted terracotta\nFrom Karpathos (Greece)\nThe British Museum, London, Donated by W. R. Paton, 1887,0501.6 (A871)\n© The Trustees of the British Museum. All rights reserved    \n", "thumbnail": "BM2.jpg", "media": { "1": { "type": "image", "file": "BM2.jpg", "config": "none" } } }, "4": { "name": "Bull Rhyton", "tombstone": "Cypriot, 14th–13th century BCE\nPainted terracotta, Base Ring Ware\nFrom Tomb 15 at Maroni (Cyprus)\nThe British Museum, London, Excavated by the British Museum, 1898,1201.142 (A45)\n© The Trustees of the British Museum. All rights reserved    \n", "thumbnail": "BM3.jpg", "media": { "1": { "type": "image", "file": "BM3.jpg", "config": "none" } } }, "5": { "name": "Ram Head Cup", "tombstone": "Levantine, 14th–13th century BCE \nFrom Tomb 86 at Enkomi (Cyprus)\nFaience\nThe British Museum, London, Excavated by the Turner Bequest Excavations, 1897,0401.1212\n© The Trustees of the British Museum. All rights reserved    \n", "thumbnail": "BM1.jpg", "media": { "1": { "type": "image", "file": "BM1.jpg", "config": "none" } } }, "6": { "name": "Ram Head Rhyton", "tombstone": "Mycenaean (Late Helladic A:2), 14th–13th century BCE\nPainted terracotta\nFrom Ras Shamra–Ugarit (Minet el-Beida, Syria)\nMusée du Louvre, Paris, AO 19932\nErich Lessing/Art Resource, NY    \n", "thumbnail": "Louvre2.jpg", "media": { "1": { "type": "image", "file": "Louvre2.jpg", "config": "none" } } } } }, "2": { "id": "iron", "name": "The Iron Age", "dates": "1200–500 BCE", "overlay": "<svg id=\"_2_-_IRON\" data-name=\"2 - IRON\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 4096 2190\"><defs><style>.cls-1,.cls-100,.cls-25,.cls-31,.cls-54,.cls-75,.cls-8,.cls-80,.cls-89{font-size:13.27px;}.cls-1,.cls-54{fill:#939598;}.cls-1,.cls-103,.cls-54{font-family:NeutralStd-Regular, Neutral Std;}.cls-2{letter-spacing:0em;}.cls-3{letter-spacing:0em;}.cls-4{letter-spacing:-0.09em;}.cls-5{letter-spacing:-0.03em;}.cls-6{letter-spacing:0em;}.cls-7{letter-spacing:0em;}.cls-100,.cls-25,.cls-31,.cls-57,.cls-75,.cls-8,.cls-80,.cls-89,.cls-99{fill:#231f20;}.cls-100,.cls-25,.cls-31,.cls-57,.cls-75,.cls-8,.cls-80,.cls-89{font-family:NeutralStd-RegularItalic, Neutral Std;font-style:italic;}.cls-8{letter-spacing:0.31em;}.cls-9{letter-spacing:0.34em;}.cls-10{letter-spacing:0.34em;}.cls-11{letter-spacing:0.34em;}.cls-12{letter-spacing:0.34em;}.cls-13{letter-spacing:0.33em;}.cls-14{letter-spacing:0.33em;}.cls-15{letter-spacing:0.35em;}.cls-16{letter-spacing:0.35em;}.cls-17{letter-spacing:0.34em;}.cls-18{letter-spacing:0.33em;}.cls-19{letter-spacing:0.34em;}.cls-20{letter-spacing:0.35em;}.cls-21{letter-spacing:0.01em;}.cls-22{letter-spacing:-0.07em;}.cls-23{letter-spacing:0em;}.cls-24{letter-spacing:0em;}.cls-25{letter-spacing:0.35em;}.cls-26{letter-spacing:0.34em;}.cls-27{letter-spacing:0.34em;}.cls-28{letter-spacing:0.34em;}.cls-29{letter-spacing:0.34em;}.cls-30{letter-spacing:0.35em;}.cls-31{letter-spacing:0.34em;}.cls-32{letter-spacing:0.34em;}.cls-33{letter-spacing:0.35em;}.cls-34,.cls-80{letter-spacing:0.35em;}.cls-35{letter-spacing:0.34em;}.cls-36{letter-spacing:0.33em;}.cls-37{letter-spacing:0.33em;}.cls-38{letter-spacing:0.34em;}.cls-39{letter-spacing:0.34em;}.cls-40{letter-spacing:0em;}.cls-41{letter-spacing:0.02em;}.cls-42{letter-spacing:-0.01em;}.cls-43{letter-spacing:0em;}.cls-44{letter-spacing:-0.03em;}.cls-45{letter-spacing:-0.04em;}.cls-46{letter-spacing:0.01em;}.cls-47{letter-spacing:0em;}.cls-48{letter-spacing:-0.02em;}.cls-49,.cls-54{letter-spacing:-0.01em;}.cls-50{letter-spacing:-0.01em;}.cls-51{letter-spacing:-0.01em;}.cls-52{letter-spacing:0em;}.cls-53{letter-spacing:0.03em;}.cls-55{letter-spacing:0.02em;}.cls-56{letter-spacing:0em;}.cls-57{font-size:13.27px;letter-spacing:0.35em;}.cls-58{letter-spacing:0.34em;}.cls-59{letter-spacing:0.34em;}.cls-60{letter-spacing:0.35em;}.cls-61{letter-spacing:0.35em;}.cls-62{letter-spacing:0.34em;}.cls-63{letter-spacing:0.33em;}.cls-64{letter-spacing:0.34em;}.cls-65{letter-spacing:0em;}.cls-66{letter-spacing:-0.02em;}.cls-67{letter-spacing:-0.01em;}.cls-68{letter-spacing:0em;}.cls-69{letter-spacing:-0.02em;}.cls-70{letter-spacing:0em;}.cls-71{letter-spacing:0em;}.cls-72{letter-spacing:0.01em;}.cls-73{letter-spacing:-0.03em;}.cls-74{letter-spacing:0em;}.cls-75{letter-spacing:0.35em;}.cls-76{letter-spacing:0.34em;}.cls-77{letter-spacing:0.34em;}.cls-78{letter-spacing:0.35em;}.cls-79{letter-spacing:0.35em;}.cls-81{letter-spacing:0.35em;}.cls-82{letter-spacing:0.34em;}.cls-83{letter-spacing:0.34em;}.cls-84{letter-spacing:0.34em;}.cls-85{letter-spacing:0.34em;}.cls-86{letter-spacing:0.34em;}.cls-87{letter-spacing:0.35em;}.cls-88{letter-spacing:0.35em;}.cls-89{letter-spacing:0.36em;}.cls-90{letter-spacing:0.34em;}.cls-91{letter-spacing:0.34em;}.cls-92{letter-spacing:0.34em;}.cls-93{letter-spacing:0.35em;}.cls-94{letter-spacing:0.34em;}.cls-95{letter-spacing:0.34em;}.cls-96{letter-spacing:-0.02em;}.cls-97{letter-spacing:0em;}.cls-98{letter-spacing:-0.01em;}.cls-100{letter-spacing:0.34em;}.cls-101{letter-spacing:0.35em;}.cls-102{letter-spacing:0.35em;}.cls-103{font-size:33.17px;fill:#fff;letter-spacing:-0.02em;}.cls-104{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:1.18px;}</style></defs><title>iron</title><text class=\"cls-1\" transform=\"translate(1156.19 954.79)\"><tspan class=\"cls-2\">A</tspan><tspan class=\"cls-3\" x=\"9.62\" y=\"0\">N</tspan><tspan class=\"cls-4\" x=\"19.67\" y=\"0\">A</tspan><tspan class=\"cls-5\" x=\"28.16\" y=\"0\">T</tspan><tspan class=\"cls-6\" x=\"36.08\" y=\"0\">O</tspan><tspan class=\"cls-7\" x=\"46.56\" y=\"0\">L</tspan><tspan class=\"cls-3\" x=\"54.34\" y=\"0\">I</tspan><tspan x=\"58.14\" y=\"0\">A</tspan></text><text class=\"cls-8\" transform=\"translate(1446.04 1168.37)\">E<tspan class=\"cls-9\" x=\"12.58\" y=\"0\">u</tspan><tspan class=\"cls-10\" x=\"24.96\" y=\"0\">p</tspan><tspan class=\"cls-11\" x=\"37.68\" y=\"0\">h</tspan><tspan class=\"cls-12\" x=\"50.09\" y=\"0\">r</tspan><tspan class=\"cls-13\" x=\"59.7\" y=\"0\">a</tspan><tspan class=\"cls-14\" x=\"71.55\" y=\"0\">t</tspan><tspan class=\"cls-15\" x=\"80.85\" y=\"0\">es</tspan><tspan class=\"cls-16\"><tspan x=\"24.89\" y=\"14.1\">R</tspan><tspan class=\"cls-17\" x=\"38.25\" y=\"14.1\">i</tspan><tspan class=\"cls-18\" x=\"46.16\" y=\"14.1\">v</tspan><tspan class=\"cls-19\" x=\"57.65\" y=\"14.1\">e</tspan><tspan class=\"cls-20\" x=\"69.92\" y=\"14.1\">r</tspan></tspan></text><text class=\"cls-1\" transform=\"translate(1297.81 1147.13)\"><tspan class=\"cls-7\">L</tspan><tspan class=\"cls-21\" x=\"7.78\" y=\"0\">E</tspan><tspan class=\"cls-22\" x=\"16.37\" y=\"0\">V</tspan><tspan class=\"cls-23\" x=\"24.93\" y=\"0\">A</tspan><tspan class=\"cls-24\" x=\"34.56\" y=\"0\">N</tspan><tspan x=\"44.6\" y=\"0\">T</tspan></text><text class=\"cls-25\" transform=\"translate(1470.52 1082.73)\">T<tspan class=\"cls-26\" x=\"12.78\" y=\"0\">i</tspan><tspan class=\"cls-27\" x=\"20.73\" y=\"0\">g</tspan><tspan class=\"cls-28\" x=\"33.59\" y=\"0\">r</tspan><tspan class=\"cls-29\" x=\"43.17\" y=\"0\">i</tspan><tspan class=\"cls-30\" x=\"51.1\" y=\"0\">s</tspan><tspan class=\"cls-16\"><tspan x=\"3.84\" y=\"14.1\">R</tspan><tspan class=\"cls-17\" x=\"17.2\" y=\"14.1\">i</tspan><tspan class=\"cls-18\" x=\"25.1\" y=\"14.1\">v</tspan><tspan class=\"cls-19\" x=\"36.6\" y=\"14.1\">e</tspan><tspan class=\"cls-20\" x=\"48.87\" y=\"14.1\">r</tspan></tspan></text><text class=\"cls-31\" transform=\"translate(1627.65 1141.57)\">Z<tspan class=\"cls-32\" x=\"12.81\" y=\"0\">ag</tspan><tspan class=\"cls-12\" x=\"37.65\" y=\"0\">r</tspan><tspan class=\"cls-33\" x=\"47.26\" y=\"0\">o</tspan><tspan class=\"cls-15\" x=\"59.81\" y=\"0\">s</tspan><tspan class=\"cls-34\"><tspan x=\"-17.96\" y=\"14.1\">M</tspan><tspan class=\"cls-35\" x=\"-1.1\" y=\"14.1\">ou</tspan><tspan class=\"cls-36\" x=\"23.77\" y=\"14.1\">n</tspan><tspan class=\"cls-37\" x=\"36.07\" y=\"14.1\">t</tspan><tspan class=\"cls-38\" x=\"45.43\" y=\"14.1\">a</tspan><tspan class=\"cls-26\" x=\"57.41\" y=\"14.1\">i</tspan><tspan class=\"cls-39\" x=\"65.36\" y=\"14.1\">n</tspan><tspan class=\"cls-30\" x=\"77.77\" y=\"14.1\">s</tspan></tspan></text><text class=\"cls-1\" transform=\"translate(1471.22 960.81)\"><tspan class=\"cls-40\">U</tspan><tspan class=\"cls-41\" x=\"9.96\" y=\"0\">R</tspan><tspan class=\"cls-2\" x=\"19.38\" y=\"0\">A</tspan><tspan class=\"cls-42\" x=\"29.01\" y=\"0\">R</tspan><tspan class=\"cls-43\" x=\"38\" y=\"0\">T</tspan><tspan x=\"46.34\" y=\"0\">U</tspan></text><text class=\"cls-1\" transform=\"translate(1027.28 1322.59)\"><tspan class=\"cls-44\">E</tspan><tspan class=\"cls-45\" x=\"8.12\" y=\"0\">G</tspan><tspan class=\"cls-2\" x=\"17.87\" y=\"0\">Y</tspan><tspan class=\"cls-46\" x=\"26.63\" y=\"0\">P</tspan><tspan x=\"35.25\" y=\"0\">T</tspan></text><text class=\"cls-1\" transform=\"translate(1540.3 1450.05)\"><tspan class=\"cls-2\">A</tspan><tspan class=\"cls-41\" x=\"9.62\" y=\"0\">R</tspan><tspan class=\"cls-2\" x=\"19.05\" y=\"0\">A</tspan><tspan x=\"28.67\" y=\"0\">B</tspan><tspan class=\"cls-3\" x=\"38\" y=\"0\">I</tspan><tspan class=\"cls-2\" x=\"41.79\" y=\"0\">A</tspan><tspan x=\"51.42\" y=\"0\">N</tspan><tspan class=\"cls-47\" x=\"-7.77\" y=\"14.93\">P</tspan><tspan class=\"cls-48\" x=\"0.64\" y=\"14.93\">E</tspan><tspan class=\"cls-49\" x=\"8.85\" y=\"14.93\">NI</tspan><tspan class=\"cls-50\" x=\"22.58\" y=\"14.93\">N</tspan><tspan class=\"cls-51\" x=\"32.48\" y=\"14.93\">S</tspan><tspan class=\"cls-52\" x=\"41.44\" y=\"14.93\">U</tspan><tspan class=\"cls-53\" x=\"51.39\" y=\"14.93\">L</tspan><tspan x=\"59.61\" y=\"14.93\">A</tspan></text><text class=\"cls-54\" transform=\"translate(1782.58 1168.37)\">I<tspan class=\"cls-55\" x=\"3.74\" y=\"0\">R</tspan><tspan class=\"cls-23\" x=\"13.17\" y=\"0\">A</tspan><tspan class=\"cls-56\" x=\"22.79\" y=\"0\">N</tspan></text><text class=\"cls-57\" transform=\"matrix(1, 0.01, -0.01, 1, 1142.7, 1482.01)\">N<tspan class=\"cls-58\" x=\"14.45\" y=\"0\">i</tspan><tspan class=\"cls-59\" x=\"22.4\" y=\"0\">l</tspan><tspan class=\"cls-60\" x=\"30.39\" y=\"0\">e</tspan><tspan class=\"cls-61\"><tspan x=\"-5.99\" y=\"14.1\">R</tspan><tspan class=\"cls-62\" x=\"7.38\" y=\"14.1\">i</tspan><tspan class=\"cls-63\" x=\"15.28\" y=\"14.1\">v</tspan><tspan class=\"cls-64\" x=\"26.77\" y=\"14.1\">e</tspan><tspan class=\"cls-60\" x=\"39.04\" y=\"14.1\">r</tspan></tspan></text><text class=\"cls-1\" transform=\"translate(887.62 962.9)\"><tspan class=\"cls-65\">G</tspan><tspan class=\"cls-42\" x=\"10.22\" y=\"0\">R</tspan><tspan class=\"cls-66\" x=\"19.21\" y=\"0\">E</tspan><tspan class=\"cls-44\" x=\"27.41\" y=\"0\">E</tspan><tspan class=\"cls-67\" x=\"35.53\" y=\"0\">C</tspan><tspan x=\"45.24\" y=\"0\">E</tspan></text><text class=\"cls-1\" transform=\"translate(1403.09 1121.82)\"><tspan class=\"cls-68\">M</tspan><tspan class=\"cls-69\" x=\"12.47\" y=\"0\">E</tspan><tspan class=\"cls-70\" x=\"20.71\" y=\"0\">S</tspan><tspan class=\"cls-71\" x=\"29.73\" y=\"0\">O</tspan><tspan class=\"cls-72\" x=\"40.21\" y=\"0\">P</tspan><tspan class=\"cls-73\" x=\"48.78\" y=\"0\">O</tspan><tspan class=\"cls-4\" x=\"58.94\" y=\"0\">T</tspan><tspan class=\"cls-2\" x=\"66.12\" y=\"0\">A</tspan><tspan class=\"cls-74\" x=\"75.74\" y=\"0\">M</tspan><tspan class=\"cls-3\" x=\"88.21\" y=\"0\">I</tspan><tspan x=\"92\" y=\"0\">A</tspan></text><text class=\"cls-75\" transform=\"translate(1192.06 806.95)\">B<tspan class=\"cls-76\" x=\"13.74\" y=\"0\">l</tspan><tspan class=\"cls-77\" x=\"21.65\" y=\"0\">a</tspan><tspan class=\"cls-9\" x=\"33.66\" y=\"0\">c</tspan><tspan class=\"cls-15\" x=\"45.47\" y=\"0\">k </tspan><tspan class=\"cls-78\" x=\"65.31\" y=\"0\">S</tspan><tspan class=\"cls-79\" x=\"78.62\" y=\"0\">e</tspan><tspan class=\"cls-15\" x=\"90.91\" y=\"0\">a</tspan></text><text class=\"cls-80\" transform=\"translate(735.31 1107.83)\">M<tspan class=\"cls-81\" x=\"16.86\" y=\"0\">e</tspan><tspan class=\"cls-82\" x=\"29.25\" y=\"0\">d</tspan><tspan class=\"cls-83\" x=\"42.03\" y=\"0\">i</tspan><tspan class=\"cls-14\" x=\"50.02\" y=\"0\">t</tspan><tspan class=\"cls-19\" x=\"59.32\" y=\"0\">e</tspan><tspan class=\"cls-28\" x=\"71.59\" y=\"0\">r</tspan><tspan class=\"cls-84\" x=\"81.17\" y=\"0\">r</tspan><tspan class=\"cls-85\" x=\"90.78\" y=\"0\">a</tspan><tspan class=\"cls-86\" x=\"102.76\" y=\"0\">n</tspan><tspan class=\"cls-87\" x=\"115.2\" y=\"0\">e</tspan><tspan class=\"cls-85\" x=\"127.49\" y=\"0\">a</tspan><tspan class=\"cls-15\" x=\"139.47\" y=\"0\">n </tspan><tspan class=\"cls-88\" x=\"160\" y=\"0\">S</tspan><tspan class=\"cls-87\" x=\"173.31\" y=\"0\">e</tspan><tspan class=\"cls-20\" x=\"185.6\" y=\"0\">a</tspan></text><text class=\"cls-89\" transform=\"translate(1633.28 835.38)\">C<tspan class=\"cls-82\" x=\"14.28\" y=\"0\">a</tspan><tspan class=\"cls-90\" x=\"26.26\" y=\"0\">s</tspan><tspan class=\"cls-86\" x=\"37.45\" y=\"0\">p</tspan><tspan class=\"cls-91\" x=\"50.17\" y=\"0\">i</tspan><tspan class=\"cls-85\" x=\"58.1\" y=\"0\">a</tspan><tspan class=\"cls-15\" x=\"70.07\" y=\"0\">n</tspan><tspan class=\"cls-88\"><tspan x=\"22.45\" y=\"14.1\">S</tspan><tspan class=\"cls-87\" x=\"35.75\" y=\"14.1\">e</tspan><tspan class=\"cls-15\" x=\"48.04\" y=\"14.1\">a</tspan></tspan></text><text class=\"cls-89\" transform=\"translate(1479.01 824.58)\">C<tspan class=\"cls-92\" x=\"14.28\" y=\"0\">a</tspan><tspan class=\"cls-32\" x=\"26.2\" y=\"0\">u</tspan><tspan class=\"cls-93\" x=\"38.6\" y=\"0\">c</tspan><tspan class=\"cls-94\" x=\"50.54\" y=\"0\">a</tspan><tspan class=\"cls-95\" x=\"62.52\" y=\"0\">su</tspan><tspan class=\"cls-15\" x=\"86.03\" y=\"0\">s</tspan><tspan class=\"cls-34\"><tspan x=\"-4.85\" y=\"14.1\">M</tspan><tspan class=\"cls-35\" x=\"12.01\" y=\"14.1\">ou</tspan><tspan class=\"cls-36\" x=\"36.88\" y=\"14.1\">n</tspan><tspan class=\"cls-37\" x=\"49.18\" y=\"14.1\">t</tspan><tspan class=\"cls-38\" x=\"58.54\" y=\"14.1\">a</tspan><tspan class=\"cls-26\" x=\"70.52\" y=\"14.1\">i</tspan><tspan class=\"cls-39\" x=\"78.47\" y=\"14.1\">n</tspan><tspan class=\"cls-30\" x=\"90.88\" y=\"14.1\">s</tspan></tspan></text><text class=\"cls-1\" transform=\"translate(623.27 792.74)\"><tspan class=\"cls-21\">E</tspan><tspan class=\"cls-3\" x=\"8.59\" y=\"0\">T</tspan><tspan class=\"cls-96\" x=\"16.89\" y=\"0\">R</tspan><tspan class=\"cls-97\" x=\"25.78\" y=\"0\">U</tspan><tspan class=\"cls-24\" x=\"35.81\" y=\"0\">T</tspan><tspan class=\"cls-98\" x=\"44.11\" y=\"0\">R</tspan><tspan class=\"cls-3\" x=\"53.11\" y=\"0\">I</tspan><tspan x=\"56.9\" y=\"0\">A</tspan></text><circle class=\"cls-99\" cx=\"663.89\" cy=\"819.27\" r=\"2.97\"/><circle class=\"cls-99\" cx=\"1498.03\" cy=\"1103.87\" r=\"2.97\"/><circle class=\"cls-99\" cx=\"1730.72\" cy=\"1057.84\" r=\"2.97\"/><circle class=\"cls-99\" cx=\"1663.85\" cy=\"1081.97\" r=\"2.97\"/><circle class=\"cls-99\" cx=\"1720.71\" cy=\"1104.08\" r=\"2.97\"/><text class=\"cls-54\" transform=\"translate(1782.58 1168.37)\">I<tspan class=\"cls-55\" x=\"3.74\" y=\"0\">R</tspan><tspan class=\"cls-23\" x=\"13.17\" y=\"0\">A</tspan><tspan class=\"cls-56\" x=\"22.79\" y=\"0\">N</tspan></text><text class=\"cls-100\" transform=\"translate(1987.75 1572)\">Ar<tspan class=\"cls-85\" x=\"23.62\" y=\"0\">a</tspan><tspan class=\"cls-101\" x=\"35.59\" y=\"0\">b</tspan><tspan class=\"cls-91\" x=\"48.33\" y=\"0\">i</tspan><tspan class=\"cls-85\" x=\"56.26\" y=\"0\">a</tspan><tspan class=\"cls-15\" x=\"68.23\" y=\"0\">n </tspan><tspan class=\"cls-78\" x=\"88.77\" y=\"0\">S</tspan><tspan class=\"cls-102\" x=\"102.08\" y=\"0\">e</tspan><tspan class=\"cls-15\" x=\"114.37\" y=\"0\">a</tspan></text><g id=\"_1\" data-name=\"1\"><circle class=\"cls-99\" cx=\"1944.03\" cy=\"1005.91\" r=\"25.45\"/><text class=\"cls-103\" transform=\"translate(1936.56 1018.12)\">1</text></g><g id=\"_2\" data-name=\"2\"><circle class=\"cls-99\" cx=\"1944.03\" cy=\"1157.24\" r=\"25.45\"/><text class=\"cls-103\" transform=\"translate(1933.63 1169.44)\">2</text></g><g id=\"_3\" data-name=\"3\"><circle class=\"cls-99\" cx=\"1365.96\" cy=\"1078.76\" r=\"25.45\"/><text class=\"cls-103\" transform=\"translate(1355.35 1090.96)\">3</text></g><g id=\"_4\" data-name=\"4\"><circle class=\"cls-99\" cx=\"1944.03\" cy=\"1081.57\" r=\"25.45\"/><text class=\"cls-103\" transform=\"translate(1933.58 1093.78)\">4</text></g><g id=\"_5\" data-name=\"5\"><circle class=\"cls-99\" cx=\"966.17\" cy=\"975.11\" r=\"25.45\"/><text class=\"cls-103\" transform=\"translate(955.64 987.32)\">5</text></g><g id=\"_6\" data-name=\"6\"><circle class=\"cls-99\" cx=\"659.75\" cy=\"824.79\" r=\"25.45\"/><text class=\"cls-103\" transform=\"translate(648.9 837)\">6</text></g><line class=\"cls-104\" x1=\"1921.25\" y1=\"1009.79\" x2=\"1732.11\" y2=\"1057.37\"/><line class=\"cls-104\" x1=\"1920.93\" y1=\"1082.61\" x2=\"1665.06\" y2=\"1081.43\"/><line class=\"cls-104\" x1=\"1922.7\" y1=\"1154.57\" x2=\"1721.03\" y2=\"1104.53\"/><line class=\"cls-104\" x1=\"1388.92\" y1=\"1082.28\" x2=\"1498.03\" y2=\"1103.87\"/></svg>", "objects": { "1": { "name": "Vessel in the Form of a Hump-backed Bull", "tombstone": "Iranian, 1350–1000 BCE\nTerracotta\nAshmolean Museum of Art and Archaeology, University of Oxford, AN1964.347\n© Ashmolean Museum, University of Oxford", "thumbnail": "Ashmolean1.jpg", "media": { "1": { "type": "image", "file": "Ashmolean1.jpg", "config": "none" } } }, "2": { "name": "Beak-Spouted Pitcher", "tombstone": "Iranian, 9th–8th century BCE\nPainted terracotta\nHarvard Art Museums/Arthur M. Sackler Museum, Anonymous gift, 1937.12\n© President and Fellows of Harvard College\n", "thumbnail": "HAM1.jpg", "media": { "1": { "type": "image", "file": "HAM1.jpg", "config": "none" } } }, "3": { "name": "Fragmentary ram-headed beaker", "tombstone": "Neo-Assyrian, 8th–7th century BCE\nTerracotta\nFrom House 15 (Ass 8518, cE 6IV) at Ashur (Qalʿat Sherqat, Iraq)\nVorderasiatisches Museum, Staatliche Museen zu Berlin, VA 8831\n© Staatliche Museen zu Berlin - Vorderasiatisches Museum, Photo: Olaf M. Teßmer", "thumbnail": "Vorderasiatisches1.jpg", "media": { "1": { "type": "image", "file": "Vorderasiatisches1.jpg", "config": "none" } } }, "4": { "name": "Beaker with the forepart of a crested and winged lion", "tombstone": "Iranian, 6th century BCE\nGold\nMetropolitan Museum of Art, New York, Fletcher Fund, 1954, 54.3.3\n© The Metropolitan Museum of Art. Image source: Art Resource, NY", "thumbnail": "Met1.jpg", "media": { "1": { "type": "image", "file": "Met1.jpg", "config": "none" } } }, "5": { "name": "Boar-Shaped Cup", "tombstone": "Greek, Boeotian, 575–550 BCE\nTerracotta, black-figure technique\nAntikensammlung, Staatliche Museen zu Berlin, V.I. 3391\nbpk Bildagentur/Antikensammlung, Staatliche Museen, Berlin, Germany/Johaness Laurentius/Art Resource, NY", "thumbnail": "Antikensammlung1.jpg", "media": { "1": { "type": "image", "file": "Antikensammlung1.jpg", "config": "none" } } }, "6": { "name": "Beaker with the forepart of a winged ram", "tombstone": "Etruscan, 550–530 BCE\nTerracotta, bucchero\nFrom Tomb K 136, Crocifisso del Tufo necropolis, at Orvieto (Italy)\nMuseo Archeologico Nazionale di Orvieto, Italy, B 619, F 271, C 33, mag. 103, el. gen. 1326\nCourtesy of the Polo Museale dell'Umbria, Museo Archeologico Nazionale di Orvieto\n", "thumbnail": "Orvieto.jpg", "media": { "1": { "type": "image", "file": "Orvieto.jpg", "config": "none" } } } } }, "3": { "id": "greece", "name": "The Achaemenid Empire and Greece", "dates": "500–300 CE", "overlay": "<svg id=\"_3_-_GREECE\" data-name=\"3 - GREECE\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 4096 2190\"><defs><style>.cls-1,.cls-21,.cls-35,.cls-38,.cls-44,.cls-50,.cls-68{font-size:13.27px;}.cls-1,.cls-35{fill:#939598;}.cls-1,.cls-35,.cls-80,.cls-81{font-family:NeutralStd-Regular, Neutral Std;}.cls-2{letter-spacing:0em;}.cls-3{letter-spacing:0em;}.cls-4{letter-spacing:-0.09em;}.cls-5{letter-spacing:-0.03em;}.cls-6{letter-spacing:0em;}.cls-7{letter-spacing:0em;}.cls-8{letter-spacing:0em;}.cls-9{letter-spacing:-0.01em;}.cls-10{letter-spacing:-0.02em;}.cls-11{letter-spacing:-0.03em;}.cls-12{letter-spacing:-0.01em;}.cls-13{letter-spacing:0.01em;}.cls-14{letter-spacing:-0.02em;}.cls-15{letter-spacing:0em;}.cls-16{letter-spacing:0em;}.cls-17{letter-spacing:-0.01em;}.cls-18{letter-spacing:0em;}.cls-19{letter-spacing:0.02em;}.cls-20{letter-spacing:-0.03em;}.cls-21,.cls-38,.cls-44,.cls-50,.cls-68,.cls-76{fill:#231f20;}.cls-21,.cls-38,.cls-44,.cls-50,.cls-68{font-family:NeutralStd-RegularItalic, Neutral Std;font-style:italic;}.cls-21,.cls-56{letter-spacing:0.35em;}.cls-22{letter-spacing:0.35em;}.cls-23{letter-spacing:0.34em;}.cls-24{letter-spacing:0.34em;}.cls-25{letter-spacing:0.33em;}.cls-26{letter-spacing:0.34em;}.cls-27{letter-spacing:0.34em;}.cls-28{letter-spacing:0.34em;}.cls-29{letter-spacing:0.34em;}.cls-30{letter-spacing:0.34em;}.cls-31{letter-spacing:0.35em;}.cls-32{letter-spacing:0.35em;}.cls-33,.cls-38{letter-spacing:0.35em;}.cls-34{letter-spacing:0.35em;}.cls-35{letter-spacing:-0.01em;}.cls-36{letter-spacing:0em;}.cls-37{letter-spacing:0em;}.cls-39{letter-spacing:0.34em;}.cls-40{letter-spacing:0.34em;}.cls-41{letter-spacing:0.34em;}.cls-42{letter-spacing:0.29em;}.cls-43{letter-spacing:0.32em;}.cls-44{letter-spacing:0.35em;}.cls-45{letter-spacing:0.34em;}.cls-46{letter-spacing:0.34em;}.cls-47{letter-spacing:0.34em;}.cls-48{letter-spacing:0.35em;}.cls-49{letter-spacing:0.35em;}.cls-50{letter-spacing:0.36em;}.cls-51{letter-spacing:0.34em;}.cls-52{letter-spacing:0.34em;}.cls-53{letter-spacing:0.35em;}.cls-54{letter-spacing:0.34em;}.cls-55{letter-spacing:0.34em;}.cls-57{letter-spacing:0.34em;}.cls-58{letter-spacing:0.33em;}.cls-59{letter-spacing:0.33em;}.cls-60{letter-spacing:0.34em;}.cls-61{letter-spacing:0.34em;}.cls-62{letter-spacing:0.34em;}.cls-63{letter-spacing:0.35em;}.cls-64{letter-spacing:0em;}.cls-65{letter-spacing:-0.02em;}.cls-66{letter-spacing:0.03em;}.cls-67{letter-spacing:0em;}.cls-68{letter-spacing:0.35em;}.cls-69{letter-spacing:0.34em;}.cls-70{letter-spacing:0.34em;}.cls-71{letter-spacing:0.35em;}.cls-72{letter-spacing:0.34em;}.cls-73{letter-spacing:0.33em;}.cls-74{letter-spacing:0.34em;}.cls-75{letter-spacing:0.34em;}.cls-77{letter-spacing:-0.04em;}.cls-78{letter-spacing:0.01em;}.cls-79{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:2.37px;}.cls-80,.cls-81{font-size:33.17px;fill:#fff;}.cls-80{letter-spacing:-0.02em;}.cls-81{letter-spacing:-0.1em;}.cls-82{letter-spacing:-0.08em;}</style></defs><title>greece</title><text class=\"cls-1\" transform=\"translate(1155.05 953.65)\"><tspan class=\"cls-2\">A</tspan><tspan class=\"cls-3\" x=\"9.62\" y=\"0\">N</tspan><tspan class=\"cls-4\" x=\"19.67\" y=\"0\">A</tspan><tspan class=\"cls-5\" x=\"28.16\" y=\"0\">T</tspan><tspan class=\"cls-6\" x=\"36.08\" y=\"0\">O</tspan><tspan class=\"cls-7\" x=\"46.56\" y=\"0\">L</tspan><tspan class=\"cls-3\" x=\"54.34\" y=\"0\">I</tspan><tspan x=\"58.14\" y=\"0\">A</tspan></text><text class=\"cls-1\" transform=\"translate(890.58 937.73)\"><tspan class=\"cls-8\">G</tspan><tspan class=\"cls-9\" x=\"10.22\" y=\"0\">R</tspan><tspan class=\"cls-10\" x=\"19.21\" y=\"0\">E</tspan><tspan class=\"cls-11\" x=\"27.41\" y=\"0\">E</tspan><tspan class=\"cls-12\" x=\"35.53\" y=\"0\">C</tspan><tspan x=\"45.24\" y=\"0\">E</tspan></text><text class=\"cls-1\" transform=\"translate(623.27 792.74)\"><tspan class=\"cls-13\">E</tspan><tspan class=\"cls-3\" x=\"8.59\" y=\"0\">T</tspan><tspan class=\"cls-14\" x=\"16.89\" y=\"0\">R</tspan><tspan class=\"cls-15\" x=\"25.78\" y=\"0\">U</tspan><tspan class=\"cls-16\" x=\"35.81\" y=\"0\">T</tspan><tspan class=\"cls-17\" x=\"44.11\" y=\"0\">R</tspan><tspan class=\"cls-3\" x=\"53.11\" y=\"0\">I</tspan><tspan x=\"56.9\" y=\"0\">A</tspan></text><text class=\"cls-1\" transform=\"translate(933.68 829.69)\"><tspan class=\"cls-3\">T</tspan><tspan class=\"cls-18\" x=\"8.3\" y=\"0\">H</tspan><tspan class=\"cls-19\" x=\"18.36\" y=\"0\">R</tspan><tspan class=\"cls-20\" x=\"27.78\" y=\"0\">A</tspan><tspan class=\"cls-12\" x=\"37.02\" y=\"0\">C</tspan><tspan x=\"46.73\" y=\"0\">E</tspan></text><text class=\"cls-21\" transform=\"translate(735.31 1107.83)\">M<tspan class=\"cls-22\" x=\"16.86\" y=\"0\">e</tspan><tspan class=\"cls-23\" x=\"29.25\" y=\"0\">d</tspan><tspan class=\"cls-24\" x=\"42.03\" y=\"0\">i</tspan><tspan class=\"cls-25\" x=\"50.02\" y=\"0\">t</tspan><tspan class=\"cls-26\" x=\"59.32\" y=\"0\">e</tspan><tspan class=\"cls-27\" x=\"71.59\" y=\"0\">r</tspan><tspan class=\"cls-28\" x=\"81.17\" y=\"0\">r</tspan><tspan class=\"cls-29\" x=\"90.78\" y=\"0\">a</tspan><tspan class=\"cls-30\" x=\"102.76\" y=\"0\">n</tspan><tspan class=\"cls-31\" x=\"115.2\" y=\"0\">e</tspan><tspan class=\"cls-29\" x=\"127.49\" y=\"0\">a</tspan><tspan class=\"cls-32\" x=\"139.47\" y=\"0\">n </tspan><tspan class=\"cls-33\" x=\"160\" y=\"0\">S</tspan><tspan class=\"cls-31\" x=\"173.31\" y=\"0\">e</tspan><tspan class=\"cls-34\" x=\"185.6\" y=\"0\">a</tspan></text><text class=\"cls-35\" transform=\"translate(1782.59 1168.37)\">I<tspan class=\"cls-19\" x=\"3.74\" y=\"0\">R</tspan><tspan class=\"cls-36\" x=\"13.17\" y=\"0\">A</tspan><tspan class=\"cls-37\" x=\"22.79\" y=\"0\">N</tspan></text><text class=\"cls-38\" transform=\"translate(2242.9 1168.37)\">I<tspan class=\"cls-39\" x=\"8.32\" y=\"0\">n</tspan><tspan class=\"cls-40\" x=\"20.76\" y=\"0\">d</tspan><tspan class=\"cls-41\" x=\"33.47\" y=\"0\">u</tspan><tspan class=\"cls-32\" x=\"45.84\" y=\"0\">s </tspan><tspan class=\"cls-42\" x=\"65.16\" y=\"0\">V</tspan><tspan class=\"cls-29\" x=\"78.34\" y=\"0\">al</tspan><tspan class=\"cls-24\" x=\"98.29\" y=\"0\">l</tspan><tspan class=\"cls-43\" x=\"106.28\" y=\"0\">e</tspan><tspan class=\"cls-32\" x=\"118.27\" y=\"0\">y</tspan></text><text class=\"cls-44\" transform=\"translate(1192.06 806.95)\">B<tspan class=\"cls-45\" x=\"13.74\" y=\"0\">l</tspan><tspan class=\"cls-46\" x=\"21.65\" y=\"0\">a</tspan><tspan class=\"cls-47\" x=\"33.66\" y=\"0\">c</tspan><tspan class=\"cls-32\" x=\"45.47\" y=\"0\">k </tspan><tspan class=\"cls-48\" x=\"65.31\" y=\"0\">S</tspan><tspan class=\"cls-49\" x=\"78.62\" y=\"0\">e</tspan><tspan class=\"cls-32\" x=\"90.91\" y=\"0\">a</tspan></text><text class=\"cls-50\" transform=\"translate(1479.01 824.58)\">C<tspan class=\"cls-51\" x=\"14.28\" y=\"0\">a</tspan><tspan class=\"cls-52\" x=\"26.2\" y=\"0\">u</tspan><tspan class=\"cls-53\" x=\"38.6\" y=\"0\">c</tspan><tspan class=\"cls-54\" x=\"50.54\" y=\"0\">a</tspan><tspan class=\"cls-55\" x=\"62.52\" y=\"0\">su</tspan><tspan class=\"cls-32\" x=\"86.03\" y=\"0\">s</tspan><tspan class=\"cls-56\"><tspan x=\"-4.85\" y=\"14.1\">M</tspan><tspan class=\"cls-57\" x=\"12.01\" y=\"14.1\">ou</tspan><tspan class=\"cls-58\" x=\"36.88\" y=\"14.1\">n</tspan><tspan class=\"cls-59\" x=\"49.18\" y=\"14.1\">t</tspan><tspan class=\"cls-60\" x=\"58.54\" y=\"14.1\">a</tspan><tspan class=\"cls-61\" x=\"70.52\" y=\"14.1\">i</tspan><tspan class=\"cls-62\" x=\"78.47\" y=\"14.1\">n</tspan><tspan class=\"cls-63\" x=\"90.88\" y=\"14.1\">s</tspan></tspan></text><text class=\"cls-1\" transform=\"translate(1611.67 607.03)\"><tspan class=\"cls-64\">S</tspan><tspan class=\"cls-65\" x=\"9.02\" y=\"0\">C</tspan><tspan class=\"cls-66\" x=\"18.57\" y=\"0\">Y</tspan><tspan class=\"cls-3\" x=\"27.77\" y=\"0\">T</tspan><tspan class=\"cls-67\" x=\"36.07\" y=\"0\">H</tspan><tspan class=\"cls-3\" x=\"46.12\" y=\"0\">I</tspan><tspan x=\"49.91\" y=\"0\">A</tspan></text><text class=\"cls-68\" transform=\"translate(853.53 764.87)\">D<tspan class=\"cls-29\" x=\"14.25\" y=\"0\">a</tspan><tspan class=\"cls-69\" x=\"26.23\" y=\"0\">n</tspan><tspan class=\"cls-70\" x=\"38.59\" y=\"0\">u</tspan><tspan class=\"cls-32\" x=\"50.98\" y=\"0\">be</tspan><tspan class=\"cls-71\"><tspan x=\"10.71\" y=\"14.1\">R</tspan><tspan class=\"cls-72\" x=\"24.07\" y=\"14.1\">i</tspan><tspan class=\"cls-73\" x=\"31.98\" y=\"14.1\">v</tspan><tspan class=\"cls-26\" x=\"43.47\" y=\"14.1\">e</tspan><tspan class=\"cls-34\" x=\"55.74\" y=\"14.1\">r</tspan></tspan></text><text class=\"cls-50\" transform=\"translate(1633.28 835.38)\">C<tspan class=\"cls-23\" x=\"14.28\" y=\"0\">a</tspan><tspan class=\"cls-74\" x=\"26.26\" y=\"0\">s</tspan><tspan class=\"cls-30\" x=\"37.45\" y=\"0\">p</tspan><tspan class=\"cls-75\" x=\"50.17\" y=\"0\">i</tspan><tspan class=\"cls-29\" x=\"58.1\" y=\"0\">a</tspan><tspan class=\"cls-32\" x=\"70.07\" y=\"0\">n</tspan><tspan class=\"cls-33\"><tspan x=\"22.45\" y=\"14.1\">S</tspan><tspan class=\"cls-31\" x=\"35.75\" y=\"14.1\">e</tspan><tspan class=\"cls-32\" x=\"48.04\" y=\"14.1\">a</tspan></tspan></text><circle class=\"cls-76\" cx=\"976.97\" cy=\"989.48\" r=\"2.97\"/><text class=\"cls-1\" transform=\"translate(1027.28 1322.59)\"><tspan class=\"cls-11\">E</tspan><tspan class=\"cls-77\" x=\"8.12\" y=\"0\">G</tspan><tspan class=\"cls-2\" x=\"17.87\" y=\"0\">Y</tspan><tspan class=\"cls-78\" x=\"26.63\" y=\"0\">P</tspan><tspan x=\"35.25\" y=\"0\">T</tspan></text><circle class=\"cls-76\" cx=\"725.19\" cy=\"886.71\" r=\"2.97\"/><line class=\"cls-79\" x1=\"976.97\" y1=\"989.48\" x2=\"536.4\" y2=\"1083.48\"/><g id=\"_3\" data-name=\"3\"><circle class=\"cls-76\" cx=\"724.06\" cy=\"886.27\" r=\"25.45\"/><text class=\"cls-80\" transform=\"translate(713.45 898.48)\">3</text></g><g id=\"_4\" data-name=\"4\"><circle class=\"cls-76\" cx=\"1351.19\" cy=\"1024.47\" r=\"25.45\"/><text class=\"cls-80\" transform=\"translate(1340.74 1036.68)\">4</text></g><g id=\"_5\" data-name=\"5\"><circle class=\"cls-76\" cx=\"1176.76\" cy=\"1236.51\" r=\"25.45\"/><text class=\"cls-80\" transform=\"translate(1166.23 1248.71)\">5</text></g><g id=\"_6\" data-name=\"6\"><circle class=\"cls-76\" cx=\"1368.57\" cy=\"928.18\" r=\"25.45\"/><text class=\"cls-80\" transform=\"translate(1357.72 940.39)\">6</text></g><g id=\"_8\" data-name=\"8\"><circle class=\"cls-76\" cx=\"794.44\" cy=\"881.14\" r=\"25.45\"/><text class=\"cls-80\" transform=\"translate(783.83 893.34)\">8</text></g><g id=\"_1\" data-name=\"1\"><circle class=\"cls-76\" cx=\"518.51\" cy=\"1088.04\" r=\"25.45\"/><text class=\"cls-80\" transform=\"translate(511.04 1100.25)\">1</text></g><g id=\"_2\" data-name=\"2\"><circle class=\"cls-76\" cx=\"518.51\" cy=\"1146.38\" r=\"25.45\"/><text class=\"cls-80\" transform=\"translate(508.11 1158.59)\">2</text></g><g id=\"_7\" data-name=\"7\"><circle class=\"cls-76\" cx=\"518.51\" cy=\"1204.72\" r=\"25.45\"/><text class=\"cls-80\" transform=\"translate(509.29 1216.92)\">7</text></g><g id=\"_9\" data-name=\"9\"><circle class=\"cls-76\" cx=\"518.51\" cy=\"1263.06\" r=\"25.45\"/><text class=\"cls-80\" transform=\"translate(507.71 1275.26)\">9</text></g><g id=\"_10\" data-name=\"10\"><circle class=\"cls-76\" cx=\"1061.56\" cy=\"843.23\" r=\"25.45\"/><text class=\"cls-81\" transform=\"translate(1044.46 855.44)\">1<tspan class=\"cls-82\" x=\"11.52\" y=\"0\">0</tspan></text></g></svg>", "objects": { "1": { "name": "Eye Cup", "tombstone": "Greek, Attic, c. 530 BCE\nTerracotta, black-figure technique\nHarvard Art Museums/Arthur M. Sackler Museum, Bequest of Joseph C. Hoppin, 1925.30.19\n© President and Fellows of Harvard College", "thumbnail": "HAM3.jpg", "media": { "1": { "type": "spin", "file": null, "config": { "source": ["images/objects/spins/cup_animation_0001.png", "images/objects/spins/cup_animation_0002.png", "images/objects/spins/cup_animation_0003.png", "images/objects/spins/cup_animation_0004.png", "images/objects/spins/cup_animation_0005.png", "images/objects/spins/cup_animation_0006.png", "images/objects/spins/cup_animation_0007.png", "images/objects/spins/cup_animation_0008.png", "images/objects/spins/cup_animation_0009.png", "images/objects/spins/cup_animation_0010.png", "images/objects/spins/cup_animation_0011.png", "images/objects/spins/cup_animation_0012.png", "images/objects/spins/cup_animation_0013.png", "images/objects/spins/cup_animation_0014.png", "images/objects/spins/cup_animation_0015.png", "images/objects/spins/cup_animation_0016.png", "images/objects/spins/cup_animation_0017.png", "images/objects/spins/cup_animation_0018.png", "images/objects/spins/cup_animation_0019.png", "images/objects/spins/cup_animation_0020.png", "images/objects/spins/cup_animation_0021.png", "images/objects/spins/cup_animation_0022.png", "images/objects/spins/cup_animation_0023.png", "images/objects/spins/cup_animation_0024.png", "images/objects/spins/cup_animation_0025.png", "images/objects/spins/cup_animation_0026.png", "images/objects/spins/cup_animation_0027.png", "images/objects/spins/cup_animation_0028.png", "images/objects/spins/cup_animation_0029.png", "images/objects/spins/cup_animation_0030.png", "images/objects/spins/cup_animation_0031.png", "images/objects/spins/cup_animation_0032.png", "images/objects/spins/cup_animation_0033.png", "images/objects/spins/cup_animation_0034.png", "images/objects/spins/cup_animation_0035.png", "images/objects/spins/cup_animation_0036.png", "images/objects/spins/cup_animation_0037.png", "images/objects/spins/cup_animation_0038.png", "images/objects/spins/cup_animation_0039.png", "images/objects/spins/cup_animation_0040.png", "images/objects/spins/cup_animation_0041.png", "images/objects/spins/cup_animation_0042.png", "images/objects/spins/cup_animation_0043.png", "images/objects/spins/cup_animation_0044.png", "images/objects/spins/cup_animation_0045.png", "images/objects/spins/cup_animation_0046.png", "images/objects/spins/cup_animation_0047.png", "images/objects/spins/cup_animation_0048.png", "images/objects/spins/cup_animation_0049.png", "images/objects/spins/cup_animation_0050.png", "images/objects/spins/cup_animation_0051.png", "images/objects/spins/cup_animation_0052.png", "images/objects/spins/cup_animation_0053.png", "images/objects/spins/cup_animation_0054.png", "images/objects/spins/cup_animation_0055.png", "images/objects/spins/cup_animation_0056.png", "images/objects/spins/cup_animation_0057.png", "images/objects/spins/cup_animation_0058.png", "images/objects/spins/cup_animation_0059.png", "images/objects/spins/cup_animation_0060.png", "images/objects/spins/cup_animation_0061.png", "images/objects/spins/cup_animation_0062.png", "images/objects/spins/cup_animation_0063.png", "images/objects/spins/cup_animation_0064.png", "images/objects/spins/cup_animation_0065.png", "images/objects/spins/cup_animation_0066.png", "images/objects/spins/cup_animation_0067.png", "images/objects/spins/cup_animation_0068.png", "images/objects/spins/cup_animation_0069.png", "images/objects/spins/cup_animation_0070.png", "images/objects/spins/cup_animation_0071.png", "images/objects/spins/cup_animation_0072.png", "images/objects/spins/cup_animation_0073.png", "images/objects/spins/cup_animation_0074.png", "images/objects/spins/cup_animation_0075.png", "images/objects/spins/cup_animation_0076.png", "images/objects/spins/cup_animation_0077.png", "images/objects/spins/cup_animation_0078.png", "images/objects/spins/cup_animation_0079.png", "images/objects/spins/cup_animation_0080.png", "images/objects/spins/cup_animation_0081.png", "images/objects/spins/cup_animation_0082.png", "images/objects/spins/cup_animation_0083.png", "images/objects/spins/cup_animation_0084.png", "images/objects/spins/cup_animation_0085.png", "images/objects/spins/cup_animation_0086.png", "images/objects/spins/cup_animation_0087.png", "images/objects/spins/cup_animation_0088.png", "images/objects/spins/cup_animation_0089.png", "images/objects/spins/cup_animation_0090.png", "images/objects/spins/cup_animation_0091.png", "images/objects/spins/cup_animation_0092.png", "images/objects/spins/cup_animation_0093.png", "images/objects/spins/cup_animation_0094.png", "images/objects/spins/cup_animation_0095.png", "images/objects/spins/cup_animation_0096.png", "images/objects/spins/cup_animation_0097.png", "images/objects/spins/cup_animation_0098.png", "images/objects/spins/cup_animation_0099.png", "images/objects/spins/cup_animation_0100.png", "images/objects/spins/cup_animation_0101.png", "images/objects/spins/cup_animation_0102.png", "images/objects/spins/cup_animation_0103.png", "images/objects/spins/cup_animation_0104.png", "images/objects/spins/cup_animation_0105.png", "images/objects/spins/cup_animation_0106.png", "images/objects/spins/cup_animation_0107.png", "images/objects/spins/cup_animation_0108.png", "images/objects/spins/cup_animation_0109.png", "images/objects/spins/cup_animation_0110.png", "images/objects/spins/cup_animation_0111.png", "images/objects/spins/cup_animation_0112.png", "images/objects/spins/cup_animation_0113.png", "images/objects/spins/cup_animation_0114.png", "images/objects/spins/cup_animation_0115.png", "images/objects/spins/cup_animation_0116.png", "images/objects/spins/cup_animation_0117.png", "images/objects/spins/cup_animation_0118.png", "images/objects/spins/cup_animation_0119.png", "images/objects/spins/cup_animation_0120.png", "images/objects/spins/cup_animation_0121.png", "images/objects/spins/cup_animation_0122.png", "images/objects/spins/cup_animation_0123.png", "images/objects/spins/cup_animation_0124.png", "images/objects/spins/cup_animation_0125.png", "images/objects/spins/cup_animation_0126.png", "images/objects/spins/cup_animation_0127.png", "images/objects/spins/cup_animation_0128.png", "images/objects/spins/cup_animation_0129.png", "images/objects/spins/cup_animation_0130.png", "images/objects/spins/cup_animation_0131.png", "images/objects/spins/cup_animation_0132.png", "images/objects/spins/cup_animation_0133.png", "images/objects/spins/cup_animation_0134.png", "images/objects/spins/cup_animation_0135.png", "images/objects/spins/cup_animation_0136.png", "images/objects/spins/cup_animation_0137.png", "images/objects/spins/cup_animation_0138.png", "images/objects/spins/cup_animation_0139.png", "images/objects/spins/cup_animation_0140.png", "images/objects/spins/cup_animation_0141.png", "images/objects/spins/cup_animation_0142.png", "images/objects/spins/cup_animation_0143.png", "images/objects/spins/cup_animation_0144.png", "images/objects/spins/cup_animation_0145.png"] }, "sizeMode": "fit", "responsive": true, "frameTime": "240" } } }, "2": { "name": "Donkey Head Kantharos", "tombstone": "Greek, Attic, 520–500 BCE\nTerracotta, black-figure technique\nThe British Museum, London,\n1876,0328.5 (B378)\n© The Trustees of the British Museum. All rights reserved    ", "thumbnail": "BM5.jpg", "media": { "1": { "type": "image", "file": "BM5.jpg" } } }, "3": { "name": "Eagle Head Cup", "tombstone": "Greek, Attic, c. 500–470 BCE \nTerracotta\nBritish Museum, 1873,0820.274\n© The Trustees of the British Museum. All rights reserved", "thumbnail": "BM6.jpg", "media": { "1": { "type": "image", "file": "BM6.jpg" } } }, "4": { "name": "Horn-shaped rhyton with the head of a wild goat", "tombstone": "Anatolian or Iranian, 5th century BCE\nTerracotta\nFrom a tomb at Deve Hüyük (Turkey)\nAshmolean Museum of Art and Archaeology, University of Oxford, AN1913.636\n© Ashmolean Museum, University of Oxford", "thumbnail": "Ashmolean2.jpg", "media": { "1": { "type": "image", "file": "Ashmolean2.jpg" } } }, "5": { "name": "Rhyton with the Forepart in the Shape of a Lion with Prey", "tombstone": "Achaemenid, probably Egyptian, 5th–4th century BCE\nFaience\nMusée du Louvre, Paris, Collection Clot Bey, E 931\n© Musée du Louvre, Dist. RMN-Grand Palais/George Poncet/Art Resource, NY\n", "thumbnail": "Louvre3.jpg", "media": { "1": { "type": "image", "file": "Louvre3.jpg" } } }, "6": { "name": "Rhyton with the Forepart of a Griffin", "tombstone": "Achaemenid, 5th–4th century BCE\nSilver, partially gilded\nThe British Museum, London, Bequeathed by Sir Augustus Wollaston Franks, 1897,1231.178 (124081)\n© The Trustees of the British Museum. All rights reserved", "thumbnail": "BM4.jpg", "media": { "1": { "type": "image", "file": "BM4.jpg" } } }, "7": { "name": "Donkey head mug", "tombstone": "Greek, Attic, c. 480 BCE\nTerracotta, red-figure technique\nMuseum of Fine Arts, Boston, Francis Bartlett Donation of 1900, 03.787\n© 2018 Museum of Fine Arts, Boston", "thumbnail": "MFA4.jpg", "media": { "1": { "type": "image", "file": "MFA4.jpg" } } }, "8": { "name": "Griffin Head Mug", "tombstone": "Greek, South Italian, Apulian, second half 4th century BCE\nTerracotta\nFrom Ruvo (Italy)\nMuseum of Fine Arts, Boston, Henry Lillie Pierce Fund, 00.361\n© 2018 Museum of Fine Arts, Boston\n", "thumbnail": "MFA6.jpg", "media": { "1": { "type": "image", "file": "MFA6.jpg" } } }, "9": { "name": "Bell krater depicting a symposium", "tombstone": "Attributed to the Philocleon Reverse Group\nGreek, Attic, c. 390 BCE\nTerracotta, red-figure technique\nKunsthistorisches Museum, Vienna\n© KHM-Museumsverband", "thumbnail": "KHM1.jpg", "media": { "1": { "type": "video", "file": "drinking.mp4" } } }, "10": { "name": "Deer head rhyton depicting griffins attacking a bull", "tombstone": "Probably Black Sea area, c. 350 BCE\nSilver, partially gilded\nFrom the Golyamata Mogila, Zlatinitsa (Bulgaria)     \nNational Institute of Archaeology with Museum, Sofia, Bulgaria, 8620\n© Photos: Krasimir Georgiev, National Archaeologial Institute with Museum at the Bulgarian Academy of Sciences", "thumbnail": "NAIM2.jpg", "media": { "1": { "type": "image", "file": "NAIM2.jpg" } } } } }, "4": { "id": "roman", "name": "The Hellenistic, Roman, and Parthian Empires", "dates": "300 BCE-300 CE", "overlay": "<svg id=\"Bronze\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 3840 2160\"><defs><style>.cls-1{font-size:54px;fill:#fff;font-family:MyriadPro-Regular, Myriad Pro;}</style></defs><title>bronze</title><g id=\"_1\" data-name=\"1\"><circle cx=\"1628.25\" cy=\"993.25\" r=\"36.25\"/><text class=\"cls-1\" transform=\"translate(1613 1010.34)\">1</text></g></svg>", "objects": { "1": { "name": "Poopship", "tombstone": "Persepolis: amphora with zoomorphic handles sam et faccatus doloreperionse quassimilit omni debitat ibusdaecus eationsequae cusam,inciderchici a duntiis sit eum net quodit, es re lam, se volorendel eate", "thumbnail": "poopship_thumb.jpg", "media": { "1": { "type": "image", "file": "poopship.jpg", "config": "none" }, "2": { "type": "image", "file": "poopship.jpg", "config": "none" } } } } }, "5": { "id": "china", "name": "From the Sasanian Empire to China", "dates": "300-800 CE", "overlay": "<svg id=\"Bronze\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 3840 2160\"><defs><style>.cls-1{font-size:54px;fill:#fff;font-family:MyriadPro-Regular, Myriad Pro;}</style></defs><title>bronze</title><g id=\"_1\" data-name=\"1\"><circle cx=\"1628.25\" cy=\"993.25\" r=\"36.25\"/><text class=\"cls-1\" transform=\"translate(1613 1010.34)\">1</text></g></svg>", "objects": { "1": { "name": "Poopship", "tombstone": "Persepolis: amphora with zoomorphic handles sam et faccatus doloreperionse quassimilit omni debitat ibusdaecus eationsequae cusam,inciderchici a duntiis sit eum net quodit, es re lam, se volorendel eate", "thumbnail": "poopship_thumb.jpg", "media": { "1": { "type": "image", "file": "poopship.jpg", "config": "none" }, "2": { "type": "image", "file": "poopship.jpg", "config": "none" } } } } } } };
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -15273,7 +15273,7 @@ Vue.component('era-selector', __webpack_require__(81));
 Vue.component('map-overlay', __webpack_require__(87));
 Vue.component('thumbstrip', __webpack_require__(92));
 Vue.component('object-modal', __webpack_require__(97));
-Vue.component('object-spin', __webpack_require__(106));
+Vue.component('object-spin', __webpack_require__(102));
 
 var app = new Vue({
     el: '#app',
@@ -15306,9 +15306,9 @@ window.Popper = __webpack_require__(10).default;
  */
 
 try {
-  window.$ = window.jQuery = __webpack_require__(18);
+  window.$ = window.jQuery = __webpack_require__(11);
 
-  __webpack_require__(56);
+  __webpack_require__(30);
 } catch (e) {}
 
 /**
@@ -15317,8 +15317,8 @@ try {
  * CSRF token as a header based on the value of the "XSRF" token cookie.
  */
 
-window.axios = __webpack_require__(57);
-window.SpriteSpin = __webpack_require__(30);
+window.axios = __webpack_require__(31);
+window.SpriteSpin = __webpack_require__(50);
 
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
@@ -32496,1951 +32496,6 @@ module.exports = function(module) {
 
 /***/ }),
 /* 30 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Utils", function() { return Utils; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(0);
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Api", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["a"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "extendApi", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["n"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "instances", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["u"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "applyEvents", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["c"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "boot", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["f"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "create", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["h"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "createOrUpdate", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["i"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "destroy", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["k"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "namespace", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["w"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "eventNames", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["l"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "callbackNames", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["g"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "eventsToPrevent", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["m"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "defaults", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["j"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "getInputState", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["p"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "updateInput", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["D"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "resetInput", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["z"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "applyLayout", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["d"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "getPlaybackState", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["q"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "updateFrame", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["C"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "stopAnimation", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["B"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "applyAnimation", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["b"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "startAnimation", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["A"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "registerPlugin", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["y"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "registerModule", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["x"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "getPlugin", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["r"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "applyPlugins", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["e"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "getState", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["t"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "getPluginState", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["s"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "is", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["v"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "flag", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["o"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(1);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "sourceArray", function() { return __WEBPACK_IMPORTED_MODULE_1__utils__["sourceArray"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__api__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__plugins__ = __webpack_require__(43);
-
-
-
-var Utils = __WEBPACK_IMPORTED_MODULE_1__utils__;
-
-
-//# sourceMappingURL=index.js.map
-
-/***/ }),
-/* 31 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return $; });
-var $ = window.jQuery || window.$;
-//# sourceMappingURL=jquery.js.map
-
-/***/ }),
-/* 32 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (immutable) */ __webpack_exports__["a"] = getCursorPosition;
-function getCursorPosition(event) {
-    var touches = event.touches;
-    var source = event;
-    // jQuery Event normalization does not preserve the 'event.touches'
-    // try to grab touches from the original event
-    if (event.touches === undefined && event.originalEvent !== undefined) {
-        touches = event.originalEvent.touches;
-    }
-    // get current touch or mouse position
-    if (touches !== undefined && touches.length > 0) {
-        source = touches[0];
-    }
-    return {
-        x: source.clientX || 0,
-        y: source.clientY || 0
-    };
-}
-//# sourceMappingURL=cursor.js.map
-
-/***/ }),
-/* 33 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (immutable) */ __webpack_exports__["d"] = getOuterSize;
-/* harmony export (immutable) */ __webpack_exports__["a"] = getComputedSize;
-/* harmony export (immutable) */ __webpack_exports__["c"] = getInnerSize;
-/* harmony export (immutable) */ __webpack_exports__["b"] = getInnerLayout;
-/**
- *
- */
-function getOuterSize(data) {
-    var width = Math.floor(data.width || data.frameWidth || data.target.innerWidth());
-    var height = Math.floor(data.height || data.frameHeight || data.target.innerHeight());
-    return {
-        aspect: width / height,
-        height: height,
-        width: width
-    };
-}
-function getComputedSize(data) {
-    var size = getOuterSize(data);
-    if (typeof window.getComputedStyle !== 'function') {
-        return size;
-    }
-    var style = window.getComputedStyle(data.target[0]);
-    if (!style.width) {
-        return size;
-    }
-    size.width = Math.floor(Number(style.width.replace('px', '')));
-    size.height = Math.floor(size.width / size.aspect);
-    return size;
-}
-/**
- *
- */
-function getInnerSize(data) {
-    var width = Math.floor(data.frameWidth || data.width || data.target.innerWidth());
-    var height = Math.floor(data.frameHeight || data.height || data.target.innerHeight());
-    return {
-        aspect: width / height,
-        height: height,
-        width: width
-    };
-}
-/**
- *
- */
-function getInnerLayout(mode, inner, outer) {
-    // get mode
-    var isFit = mode === 'fit';
-    var isFill = mode === 'fill';
-    var isMatch = mode === 'stretch';
-    // resulting layout
-    var layout = {
-        width: '100%',
-        height: '100%',
-        top: 0,
-        left: 0,
-        bottom: 0,
-        right: 0,
-        position: 'absolute',
-        overflow: 'hidden'
-    };
-    // no calculation here
-    if (!mode || isMatch) {
-        return layout;
-    }
-    // get size and aspect
-    var aspectIsGreater = inner.aspect >= outer.aspect;
-    // mode == original
-    var width = inner.width;
-    var height = inner.height;
-    // keep aspect ratio but fit/fill into container
-    if (isFit && aspectIsGreater || isFill && !aspectIsGreater) {
-        width = outer.width;
-        height = outer.width / inner.aspect;
-    }
-    if (isFill && aspectIsGreater || isFit && !aspectIsGreater) {
-        height = outer.height;
-        width = outer.height * inner.aspect;
-    }
-    // floor the numbers
-    width = Math.floor(width);
-    height = Math.floor(height);
-    // position in center
-    layout.width = width;
-    layout.height = height;
-    layout.top = Math.floor((outer.height - height) / 2);
-    layout.left = Math.floor((outer.width - width) / 2);
-    layout.right = layout.left;
-    layout.bottom = layout.top;
-    return layout;
-}
-//# sourceMappingURL=layout.js.map
-
-/***/ }),
-/* 34 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (immutable) */ __webpack_exports__["b"] = measure;
-/* harmony export (immutable) */ __webpack_exports__["a"] = findSpecs;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__detectSubsampling__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__naturalSize__ = __webpack_require__(14);
-
-
-/**
- * Measures the image frames that are used in the given data object
- */
-function measure(images, options) {
-    if (images.length === 1) {
-        return [measureSheet(images[0], options)];
-    }
-    else if (options.framesX && options.framesY) {
-        return measureMutipleSheets(images, options);
-    }
-    else {
-        return measureFrames(images, options);
-    }
-}
-function measureSheet(image, options) {
-    var result = { id: 0, sprites: [] };
-    measureImage(image, options, result);
-    var frames = options.frames;
-    var framesX = Number(options.framesX) || frames;
-    var framesY = Math.ceil(frames / framesX);
-    var frameWidth = Math.floor(result.width / framesX);
-    var frameHeight = Math.floor(result.height / framesY);
-    var divisor = result.isSubsampled ? 2 : 1;
-    for (var i = 0; i < frames; i++) {
-        var x = (i % framesX) * frameWidth;
-        var y = Math.floor(i / framesX) * frameHeight;
-        result.sprites.push({
-            id: i,
-            x: x, y: y,
-            width: frameWidth,
-            height: frameHeight,
-            sampledX: x / divisor,
-            sampledY: y / divisor,
-            sampledWidth: frameWidth / divisor,
-            sampledHeight: frameHeight / divisor
-        });
-    }
-    return result;
-}
-function measureFrames(images, options) {
-    var result = [];
-    for (var id = 0; id < images.length; id++) {
-        // TODO: optimize
-        // dont measure images with same size twice
-        var sheet = measureSheet(images[id], { frames: 1, framesX: 1, detectSubsampling: options.detectSubsampling });
-        sheet.id = id;
-        result.push(sheet);
-    }
-    return result;
-}
-function measureMutipleSheets(images, options) {
-    var result = [];
-    for (var id = 0; id < images.length; id++) {
-        // TODO: optimize
-        // dont measure images with same size twice
-        var sheet = measureSheet(images[id], {
-            frames: undefined,
-            framesX: options.framesX,
-            framesY: options.framesY,
-            detectSubsampling: options.detectSubsampling
-        });
-        sheet.id = id;
-        result.push(sheet);
-    }
-    return result;
-}
-function measureImage(image, options, result) {
-    var size = Object(__WEBPACK_IMPORTED_MODULE_1__naturalSize__["a" /* naturalSize */])(image);
-    result.isSubsampled = options.detectSubsampling && Object(__WEBPACK_IMPORTED_MODULE_0__detectSubsampling__["a" /* detectSubsampling */])(image, size.width, size.height);
-    result.width = size.width;
-    result.height = size.height;
-    result.sampledWidth = size.width / (result.isSubsampled ? 2 : 1);
-    result.sampledHeight = size.height / (result.isSubsampled ? 2 : 1);
-    return result;
-}
-function findSpecs(metrics, frames, frame, lane) {
-    var spriteId = lane * frames + frame;
-    var sheetId = 0;
-    var sprite = null;
-    var sheet = null;
-    while (true) {
-        sheet = metrics[sheetId];
-        if (!sheet) {
-            break;
-        }
-        if (spriteId >= sheet.sprites.length) {
-            spriteId -= sheet.sprites.length;
-            sheetId++;
-            continue;
-        }
-        sprite = sheet.sprites[spriteId];
-        break;
-    }
-    return { sprite: sprite, sheet: sheet };
-}
-//# sourceMappingURL=measure.js.map
-
-/***/ }),
-/* 35 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (immutable) */ __webpack_exports__["a"] = preload;
-function indexOf(element, arr) {
-    for (var i = 0; i < arr.length; i++) {
-        if (arr[i] === element) {
-            return i;
-        }
-    }
-}
-function noop() {
-    //
-}
-function preload(opts) {
-    var src;
-    var input = opts.source;
-    src = typeof input === 'string' ? [input] : input;
-    // const src: string[] =  ? [opts.source] : opts.source
-    var images = [];
-    var targetCount = (opts.preloadCount || src.length);
-    var onInitiated = opts.initiated || noop;
-    var onProgress = opts.progress || noop;
-    var onComplete = opts.complete || noop;
-    var count = 0;
-    var completed = false;
-    var firstLoaded = false;
-    var tick = function () {
-        count += 1;
-        onProgress({
-            index: indexOf(this, images),
-            loaded: count,
-            total: src.length,
-            percent: Math.round((count / src.length) * 100)
-        });
-        firstLoaded = firstLoaded || (this === images[0]);
-        if (firstLoaded && !completed && (count >= targetCount)) {
-            completed = true;
-            onComplete(images);
-        }
-    };
-    for (var _i = 0, src_1 = src; _i < src_1.length; _i++) {
-        var url = src_1[_i];
-        var img = new Image();
-        // push result
-        images.push(img);
-        // bind logic, dont care about abort/errors
-        img.onload = img.onabort = img.onerror = tick;
-        // begin load
-        img.src = url;
-    }
-    onInitiated(images);
-}
-//# sourceMappingURL=preload.js.map
-
-/***/ }),
-/* 36 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (immutable) */ __webpack_exports__["a"] = sourceArray;
-function padNumber(num, length, pad) {
-    var result = String(num);
-    while (result.length < length) {
-        result = String(pad) + result;
-    }
-    return result;
-}
-/**
- * Generates an array of source strings
- *
- * @remarks
- * Takes a template string and generates an array of strings by interpolating {lane} and {frame} placeholders.
- *
- * ```
- * sourceArray('http://example.com/image_{frame}.jpg, { frame: [1, 3], digits: 2 })
- * // gives:
- * // [ 'http://example.com/image_01.jpg', 'http://example.com/image_02.jpg', 'http://example.com/image_03.jpg' ]
- *
- * sourceArray('http://example.com/image_FRAME.jpg, { frame: [1, 3], digits: 2, framePlacer: 'FRAME' })
- * // gives:
- * // [ 'http://example.com/image_01.jpg', 'http://example.com/image_02.jpg', 'http://example.com/image_03.jpg' ]
- * ```
- *
- * @param template - The template string
- * @param opts - Interpolation options
- *
- * @public
- */
-function sourceArray(template, opts) {
-    var digits = opts.digits || 2;
-    var lPlacer = opts.lanePlacer || '{lane}';
-    var fPlacer = opts.framePlacer || '{frame}';
-    var fStart = 0;
-    var fEnd = 0;
-    if (opts.frame) {
-        fStart = opts.frame[0];
-        fEnd = opts.frame[1];
-    }
-    var lStart = 0;
-    var lEnd = 0;
-    if (opts.lane) {
-        lStart = opts.lane[0];
-        lEnd = opts.lane[1];
-    }
-    var result = [];
-    for (var lane = lStart; lane <= lEnd; lane += 1) {
-        for (var frame = fStart; frame <= fEnd; frame += 1) {
-            result.push(template
-                .replace(lPlacer, padNumber(lane, digits, '0'))
-                .replace(fPlacer, padNumber(frame, digits, '0')));
-        }
-    }
-    return result;
-}
-//# sourceMappingURL=sourceArray.js.map
-
-/***/ }),
-/* 37 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (immutable) */ __webpack_exports__["f"] = noop;
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return log; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return warn; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return error; });
-/* harmony export (immutable) */ __webpack_exports__["i"] = toArray;
-/* harmony export (immutable) */ __webpack_exports__["b"] = clamp;
-/* harmony export (immutable) */ __webpack_exports__["l"] = wrap;
-/* harmony export (immutable) */ __webpack_exports__["h"] = prevent;
-/* harmony export (immutable) */ __webpack_exports__["a"] = bind;
-/* harmony export (immutable) */ __webpack_exports__["j"] = unbind;
-/* harmony export (immutable) */ __webpack_exports__["d"] = isFunction;
-/* harmony export (immutable) */ __webpack_exports__["g"] = pixelRatio;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core_constants__ = __webpack_require__(4);
-
-function noop() {
-    // noop
-}
-function wrapConsole(type) {
-    return console && console[type] ? function () {
-        var args = [];
-        for (var _i = 0; _i < arguments.length; _i++) {
-            args[_i] = arguments[_i];
-        }
-        return console.log.apply(console, args);
-    } : noop;
-}
-var log = wrapConsole('log');
-var warn = wrapConsole('warn');
-var error = wrapConsole('error');
-function toArray(value) {
-    return Array.isArray(value) ? value : [value];
-}
-/**
- * clamps the given value by the given min and max values
- */
-function clamp(value, min, max) {
-    return (value > max ? max : (value < min ? min : value));
-}
-/**
- *
- */
-function wrap(value, min, max, size) {
-    while (value > max) {
-        value -= size;
-    }
-    while (value < min) {
-        value += size;
-    }
-    return value;
-}
-/**
- * prevents default action on the given event
- */
-function prevent(e) {
-    e.preventDefault();
-    return false;
-}
-/**
- * Binds on the given target and event the given function.
- * The SpriteSpin namespace is attached to the event name
- */
-function bind(target, event, func) {
-    if (func) {
-        target.bind(event + '.' + __WEBPACK_IMPORTED_MODULE_0__core_constants__["e" /* namespace */], function (e) {
-            func.apply(target, [e, target.spritespin('data')]);
-        });
-    }
-}
-/**
- * Unbinds all SpriteSpin events from given target element
- */
-function unbind(target) {
-    target.unbind('.' + __WEBPACK_IMPORTED_MODULE_0__core_constants__["e" /* namespace */]);
-}
-/**
- * Checks if given object is a function
- */
-function isFunction(fn) {
-    return typeof fn === 'function';
-}
-function pixelRatio(context) {
-    var devicePixelRatio = window.devicePixelRatio || 1;
-    var backingStoreRatio = context.webkitBackingStorePixelRatio ||
-        context.mozBackingStorePixelRatio ||
-        context.msBackingStorePixelRatio ||
-        context.oBackingStorePixelRatio ||
-        context.backingStorePixelRatio || 1;
-    return devicePixelRatio / backingStoreRatio;
-}
-//# sourceMappingURL=utils.js.map
-
-/***/ }),
-/* 38 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (immutable) */ __webpack_exports__["a"] = getInputState;
-/* harmony export (immutable) */ __webpack_exports__["c"] = updateInput;
-/* harmony export (immutable) */ __webpack_exports__["b"] = resetInput;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__state__ = __webpack_require__(8);
-
-
-/**
- * Gets the current input state
- *
- * @public
- * @param data - The SpriteSpin instance data
- */
-function getInputState(data) {
-    return Object(__WEBPACK_IMPORTED_MODULE_1__state__["c" /* getState */])(data, 'input');
-}
-/**
- * Updates the input state using a mous or touch event.
- *
- * @public
- * @param e - The input event
- * @param data - The SpriteSpin instance data
- */
-function updateInput(e, data) {
-    var cursor = Object(__WEBPACK_IMPORTED_MODULE_0__utils__["getCursorPosition"])(e);
-    var state = getInputState(data);
-    // cache positions from previous frame
-    state.oldX = state.currentX;
-    state.oldY = state.currentY;
-    state.currentX = cursor.x;
-    state.currentY = cursor.y;
-    // Fix old position.
-    if (state.oldX === undefined || state.oldY === undefined) {
-        state.oldX = state.currentX;
-        state.oldY = state.currentY;
-    }
-    // Cache the initial click/touch position and store the frame number at which the click happened.
-    // Useful for different behavior implementations. This must be restored when the click/touch is released.
-    if (state.startX === undefined || state.startY === undefined) {
-        state.startX = state.currentX;
-        state.startY = state.currentY;
-        state.clickframe = data.frame;
-        state.clicklane = data.lane;
-    }
-    // Calculate the vector from start position to current pointer position.
-    state.dX = state.currentX - state.startX;
-    state.dY = state.currentY - state.startY;
-    // Calculate the vector from last frame position to current pointer position.
-    state.ddX = state.currentX - state.oldX;
-    state.ddY = state.currentY - state.oldY;
-    // Normalize vectors to range [-1:+1]
-    state.ndX = state.dX / data.target.innerWidth();
-    state.ndY = state.dY / data.target.innerHeight();
-    state.nddX = state.ddX / data.target.innerWidth();
-    state.nddY = state.ddY / data.target.innerHeight();
-}
-/**
- * Resets the input state.
- *
- * @public
- */
-function resetInput(data) {
-    var input = getInputState(data);
-    input.startX = input.startY = undefined;
-    input.currentX = input.currentY = undefined;
-    input.oldX = input.oldY = undefined;
-    input.dX = input.dY = 0;
-    input.ddX = input.ddY = 0;
-    input.ndX = input.ndY = 0;
-    input.nddX = input.nddY = 0;
-}
-//# sourceMappingURL=input.js.map
-
-/***/ }),
-/* 39 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__api__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__boot__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__constants__ = __webpack_require__(4);
-
-
-
-
-function extension(option, value) {
-    var $target = Object(__WEBPACK_IMPORTED_MODULE_0__utils__["$"])(this);
-    if (option === 'data') {
-        return $target.data(__WEBPACK_IMPORTED_MODULE_3__constants__["e" /* namespace */]);
-    }
-    if (option === 'api') {
-        var data = $target.data(__WEBPACK_IMPORTED_MODULE_3__constants__["e" /* namespace */]);
-        data.api = data.api || new __WEBPACK_IMPORTED_MODULE_1__api__["a" /* Api */](data);
-        return data.api;
-    }
-    if (option === 'destroy') {
-        return $target.each(function () {
-            var data = $target.data(__WEBPACK_IMPORTED_MODULE_3__constants__["e" /* namespace */]);
-            if (data) {
-                Object(__WEBPACK_IMPORTED_MODULE_2__boot__["e" /* destroy */])(data);
-            }
-        });
-    }
-    if (arguments.length === 2 && typeof option === 'string') {
-        option = (_a = {}, _a[option] = value, _a);
-    }
-    if (typeof option === 'object') {
-        return Object(__WEBPACK_IMPORTED_MODULE_2__boot__["d" /* createOrUpdate */])(__WEBPACK_IMPORTED_MODULE_0__utils__["$"].extend(true, { target: $target }, option)).target;
-    }
-    throw new Error('Invalid call to spritespin');
-    var _a;
-}
-__WEBPACK_IMPORTED_MODULE_0__utils__["$"].fn[__WEBPACK_IMPORTED_MODULE_3__constants__["e" /* namespace */]] = extension;
-//# sourceMappingURL=jquery.js.map
-
-/***/ }),
-/* 40 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__common__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__fullscreen__ = __webpack_require__(42);
-
-
-//# sourceMappingURL=index.js.map
-
-/***/ }),
-/* 41 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(0);
-
-// tslint:disable:object-literal-shorthand
-// tslint:disable:only-arrow-functions
-__WEBPACK_IMPORTED_MODULE_0__core__["n" /* extendApi */]({
-    // Gets a value indicating whether the animation is currently running.
-    isPlaying: function () {
-        return __WEBPACK_IMPORTED_MODULE_0__core__["q" /* getPlaybackState */](this.data).handler != null;
-    },
-    // Gets a value indicating whether the animation looping is enabled.
-    isLooping: function () {
-        return this.data.loop;
-    },
-    // Starts/Stops the animation playback
-    toggleAnimation: function () {
-        if (this.isPlaying()) {
-            this.stopAnimation();
-        }
-        else {
-            this.startAnimation();
-        }
-    },
-    // Stops animation playback
-    stopAnimation: function () {
-        this.data.animate = false;
-        __WEBPACK_IMPORTED_MODULE_0__core__["B" /* stopAnimation */](this.data);
-    },
-    // Starts animation playback
-    startAnimation: function () {
-        this.data.animate = true;
-        __WEBPACK_IMPORTED_MODULE_0__core__["b" /* applyAnimation */](this.data);
-    },
-    // Sets a value indicating whether the animation should be looped or not.
-    // This might start the animation (if the 'animate' data attribute is set to true)
-    loop: function (value) {
-        this.data.loop = value;
-        __WEBPACK_IMPORTED_MODULE_0__core__["b" /* applyAnimation */](this.data);
-        return this;
-    },
-    // Gets the current frame number
-    currentFrame: function () {
-        return this.data.frame;
-    },
-    // Updates SpriteSpin to the specified frame.
-    updateFrame: function (frame) {
-        __WEBPACK_IMPORTED_MODULE_0__core__["C" /* updateFrame */](this.data, frame);
-        return this;
-    },
-    // Skips the given number of frames
-    skipFrames: function (step) {
-        var data = this.data;
-        __WEBPACK_IMPORTED_MODULE_0__core__["C" /* updateFrame */](data, data.frame + (data.reverse ? -step : +step));
-        return this;
-    },
-    // Updates SpriteSpin so that the next frame is shown
-    nextFrame: function () {
-        return this.skipFrames(1);
-    },
-    // Updates SpriteSpin so that the previous frame is shown
-    prevFrame: function () {
-        return this.skipFrames(-1);
-    },
-    // Starts the animations that will play until the given frame number is reached
-    // options:
-    //   force [boolean] starts the animation, even if current frame is the target frame
-    //   nearest [boolean] animates to the direction with minimum distance to the target frame
-    playTo: function (frame, options) {
-        var data = this.data;
-        options = options || {};
-        if (!options.force && data.frame === frame) {
-            return;
-        }
-        if (options.nearest) {
-            // distance to the target frame
-            var a = frame - data.frame;
-            // distance to last frame and the to target frame
-            var b = frame > data.frame ? a - data.frames : a + data.frames;
-            // minimum distance
-            var c = Math.abs(a) < Math.abs(b) ? a : b;
-            data.reverse = c < 0;
-        }
-        data.animate = true;
-        data.loop = false;
-        data.stopFrame = frame;
-        __WEBPACK_IMPORTED_MODULE_0__core__["b" /* applyAnimation */](data);
-        return this;
-    }
-});
-//# sourceMappingURL=common.js.map
-
-/***/ }),
-/* 42 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* unused harmony export exitFullscreen */
-/* unused harmony export fullscreenEnabled */
-/* unused harmony export fullscreenElement */
-/* unused harmony export isFullscreen */
-/* unused harmony export toggleFullscreen */
-/* unused harmony export requestFullscreen */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(1);
-
-
-function pick(target, names) {
-    for (var _i = 0, names_1 = names; _i < names_1.length; _i++) {
-        var name_1 = names_1[_i];
-        if (target[name_1] || name_1 in target) {
-            return name_1;
-        }
-    }
-    return names[0];
-}
-var browser = {
-    requestFullscreen: pick(document.documentElement, [
-        'requestFullscreen',
-        'webkitRequestFullScreen',
-        'mozRequestFullScreen',
-        'msRequestFullscreen'
-    ]),
-    exitFullscreen: pick(document, [
-        'exitFullscreen',
-        'webkitExitFullscreen',
-        'webkitCancelFullScreen',
-        'mozCancelFullScreen',
-        'msExitFullscreen'
-    ]),
-    fullscreenElement: pick(document, [
-        'fullscreenElement',
-        'webkitFullscreenElement',
-        'webkitCurrentFullScreenElement',
-        'mozFullScreenElement',
-        'msFullscreenElement'
-    ]),
-    fullscreenEnabled: pick(document, [
-        'fullscreenEnabled',
-        'webkitFullscreenEnabled',
-        'mozFullScreenEnabled',
-        'msFullscreenEnabled'
-    ]),
-    fullscreenchange: pick(document, [
-        'onfullscreenchange',
-        'onwebkitfullscreenchange',
-        'onmozfullscreenchange',
-        'onMSFullscreenChange'
-    ]).replace(/^on/, ''),
-    fullscreenerror: pick(document, [
-        'onfullscreenerror',
-        'onwebkitfullscreenerror',
-        'onmozfullscreenerror',
-        'onMSFullscreenError'
-    ]).replace(/^on/, '')
-};
-var changeEvent = browser.fullscreenchange + '.' + __WEBPACK_IMPORTED_MODULE_0__core__["w" /* namespace */] + '-fullscreen';
-function unbindChangeEvent() {
-    Object(__WEBPACK_IMPORTED_MODULE_1__utils__["$"])(document).unbind(changeEvent);
-}
-function bindChangeEvent(callback) {
-    unbindChangeEvent();
-    Object(__WEBPACK_IMPORTED_MODULE_1__utils__["$"])(document).bind(changeEvent, callback);
-}
-var orientationEvent = 'orientationchange.' + __WEBPACK_IMPORTED_MODULE_0__core__["w" /* namespace */] + '-fullscreen';
-function unbindOrientationEvent() {
-    Object(__WEBPACK_IMPORTED_MODULE_1__utils__["$"])(window).unbind(orientationEvent);
-}
-function bindOrientationEvent(callback) {
-    unbindOrientationEvent();
-    Object(__WEBPACK_IMPORTED_MODULE_1__utils__["$"])(window).bind(orientationEvent, callback);
-}
-function requestFullscreenNative(e) {
-    e = e || document.documentElement;
-    e[browser.requestFullscreen]();
-}
-function exitFullscreen() {
-    return document[browser.exitFullscreen]();
-}
-function fullscreenEnabled() {
-    return document[browser.fullscreenEnabled];
-}
-function fullscreenElement() {
-    return document[browser.fullscreenElement];
-}
-function isFullscreen() {
-    return !!fullscreenElement();
-}
-function toggleFullscreen(data, opts) {
-    if (isFullscreen()) {
-        this.apiRequestFullscreen(opts);
-    }
-    else {
-        this.exitFullscreen();
-    }
-}
-function requestFullscreen(data, opts) {
-    opts = opts || {};
-    var oWidth = data.width;
-    var oHeight = data.height;
-    var oSource = data.source;
-    var oSize = data.sizeMode;
-    var oResponsive = data.responsive;
-    var enter = function () {
-        data.width = window.screen.width;
-        data.height = window.screen.height;
-        data.source = (opts.source || oSource);
-        data.sizeMode = opts.sizeMode || 'fit';
-        data.responsive = false;
-        Object(__WEBPACK_IMPORTED_MODULE_0__core__["f" /* boot */])(data);
-    };
-    var exit = function () {
-        data.width = oWidth;
-        data.height = oHeight;
-        data.source = oSource;
-        data.sizeMode = oSize;
-        data.responsive = oResponsive;
-        Object(__WEBPACK_IMPORTED_MODULE_0__core__["f" /* boot */])(data);
-    };
-    bindChangeEvent(function () {
-        if (isFullscreen()) {
-            enter();
-            bindOrientationEvent(enter);
-        }
-        else {
-            unbindChangeEvent();
-            unbindOrientationEvent();
-            exit();
-        }
-    });
-    requestFullscreenNative(data.target[0]);
-}
-Object(__WEBPACK_IMPORTED_MODULE_0__core__["n" /* extendApi */])({
-    fullscreenEnabled: fullscreenEnabled,
-    fullscreenElement: fullscreenElement,
-    exitFullscreen: exitFullscreen,
-    toggleFullscreen: function (opts) {
-        toggleFullscreen(this.data, opts);
-    },
-    requestFullscreen: function (opts) {
-        requestFullscreen(this.data, opts);
-    }
-});
-//# sourceMappingURL=fullscreen.js.map
-
-/***/ }),
-/* 43 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__input_click__ = __webpack_require__(44);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__input_drag__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__input_hold__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__input_swipe__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__input_wheel__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__progress__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__render_360__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__render_blur__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__render_ease__ = __webpack_require__(52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__render_gallery__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__render_panorama__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__render_zoom__ = __webpack_require__(55);
-
-
-
-
-
-
-
-
-
-
-
-
-//# sourceMappingURL=index.js.map
-
-/***/ }),
-/* 44 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(0);
-
-(function () {
-    var NAME = 'click';
-    function click(e, data) {
-        if (data.loading || !data.stage.is(':visible')) {
-            return;
-        }
-        __WEBPACK_IMPORTED_MODULE_0__core__["D" /* updateInput */](e, data);
-        var input = __WEBPACK_IMPORTED_MODULE_0__core__["p" /* getInputState */](data);
-        var half, pos;
-        var target = data.target, offset = target.offset();
-        if (data.orientation === 'horizontal') {
-            half = target.innerWidth() / 2;
-            pos = input.currentX - offset.left;
-        }
-        else {
-            half = target.innerHeight() / 2;
-            pos = input.currentY - offset.top;
-        }
-        __WEBPACK_IMPORTED_MODULE_0__core__["C" /* updateFrame */](data, data.frame + (pos > half ? 1 : -1));
-    }
-    __WEBPACK_IMPORTED_MODULE_0__core__["y" /* registerPlugin */](NAME, {
-        name: NAME,
-        mouseup: click,
-        touchend: click
-    });
-})();
-//# sourceMappingURL=input-click.js.map
-
-/***/ }),
-/* 45 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(0);
-
-(function () {
-    var NAME = 'drag';
-    function getState(data) {
-        return __WEBPACK_IMPORTED_MODULE_0__core__["s" /* getPluginState */](data, NAME);
-    }
-    function getAxis(data) {
-        if (typeof data.orientation === 'number') {
-            return data.orientation * Math.PI / 180;
-        }
-        if (data.orientation === 'horizontal') {
-            return 0;
-        }
-        return Math.PI / 2;
-    }
-    function dragStart(e, data) {
-        var state = getState(data);
-        if (data.loading || __WEBPACK_IMPORTED_MODULE_0__core__["v" /* is */](data, 'dragging') || !data.stage.is(':visible')) {
-            return;
-        }
-        // allow browser scroll only on double tap
-        var now = new Date().getTime();
-        if (state.startAt && (now - state.startAt > 200)) {
-            e.preventDefault();
-        }
-        state.startAt = now;
-        state.wasPlaying = !!__WEBPACK_IMPORTED_MODULE_0__core__["q" /* getPlaybackState */](data).handler;
-        state.frame = data.frame || 0;
-        state.lane = data.lane || 0;
-        __WEBPACK_IMPORTED_MODULE_0__core__["o" /* flag */](data, 'dragging', true);
-        __WEBPACK_IMPORTED_MODULE_0__core__["D" /* updateInput */](e, data);
-    }
-    function dragEnd(e, data) {
-        if (__WEBPACK_IMPORTED_MODULE_0__core__["v" /* is */](data, 'dragging')) {
-            __WEBPACK_IMPORTED_MODULE_0__core__["o" /* flag */](data, 'dragging', false);
-            __WEBPACK_IMPORTED_MODULE_0__core__["z" /* resetInput */](data);
-            if (data.retainAnimate && getState(data).wasPlaying) {
-                __WEBPACK_IMPORTED_MODULE_0__core__["A" /* startAnimation */](data);
-            }
-        }
-    }
-    function drag(e, data) {
-        var state = getState(data);
-        var input = __WEBPACK_IMPORTED_MODULE_0__core__["p" /* getInputState */](data);
-        if (!__WEBPACK_IMPORTED_MODULE_0__core__["v" /* is */](data, 'dragging')) {
-            return;
-        }
-        __WEBPACK_IMPORTED_MODULE_0__core__["D" /* updateInput */](e, data);
-        var rad = getAxis(data);
-        var sn = Math.sin(rad);
-        var cs = Math.cos(rad);
-        var x = ((input.nddX * cs - input.nddY * sn) * data.sense) || 0;
-        var y = ((input.nddX * sn + input.nddY * cs) * (data.senseLane || data.sense)) || 0;
-        // accumulate
-        state.frame += data.frames * x;
-        state.lane += data.lanes * y;
-        // update spritespin
-        var oldFrame = data.frame;
-        var oldLane = data.lane;
-        __WEBPACK_IMPORTED_MODULE_0__core__["C" /* updateFrame */](data, Math.floor(state.frame), Math.floor(state.lane));
-        __WEBPACK_IMPORTED_MODULE_0__core__["B" /* stopAnimation */](data);
-    }
-    function mousemove(e, data) {
-        dragStart(e, data);
-        drag(e, data);
-    }
-    __WEBPACK_IMPORTED_MODULE_0__core__["y" /* registerPlugin */]('drag', {
-        name: 'drag',
-        mousedown: dragStart,
-        mousemove: drag,
-        mouseup: dragEnd,
-        documentmousemove: drag,
-        documentmouseup: dragEnd,
-        touchstart: dragStart,
-        touchmove: drag,
-        touchend: dragEnd,
-        touchcancel: dragEnd
-    });
-    __WEBPACK_IMPORTED_MODULE_0__core__["y" /* registerPlugin */]('move', {
-        name: 'move',
-        mousemove: mousemove,
-        mouseleave: dragEnd,
-        touchstart: dragStart,
-        touchmove: drag,
-        touchend: dragEnd,
-        touchcancel: dragEnd
-    });
-})();
-//# sourceMappingURL=input-drag.js.map
-
-/***/ }),
-/* 46 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(0);
-
-(function () {
-    var NAME = 'hold';
-    function getState(data) {
-        return __WEBPACK_IMPORTED_MODULE_0__core__["s" /* getPluginState */](data, NAME);
-    }
-    function rememberOptions(data) {
-        var state = getState(data);
-        state.frameTime = data.frameTime;
-        state.animate = data.animate;
-        state.reverse = data.reverse;
-    }
-    function restoreOptions(data) {
-        var state = getState(data);
-        data.frameTime = state.frameTime;
-        data.animate = state.animate;
-        data.reverse = state.reverse;
-    }
-    function start(e, data) {
-        if (__WEBPACK_IMPORTED_MODULE_0__core__["v" /* is */](data, 'loading') || __WEBPACK_IMPORTED_MODULE_0__core__["v" /* is */](data, 'dragging') || !data.stage.is(':visible')) {
-            return;
-        }
-        rememberOptions(data);
-        __WEBPACK_IMPORTED_MODULE_0__core__["D" /* updateInput */](e, data);
-        __WEBPACK_IMPORTED_MODULE_0__core__["o" /* flag */](data, 'dragging', true);
-        data.animate = true;
-        __WEBPACK_IMPORTED_MODULE_0__core__["b" /* applyAnimation */](data);
-    }
-    function stop(e, data) {
-        __WEBPACK_IMPORTED_MODULE_0__core__["o" /* flag */](data, 'dragging', false);
-        __WEBPACK_IMPORTED_MODULE_0__core__["z" /* resetInput */](data);
-        __WEBPACK_IMPORTED_MODULE_0__core__["B" /* stopAnimation */](data);
-        restoreOptions(data);
-        __WEBPACK_IMPORTED_MODULE_0__core__["b" /* applyAnimation */](data);
-    }
-    function update(e, data) {
-        if (!__WEBPACK_IMPORTED_MODULE_0__core__["v" /* is */](data, 'dragging')) {
-            return;
-        }
-        __WEBPACK_IMPORTED_MODULE_0__core__["D" /* updateInput */](e, data);
-        var input = __WEBPACK_IMPORTED_MODULE_0__core__["p" /* getInputState */](data);
-        var half, delta;
-        var target = data.target, offset = target.offset();
-        if (data.orientation === 'horizontal') {
-            half = target.innerWidth() / 2;
-            delta = (input.currentX - offset.left - half) / half;
-        }
-        else {
-            half = (data.height / 2);
-            delta = (input.currentY - offset.top - half) / half;
-        }
-        data.reverse = delta < 0;
-        delta = delta < 0 ? -delta : delta;
-        data.frameTime = 80 * (1 - delta) + 20;
-        if (((data.orientation === 'horizontal') && (input.dX < input.dY)) ||
-            ((data.orientation === 'vertical') && (input.dX < input.dY))) {
-            e.preventDefault();
-        }
-    }
-    function onFrame(e, data) {
-        data.animate = true;
-        __WEBPACK_IMPORTED_MODULE_0__core__["b" /* applyAnimation */](data);
-    }
-    __WEBPACK_IMPORTED_MODULE_0__core__["y" /* registerPlugin */](NAME, {
-        name: NAME,
-        mousedown: start,
-        mousemove: update,
-        mouseup: stop,
-        mouseleave: stop,
-        touchstart: start,
-        touchmove: update,
-        touchend: stop,
-        touchcancel: stop,
-        onFrame: onFrame
-    });
-})();
-//# sourceMappingURL=input-hold.js.map
-
-/***/ }),
-/* 47 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(0);
-
-(function () {
-    var NAME = 'swipe';
-    function getState(data) {
-        return __WEBPACK_IMPORTED_MODULE_0__core__["s" /* getPluginState */](data, NAME);
-    }
-    function getOption(data, name, fallback) {
-        return data[name] || fallback;
-    }
-    function init(e, data) {
-        var state = getState(data);
-        state.fling = getOption(data, 'swipeFling', 10);
-        state.snap = getOption(data, 'swipeSnap', 0.50);
-    }
-    function start(e, data) {
-        if (!data.loading && !__WEBPACK_IMPORTED_MODULE_0__core__["v" /* is */](data, 'dragging')) {
-            __WEBPACK_IMPORTED_MODULE_0__core__["D" /* updateInput */](e, data);
-            __WEBPACK_IMPORTED_MODULE_0__core__["o" /* flag */](data, 'dragging', true);
-        }
-    }
-    function update(e, data) {
-        if (!__WEBPACK_IMPORTED_MODULE_0__core__["v" /* is */](data, 'dragging')) {
-            return;
-        }
-        __WEBPACK_IMPORTED_MODULE_0__core__["D" /* updateInput */](e, data);
-        var frame = data.frame;
-        var lane = data.lane;
-        __WEBPACK_IMPORTED_MODULE_0__core__["C" /* updateFrame */](data, frame, lane);
-    }
-    function end(e, data) {
-        if (!__WEBPACK_IMPORTED_MODULE_0__core__["v" /* is */](data, 'dragging')) {
-            return;
-        }
-        __WEBPACK_IMPORTED_MODULE_0__core__["o" /* flag */](data, 'dragging', false);
-        var state = getState(data);
-        var input = __WEBPACK_IMPORTED_MODULE_0__core__["p" /* getInputState */](data);
-        var frame = data.frame;
-        var lane = data.lane;
-        var snap = state.snap;
-        var fling = state.fling;
-        var dS, dF;
-        if (data.orientation === 'horizontal') {
-            dS = input.ndX;
-            dF = input.ddX;
-        }
-        else {
-            dS = input.ndY;
-            dF = input.ddY;
-        }
-        if (dS >= snap || dF >= fling) {
-            frame = data.frame - 1;
-        }
-        else if (dS <= -snap || dF <= -fling) {
-            frame = data.frame + 1;
-        }
-        __WEBPACK_IMPORTED_MODULE_0__core__["z" /* resetInput */](data);
-        __WEBPACK_IMPORTED_MODULE_0__core__["C" /* updateFrame */](data, frame, lane);
-        __WEBPACK_IMPORTED_MODULE_0__core__["B" /* stopAnimation */](data);
-    }
-    __WEBPACK_IMPORTED_MODULE_0__core__["y" /* registerPlugin */](NAME, {
-        name: NAME,
-        onLoad: init,
-        mousedown: start,
-        mousemove: update,
-        mouseup: end,
-        mouseleave: end,
-        touchstart: start,
-        touchmove: update,
-        touchend: end,
-        touchcancel: end
-    });
-})();
-//# sourceMappingURL=input-swipe.js.map
-
-/***/ }),
-/* 48 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(0);
-
-(function () {
-    var NAME = 'wheel';
-    function wheel(e, data) {
-        if (!data.loading && data.stage.is(':visible')) {
-            e.preventDefault();
-            var we = e.originalEvent;
-            var signX = we.deltaX === 0 ? 0 : we.deltaX > 0 ? 1 : -1;
-            var signY = we.deltaY === 0 ? 0 : we.deltaY > 0 ? 1 : -1;
-            __WEBPACK_IMPORTED_MODULE_0__core__["C" /* updateFrame */](data, data.frame + signY, data.lane + signX);
-        }
-    }
-    __WEBPACK_IMPORTED_MODULE_0__core__["y" /* registerPlugin */](NAME, {
-        name: NAME,
-        wheel: wheel
-    });
-})();
-//# sourceMappingURL=input-wheel.js.map
-
-/***/ }),
-/* 49 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(1);
-
-
-(function () {
-    var template = "\n<div class='spritespin-progress'>\n  <div class='spritespin-progress-label'></div>\n  <div class='spritespin-progress-bar'></div>\n</div>\n";
-    function getState(data) {
-        return __WEBPACK_IMPORTED_MODULE_0__core__["s" /* getPluginState */](data, NAME);
-    }
-    var NAME = 'progress';
-    function onInit(e, data) {
-        var state = getState(data);
-        if (!state.stage) {
-            state.stage = __WEBPACK_IMPORTED_MODULE_1__utils__["$"](template);
-            state.stage.appendTo(data.target);
-        }
-        state.stage.find('.spritespin-progress-label')
-            .text("0%")
-            .css({ 'text-align': 'center' });
-        state.stage.find('.spritespin-progress-bar').css({
-            width: "0%"
-        });
-        state.stage.hide().fadeIn();
-    }
-    function onProgress(e, data) {
-        var state = getState(data);
-        state.stage.find('.spritespin-progress-label')
-            .text(data.progress.percent + "%")
-            .css({ 'text-align': 'center' });
-        state.stage.find('.spritespin-progress-bar').css({
-            width: data.progress.percent + "%"
-        });
-    }
-    function onLoad(e, data) {
-        __WEBPACK_IMPORTED_MODULE_1__utils__["$"](getState(data).stage).fadeOut();
-    }
-    function onDestroy(e, data) {
-        __WEBPACK_IMPORTED_MODULE_1__utils__["$"](getState(data).stage).remove();
-    }
-    __WEBPACK_IMPORTED_MODULE_0__core__["y" /* registerPlugin */](NAME, {
-        name: NAME,
-        onInit: onInit,
-        onProgress: onProgress,
-        onLoad: onLoad,
-        onDestroy: onDestroy
-    });
-})();
-//# sourceMappingURL=progress.js.map
-
-/***/ }),
-/* 50 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(1);
-
-
-(function () {
-    var floor = Math.floor;
-    var NAME = '360';
-    function onLoad(e, data) {
-        data.stage.find('.spritespin-frames').detach();
-        if (data.renderer === 'image') {
-            $(data.images).addClass('spritespin-frames').appendTo(data.stage);
-        }
-    }
-    function onDraw(e, data) {
-        var specs = __WEBPACK_IMPORTED_MODULE_1__utils__["findSpecs"](data.metrics, data.frames, data.frame, data.lane);
-        var sheet = specs.sheet;
-        var sprite = specs.sprite;
-        if (!sheet || !sprite) {
-            return;
-        }
-        var src = data.source[sheet.id];
-        var image = data.images[sheet.id];
-        if (data.renderer === 'canvas') {
-            data.canvas.show();
-            var w = data.canvas[0].width / data.canvasRatio;
-            var h = data.canvas[0].height / data.canvasRatio;
-            data.context.clearRect(0, 0, w, h);
-            data.context.drawImage(image, sprite.sampledX, sprite.sampledY, sprite.sampledWidth, sprite.sampledHeight, 0, 0, w, h);
-            return;
-        }
-        var scaleX = data.stage.innerWidth() / sprite.sampledWidth;
-        var scaleY = data.stage.innerHeight() / sprite.sampledHeight;
-        var top = Math.floor(-sprite.sampledY * scaleY);
-        var left = Math.floor(-sprite.sampledX * scaleX);
-        var width = Math.floor(sheet.sampledWidth * scaleX);
-        var height = Math.floor(sheet.sampledHeight * scaleY);
-        if (data.renderer === 'background') {
-            data.stage.css({
-                'background-image': "url('" + src + "')",
-                'background-position': left + "px " + top + "px",
-                'background-repeat': 'no-repeat',
-                // set custom background size to enable responsive rendering
-                '-webkit-background-size': width + "px " + height + "px",
-                '-moz-background-size': width + "px " + height + "px",
-                '-o-background-size': width + "px " + height + "px",
-                'background-size': width + "px " + height + "px" /* Chrome, Firefox 4+, IE 9+, Opera, Safari 5+ */
-            });
-            return;
-        }
-        $(data.images).hide();
-        $(image).show().css({
-            position: 'absolute',
-            top: top,
-            left: left,
-            'max-width': 'initial',
-            width: width,
-            height: height
-        });
-    }
-    __WEBPACK_IMPORTED_MODULE_0__core__["y" /* registerPlugin */](NAME, {
-        name: NAME,
-        onLoad: onLoad,
-        onDraw: onDraw
-    });
-})();
-//# sourceMappingURL=render-360.js.map
-
-/***/ }),
-/* 51 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(1);
-
-
-(function () {
-    var NAME = 'blur';
-    function getState(data) {
-        return __WEBPACK_IMPORTED_MODULE_0__core__["s" /* getPluginState */](data, NAME);
-    }
-    function getOption(data, name, fallback) {
-        return data[name] || fallback;
-    }
-    function init(e, data) {
-        var state = getState(data);
-        state.canvas = state.canvas || __WEBPACK_IMPORTED_MODULE_1__utils__["$"]("<canvas class='blur-layer'></canvas>");
-        state.context = state.context || state.canvas[0].getContext('2d');
-        state.steps = state.steps || [];
-        state.fadeTime = Math.max(getOption(data, 'blurFadeTime', 200), 1);
-        state.frameTime = Math.max(getOption(data, 'blurFrameTime', data.frameTime), 16);
-        state.trackTime = null;
-        state.cssBlur = !!getOption(data, 'blurCss', false);
-        var inner = __WEBPACK_IMPORTED_MODULE_1__utils__["getInnerSize"](data);
-        var outer = data.responsive ? __WEBPACK_IMPORTED_MODULE_1__utils__["getComputedSize"](data) : __WEBPACK_IMPORTED_MODULE_1__utils__["getOuterSize"](data);
-        var css = __WEBPACK_IMPORTED_MODULE_1__utils__["getInnerLayout"](data.sizeMode, inner, outer);
-        state.canvas[0].width = data.width * data.canvasRatio;
-        state.canvas[0].height = data.height * data.canvasRatio;
-        state.canvas.css(css).show();
-        state.context.scale(data.canvasRatio, data.canvasRatio);
-        data.target.append(state.canvas);
-    }
-    function onFrame(e, data) {
-        var state = getState(data);
-        trackFrame(data);
-        if (state.timeout == null) {
-            loop(data);
-        }
-    }
-    function trackFrame(data) {
-        var state = getState(data);
-        var ani = __WEBPACK_IMPORTED_MODULE_0__core__["q" /* getPlaybackState */](data);
-        // distance between frames
-        var d = Math.abs(data.frame - ani.lastFrame);
-        // shortest distance
-        d = d >= data.frames / 2 ? data.frames - d : d;
-        state.steps.unshift({
-            frame: data.frame,
-            lane: data.lane,
-            live: 1,
-            step: state.frameTime / state.fadeTime,
-            d: d,
-            alpha: 0
-        });
-    }
-    var toRemove = [];
-    function removeOldFrames(frames) {
-        toRemove.length = 0;
-        for (var i = 0; i < frames.length; i += 1) {
-            if (frames[i].alpha <= 0) {
-                toRemove.push(i);
-            }
-        }
-        for (var _i = 0, toRemove_1 = toRemove; _i < toRemove_1.length; _i++) {
-            var item = toRemove_1[_i];
-            frames.splice(item, 1);
-        }
-    }
-    function loop(data) {
-        var state = getState(data);
-        state.timeout = window.setTimeout(function () { tick(data); }, state.frameTime);
-    }
-    function killLoop(data) {
-        var state = getState(data);
-        window.clearTimeout(state.timeout);
-        state.timeout = null;
-    }
-    function applyCssBlur(canvas, d) {
-        var amount = Math.min(Math.max((d / 2) - 4, 0), 2.5);
-        var blur = "blur(" + amount + "px)";
-        canvas.css({
-            '-webkit-filter': blur,
-            filter: blur
-        });
-    }
-    function clearFrame(data, state) {
-        state.canvas.show();
-        var w = state.canvas[0].width / data.canvasRatio;
-        var h = state.canvas[0].height / data.canvasRatio;
-        // state.context.clearRect(0, 0, w, h)
-    }
-    function drawFrame(data, state, step) {
-        if (step.alpha <= 0) {
-            return;
-        }
-        var specs = __WEBPACK_IMPORTED_MODULE_1__utils__["findSpecs"](data.metrics, data.frames, step.frame, step.lane);
-        var sheet = specs.sheet;
-        var sprite = specs.sprite;
-        if (!sheet || !sprite) {
-            return;
-        }
-        var src = data.source[sheet.id];
-        var image = data.images[sheet.id];
-        if (image.complete === false) {
-            return;
-        }
-        state.canvas.show();
-        var w = state.canvas[0].width / data.canvasRatio;
-        var h = state.canvas[0].height / data.canvasRatio;
-        state.context.globalAlpha = step.alpha;
-        state.context.drawImage(image, sprite.sampledX, sprite.sampledY, sprite.sampledWidth, sprite.sampledHeight, 0, 0, w, h);
-    }
-    function tick(data) {
-        var state = getState(data);
-        killLoop(data);
-        if (!state.context) {
-            return;
-        }
-        var d = 0;
-        clearFrame(data, state);
-        state.context.clearRect(0, 0, data.width, data.height);
-        for (var _i = 0, _a = state.steps; _i < _a.length; _i++) {
-            var step = _a[_i];
-            step.live = Math.max(step.live - step.step, 0);
-            step.alpha = Math.max(step.live - 0.25, 0);
-            drawFrame(data, state, step);
-            d += step.alpha + step.d;
-        }
-        if (state.cssBlur) {
-            applyCssBlur(state.canvas, d);
-        }
-        removeOldFrames(state.steps);
-        if (state.steps.length) {
-            loop(data);
-        }
-    }
-    __WEBPACK_IMPORTED_MODULE_0__core__["y" /* registerPlugin */](NAME, {
-        name: NAME,
-        onLoad: init,
-        onFrameChanged: onFrame
-    });
-})();
-//# sourceMappingURL=render-blur.js.map
-
-/***/ }),
-/* 52 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(0);
-
-(function () {
-    var max = Math.max;
-    var min = Math.min;
-    var NAME = 'ease';
-    function getState(data) {
-        return __WEBPACK_IMPORTED_MODULE_0__core__["s" /* getPluginState */](data, NAME);
-    }
-    function getOption(data, name, fallback) {
-        return data[name] || fallback;
-    }
-    function init(e, data) {
-        var state = getState(data);
-        state.maxSamples = max(getOption(data, 'easeMaxSamples', 5), 0);
-        state.damping = max(min(getOption(data, 'easeDamping', 0.9), 0.999), 0);
-        state.abortTime = max(getOption(data, 'easeAbortTime', 250), 16);
-        state.updateTime = max(getOption(data, 'easeUpdateTime', data.frameTime), 16);
-        state.samples = [];
-        state.steps = [];
-    }
-    function update(e, data) {
-        if (__WEBPACK_IMPORTED_MODULE_0__core__["v" /* is */](data, 'dragging')) {
-            killLoop(data);
-            sampleInput(data);
-        }
-    }
-    function end(e, data) {
-        var state = getState(data);
-        var samples = state.samples;
-        var last;
-        var lanes = 0;
-        var frames = 0;
-        var time = 0;
-        for (var _i = 0, samples_1 = samples; _i < samples_1.length; _i++) {
-            var sample = samples_1[_i];
-            if (!last) {
-                last = sample;
-                continue;
-            }
-            var dt = sample.time - last.time;
-            if (dt > state.abortTime) {
-                lanes = frames = time = 0;
-                return killLoop(data);
-            }
-            frames += sample.frame - last.frame;
-            lanes += sample.lane - last.lane;
-            time += dt;
-            last = sample;
-        }
-        samples.length = 0;
-        if (!time) {
-            return;
-        }
-        state.lane = data.lane;
-        state.lanes = 0;
-        state.laneStep = lanes / time * state.updateTime;
-        state.frame = data.frame;
-        state.frames = 0;
-        state.frameStep = frames / time * state.updateTime;
-        loop(data);
-    }
-    function sampleInput(data) {
-        var state = getState(data);
-        // add a new sample
-        state.samples.push({
-            time: new Date().getTime(),
-            frame: data.frame,
-            lane: data.lane
-        });
-        // drop old samples
-        while (state.samples.length > state.maxSamples) {
-            state.samples.shift();
-        }
-    }
-    function killLoop(data) {
-        var state = getState(data);
-        if (state.handler != null) {
-            window.clearTimeout(state.handler);
-            state.handler = null;
-        }
-    }
-    function loop(data) {
-        var state = getState(data);
-        state.handler = window.setTimeout(function () { tick(data); }, state.updateTime);
-    }
-    function tick(data) {
-        var state = getState(data);
-        state.lanes += state.laneStep;
-        state.frames += state.frameStep;
-        state.laneStep *= state.damping;
-        state.frameStep *= state.damping;
-        var frame = Math.floor(state.frame + state.frames);
-        var lane = Math.floor(state.lane + state.lanes);
-        __WEBPACK_IMPORTED_MODULE_0__core__["C" /* updateFrame */](data, frame, lane);
-        if (__WEBPACK_IMPORTED_MODULE_0__core__["v" /* is */](data, 'dragging')) {
-            killLoop(data);
-        }
-        else if (Math.abs(state.frameStep) > 0.005 || Math.abs(state.laneStep) > 0.005) {
-            loop(data);
-        }
-        else {
-            killLoop(data);
-        }
-    }
-    __WEBPACK_IMPORTED_MODULE_0__core__["y" /* registerPlugin */](NAME, {
-        name: NAME,
-        onLoad: init,
-        mousemove: update,
-        mouseup: end,
-        mouseleave: end,
-        touchmove: update,
-        touchend: end,
-        touchcancel: end
-    });
-})();
-//# sourceMappingURL=render-ease.js.map
-
-/***/ }),
-/* 53 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(1);
-
-
-(function () {
-    var NAME = 'gallery';
-    function getState(data) {
-        return __WEBPACK_IMPORTED_MODULE_0__core__["s" /* getPluginState */](data, NAME);
-    }
-    function getOption(data, name, fallback) {
-        return data[name] || fallback;
-    }
-    function load(e, data) {
-        var state = getState(data);
-        state.images = [];
-        state.offsets = [];
-        state.frame = data.frame;
-        state.speed = getOption(data, 'gallerySpeed', 500);
-        state.opacity = getOption(data, 'galleryOpacity', 0.25);
-        state.stage = getOption(data, 'galleryStage', __WEBPACK_IMPORTED_MODULE_1__utils__["$"]('<div></div>'));
-        state.stage.empty().addClass('gallery-stage').prependTo(data.stage);
-        var size = 0;
-        for (var _i = 0, _a = data.images; _i < _a.length; _i++) {
-            var image = _a[_i];
-            var naturalSize = __WEBPACK_IMPORTED_MODULE_1__utils__["naturalSize"](image);
-            var scale = data.height / naturalSize.height;
-            var img = __WEBPACK_IMPORTED_MODULE_1__utils__["$"](image);
-            state.stage.append(img);
-            state.images.push(img);
-            state.offsets.push(-size + (data.width - image.width * scale) / 2);
-            size += data.width;
-            img.css({
-                'max-width': 'initial',
-                opacity: state.opacity,
-                width: data.width,
-                height: data.height
-            });
-        }
-        var innerSize = __WEBPACK_IMPORTED_MODULE_1__utils__["getInnerSize"](data);
-        var outerSize = data.responsive ? __WEBPACK_IMPORTED_MODULE_1__utils__["getComputedSize"](data) : __WEBPACK_IMPORTED_MODULE_1__utils__["getOuterSize"](data);
-        var layout = __WEBPACK_IMPORTED_MODULE_1__utils__["getInnerLayout"](data.sizeMode, innerSize, outerSize);
-        state.stage.css(layout).css({ width: size, left: state.offsets[state.frame] });
-        state.images[state.frame].animate({ opacity: 1 }, { duration: state.speed });
-    }
-    function draw(e, data) {
-        var state = getState(data);
-        var input = __WEBPACK_IMPORTED_MODULE_0__core__["p" /* getInputState */](data);
-        var isDragging = __WEBPACK_IMPORTED_MODULE_0__core__["v" /* is */](data, 'dragging');
-        if (state.frame !== data.frame && !isDragging) {
-            state.stage.stop(true, false).animate({ left: state.offsets[data.frame] }, { duration: state.speed });
-            state.images[state.frame].animate({ opacity: state.opacity }, { duration: state.speed });
-            state.frame = data.frame;
-            state.images[state.frame].animate({ opacity: 1 }, { duration: state.speed });
-            state.stage.animate({ left: state.offsets[state.frame] });
-        }
-        else if (isDragging || state.dX !== input.dX) {
-            state.dX = input.dX;
-            state.ddX = input.ddX;
-            state.stage.stop(true, true).css({ left: state.offsets[state.frame] + state.dX });
-        }
-    }
-    __WEBPACK_IMPORTED_MODULE_0__core__["y" /* registerPlugin */](NAME, {
-        name: NAME,
-        onLoad: load,
-        onDraw: draw
-    });
-})();
-//# sourceMappingURL=render-gallery.js.map
-
-/***/ }),
-/* 54 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(0);
-
-(function () {
-    var NAME = 'panorama';
-    function getState(data) {
-        return __WEBPACK_IMPORTED_MODULE_0__core__["s" /* getPluginState */](data, NAME);
-    }
-    function onLoad(e, data) {
-        var state = getState(data);
-        var sprite = data.metrics[0];
-        if (!sprite) {
-            return;
-        }
-        if (data.orientation === 'horizontal') {
-            state.scale = data.target.innerHeight() / sprite.sampledHeight;
-            data.frames = sprite.sampledWidth;
-        }
-        else {
-            state.scale = data.target.innerWidth() / sprite.sampledWidth;
-            data.frames = sprite.sampledHeight;
-        }
-        var width = Math.floor(sprite.sampledWidth * state.scale);
-        var height = Math.floor(sprite.sampledHeight * state.scale);
-        data.stage.css({
-            'background-image': "url(" + data.source[sprite.id] + ")",
-            'background-repeat': 'repeat-both',
-            // set custom background size to enable responsive rendering
-            '-webkit-background-size': width + "px " + height + "px",
-            '-moz-background-size': width + "px " + height + "px",
-            '-o-background-size': width + "px " + height + "px",
-            'background-size': width + "px " + height + "px" /* Chrome, Firefox 4+, IE 9+, Opera, Safari 5+ */
-        });
-    }
-    function onDraw(e, data) {
-        var state = getState(data);
-        var px = data.orientation === 'horizontal' ? 1 : 0;
-        var py = px ? 0 : 1;
-        var offset = data.frame % data.frames;
-        var left = Math.round(px * offset * state.scale);
-        var top = Math.round(py * offset * state.scale);
-        data.stage.css({ 'background-position': left + "px " + top + "px" });
-    }
-    __WEBPACK_IMPORTED_MODULE_0__core__["y" /* registerPlugin */](NAME, {
-        name: NAME,
-        onLoad: onLoad,
-        onDraw: onDraw
-    });
-})();
-//# sourceMappingURL=render-panorama.js.map
-
-/***/ }),
-/* 55 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(1);
-
-
-(function () {
-    var NAME = 'zoom';
-    function getState(data) {
-        return __WEBPACK_IMPORTED_MODULE_0__core__["s" /* getPluginState */](data, NAME);
-    }
-    function getOption(data, name, fallback) {
-        return data[name] || fallback;
-    }
-    function onInit(e, data) {
-        var state = getState(data);
-        state.source = getOption(data, 'zoomSource', data.source);
-        state.doubleClickTime = getOption(data, 'zoomDoubleClickTime', 500);
-        state.stage = state.stage || __WEBPACK_IMPORTED_MODULE_1__utils__["$"]("<div class='zoom-stage'></div>");
-        state.stage.css({
-            width: '100%',
-            height: '100%',
-            top: 0,
-            left: 0,
-            bottom: 0,
-            right: 0,
-            position: 'absolute'
-        })
-            .appendTo(data.target)
-            .hide();
-    }
-    function onDestroy(e, data) {
-        var state = getState(data);
-        if (state.stage) {
-            state.stage.remove();
-            delete state.stage;
-        }
-    }
-    function updateInput(e, data) {
-        var state = getState(data);
-        if (!state.stage.is(':visible')) {
-            return;
-        }
-        e.preventDefault();
-        // hack into drag/move module and disable dragging
-        // prevents frame change during zoom mode
-        __WEBPACK_IMPORTED_MODULE_0__core__["o" /* flag */](data, 'dragging', false);
-        // grab touch/cursor position
-        var cursor = __WEBPACK_IMPORTED_MODULE_1__utils__["getCursorPosition"](e);
-        // normalize cursor position into [0:1] range
-        var x = cursor.x / data.width;
-        var y = cursor.y / data.height;
-        if (state.oldX == null) {
-            state.oldX = x;
-            state.oldY = y;
-        }
-        if (state.currentX == null) {
-            state.currentX = x;
-            state.currentY = y;
-        }
-        // calculate move delta since last frame and remember current position
-        var dx = x - state.oldX;
-        var dy = y - state.oldY;
-        state.oldX = x;
-        state.oldY = y;
-        // invert drag direction for touch events to enable 'natural' scrolling
-        if (e.type.match(/touch/)) {
-            dx = -dx;
-            dy = -dy;
-        }
-        // accumulate display coordinates
-        state.currentX = __WEBPACK_IMPORTED_MODULE_1__utils__["clamp"](state.currentX + dx, 0, 1);
-        state.currentY = __WEBPACK_IMPORTED_MODULE_1__utils__["clamp"](state.currentY + dy, 0, 1);
-        __WEBPACK_IMPORTED_MODULE_0__core__["C" /* updateFrame */](data, data.frame, data.lane);
-    }
-    function onClick(e, data) {
-        e.preventDefault();
-        var state = getState(data);
-        // simulate double click
-        var clickTime = new Date().getTime();
-        if (!state.clickTime) {
-            // on first click
-            state.clickTime = clickTime;
-            return;
-        }
-        // on second click
-        var timeDelta = clickTime - state.clickTime;
-        if (timeDelta > state.doubleClickTime) {
-            // took too long, back to first click
-            state.clickTime = clickTime;
-            return;
-        }
-        // on valid double click
-        state.clickTime = undefined;
-        if (toggleZoom(data)) {
-            updateInput(e, data);
-        }
-    }
-    function onMove(e, data) {
-        var state = getState(data);
-        if (state.stage.is(':visible')) {
-            updateInput(e, data);
-        }
-    }
-    function onDraw(e, data) {
-        var state = getState(data);
-        // calculate the frame index
-        var index = data.lane * data.frames + data.frame;
-        // get the zoom image. Use original frames as fallback. This won't work for spritesheets
-        var source = state.source[index];
-        var spec = __WEBPACK_IMPORTED_MODULE_1__utils__["findSpecs"](data.metrics, data.frames, data.frame, data.lane);
-        // get display position
-        var x = state.currentX;
-        var y = state.currentY;
-        // fallback to centered position
-        if (x == null) {
-            x = state.currentX = 0.5;
-            y = state.currentY = 0.5;
-        }
-        if (source) {
-            // scale up from [0:1] to [0:100] range
-            x = Math.floor(x * 100);
-            y = Math.floor(y * 100);
-            // update background image and position
-            state.stage.css({
-                'background-repeat': 'no-repeat',
-                'background-image': "url('" + source + "')",
-                'background-position': x + "% " + y + "%"
-            });
-        }
-        else if (spec.sheet && spec.sprite) {
-            var sprite = spec.sprite;
-            var sheet = spec.sheet;
-            var src = data.source[sheet.id];
-            var left = -Math.floor(sprite.sampledX + x * (sprite.sampledWidth - data.width));
-            var top_1 = -Math.floor(sprite.sampledY + y * (sprite.sampledHeight - data.height));
-            var width = sheet.sampledWidth;
-            var height = sheet.sampledHeight;
-            state.stage.css({
-                'background-image': "url('" + src + "')",
-                'background-position': left + "px " + top_1 + "px",
-                'background-repeat': 'no-repeat',
-                // set custom background size to enable responsive rendering
-                '-webkit-background-size': width + "px " + height + "px",
-                '-moz-background-size': width + "px " + height + "px",
-                '-o-background-size': width + "px " + height + "px",
-                'background-size': width + "px " + height + "px" /* Chrome, Firefox 4+, IE 9+, Opera, Safari 5+ */
-            });
-        }
-    }
-    function toggleZoom(data) {
-        var state = getState(data);
-        if (!state.stage) {
-            throw new Error('zoom module is not initialized or is not available.');
-        }
-        if (state.stage.is(':visible')) {
-            state.stage.fadeOut();
-            data.stage.fadeIn();
-        }
-        else {
-            state.stage.fadeIn();
-            data.stage.fadeOut();
-            return true;
-        }
-        return false;
-    }
-    __WEBPACK_IMPORTED_MODULE_0__core__["y" /* registerPlugin */](NAME, {
-        name: NAME,
-        mousedown: onClick,
-        touchstart: onClick,
-        mousemove: onMove,
-        touchmove: onMove,
-        onInit: onInit,
-        onDestroy: onDestroy,
-        onDraw: onDraw
-    });
-    __WEBPACK_IMPORTED_MODULE_0__core__["n" /* extendApi */]({
-        toggleZoom: function () { toggleZoom(this.data); } // tslint:disable-line
-    });
-})();
-//# sourceMappingURL=render-zoom.js.map
-
-/***/ }),
-/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*!
@@ -34449,7 +32504,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__core__["n" /* extendApi */])({
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
   */
 (function (global, factory) {
-   true ? factory(exports, __webpack_require__(18), __webpack_require__(10)) :
+   true ? factory(exports, __webpack_require__(11), __webpack_require__(10)) :
   typeof define === 'function' && define.amd ? define(['exports', 'jquery', 'popper.js'], factory) :
   (factory((global.bootstrap = {}),global.jQuery,global.Popper));
 }(this, (function (exports,$,Popper) { 'use strict';
@@ -38390,22 +36445,22 @@ Object(__WEBPACK_IMPORTED_MODULE_0__core__["n" /* extendApi */])({
 
 
 /***/ }),
-/* 57 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(58);
+module.exports = __webpack_require__(32);
 
 /***/ }),
-/* 58 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 var utils = __webpack_require__(2);
-var bind = __webpack_require__(19);
-var Axios = __webpack_require__(60);
-var defaults = __webpack_require__(9);
+var bind = __webpack_require__(12);
+var Axios = __webpack_require__(34);
+var defaults = __webpack_require__(8);
 
 /**
  * Create an instance of Axios
@@ -38438,15 +36493,15 @@ axios.create = function create(instanceConfig) {
 };
 
 // Expose Cancel & CancelToken
-axios.Cancel = __webpack_require__(24);
-axios.CancelToken = __webpack_require__(74);
-axios.isCancel = __webpack_require__(23);
+axios.Cancel = __webpack_require__(17);
+axios.CancelToken = __webpack_require__(48);
+axios.isCancel = __webpack_require__(16);
 
 // Expose all/spread
 axios.all = function all(promises) {
   return Promise.all(promises);
 };
-axios.spread = __webpack_require__(75);
+axios.spread = __webpack_require__(49);
 
 module.exports = axios;
 
@@ -38455,7 +36510,7 @@ module.exports.default = axios;
 
 
 /***/ }),
-/* 59 */
+/* 33 */
 /***/ (function(module, exports) {
 
 /*!
@@ -38482,16 +36537,16 @@ function isSlowBuffer (obj) {
 
 
 /***/ }),
-/* 60 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var defaults = __webpack_require__(9);
+var defaults = __webpack_require__(8);
 var utils = __webpack_require__(2);
-var InterceptorManager = __webpack_require__(69);
-var dispatchRequest = __webpack_require__(70);
+var InterceptorManager = __webpack_require__(43);
+var dispatchRequest = __webpack_require__(44);
 
 /**
  * Create a new instance of Axios
@@ -38568,7 +36623,7 @@ module.exports = Axios;
 
 
 /***/ }),
-/* 61 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38587,13 +36642,13 @@ module.exports = function normalizeHeaderName(headers, normalizedName) {
 
 
 /***/ }),
-/* 62 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var createError = __webpack_require__(22);
+var createError = __webpack_require__(15);
 
 /**
  * Resolve or reject a Promise based on response status.
@@ -38620,7 +36675,7 @@ module.exports = function settle(resolve, reject, response) {
 
 
 /***/ }),
-/* 63 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38648,7 +36703,7 @@ module.exports = function enhanceError(error, config, code, request, response) {
 
 
 /***/ }),
-/* 64 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38721,7 +36776,7 @@ module.exports = function buildURL(url, params, paramsSerializer) {
 
 
 /***/ }),
-/* 65 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38781,7 +36836,7 @@ module.exports = function parseHeaders(headers) {
 
 
 /***/ }),
-/* 66 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38856,7 +36911,7 @@ module.exports = (
 
 
 /***/ }),
-/* 67 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38899,7 +36954,7 @@ module.exports = btoa;
 
 
 /***/ }),
-/* 68 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38959,7 +37014,7 @@ module.exports = (
 
 
 /***/ }),
-/* 69 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39018,18 +37073,18 @@ module.exports = InterceptorManager;
 
 
 /***/ }),
-/* 70 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 var utils = __webpack_require__(2);
-var transformData = __webpack_require__(71);
-var isCancel = __webpack_require__(23);
-var defaults = __webpack_require__(9);
-var isAbsoluteURL = __webpack_require__(72);
-var combineURLs = __webpack_require__(73);
+var transformData = __webpack_require__(45);
+var isCancel = __webpack_require__(16);
+var defaults = __webpack_require__(8);
+var isAbsoluteURL = __webpack_require__(46);
+var combineURLs = __webpack_require__(47);
 
 /**
  * Throws a `Cancel` if cancellation has been requested.
@@ -39111,7 +37166,7 @@ module.exports = function dispatchRequest(config) {
 
 
 /***/ }),
-/* 71 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39138,7 +37193,7 @@ module.exports = function transformData(data, headers, fns) {
 
 
 /***/ }),
-/* 72 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39159,7 +37214,7 @@ module.exports = function isAbsoluteURL(url) {
 
 
 /***/ }),
-/* 73 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39180,13 +37235,13 @@ module.exports = function combineURLs(baseURL, relativeURL) {
 
 
 /***/ }),
-/* 74 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var Cancel = __webpack_require__(24);
+var Cancel = __webpack_require__(17);
 
 /**
  * A `CancelToken` is an object that can be used to request cancellation of an operation.
@@ -39244,7 +37299,7 @@ module.exports = CancelToken;
 
 
 /***/ }),
-/* 75 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39276,6 +37331,1951 @@ module.exports = function spread(callback) {
   };
 };
 
+
+/***/ }),
+/* 50 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Utils", function() { return Utils; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(0);
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "Api", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["a"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "extendApi", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["n"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "instances", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["u"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "applyEvents", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["c"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "boot", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["f"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "create", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["h"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "createOrUpdate", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["i"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "destroy", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["k"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "namespace", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["w"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "eventNames", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["l"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "callbackNames", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["g"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "eventsToPrevent", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["m"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "defaults", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["j"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "getInputState", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["p"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "updateInput", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["D"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "resetInput", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["z"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "applyLayout", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["d"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "getPlaybackState", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["q"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "updateFrame", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["C"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "stopAnimation", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["B"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "applyAnimation", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["b"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "startAnimation", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["A"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "registerPlugin", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["y"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "registerModule", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["x"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "getPlugin", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["r"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "applyPlugins", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["e"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "getState", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["t"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "getPluginState", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["s"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "is", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["v"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "flag", function() { return __WEBPACK_IMPORTED_MODULE_0__core__["o"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(1);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "sourceArray", function() { return __WEBPACK_IMPORTED_MODULE_1__utils__["sourceArray"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__api__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__plugins__ = __webpack_require__(63);
+
+
+
+var Utils = __WEBPACK_IMPORTED_MODULE_1__utils__;
+
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+/* 51 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return $; });
+var $ = window.jQuery || window.$;
+//# sourceMappingURL=jquery.js.map
+
+/***/ }),
+/* 52 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["a"] = getCursorPosition;
+function getCursorPosition(event) {
+    var touches = event.touches;
+    var source = event;
+    // jQuery Event normalization does not preserve the 'event.touches'
+    // try to grab touches from the original event
+    if (event.touches === undefined && event.originalEvent !== undefined) {
+        touches = event.originalEvent.touches;
+    }
+    // get current touch or mouse position
+    if (touches !== undefined && touches.length > 0) {
+        source = touches[0];
+    }
+    return {
+        x: source.clientX || 0,
+        y: source.clientY || 0
+    };
+}
+//# sourceMappingURL=cursor.js.map
+
+/***/ }),
+/* 53 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["d"] = getOuterSize;
+/* harmony export (immutable) */ __webpack_exports__["a"] = getComputedSize;
+/* harmony export (immutable) */ __webpack_exports__["c"] = getInnerSize;
+/* harmony export (immutable) */ __webpack_exports__["b"] = getInnerLayout;
+/**
+ *
+ */
+function getOuterSize(data) {
+    var width = Math.floor(data.width || data.frameWidth || data.target.innerWidth());
+    var height = Math.floor(data.height || data.frameHeight || data.target.innerHeight());
+    return {
+        aspect: width / height,
+        height: height,
+        width: width
+    };
+}
+function getComputedSize(data) {
+    var size = getOuterSize(data);
+    if (typeof window.getComputedStyle !== 'function') {
+        return size;
+    }
+    var style = window.getComputedStyle(data.target[0]);
+    if (!style.width) {
+        return size;
+    }
+    size.width = Math.floor(Number(style.width.replace('px', '')));
+    size.height = Math.floor(size.width / size.aspect);
+    return size;
+}
+/**
+ *
+ */
+function getInnerSize(data) {
+    var width = Math.floor(data.frameWidth || data.width || data.target.innerWidth());
+    var height = Math.floor(data.frameHeight || data.height || data.target.innerHeight());
+    return {
+        aspect: width / height,
+        height: height,
+        width: width
+    };
+}
+/**
+ *
+ */
+function getInnerLayout(mode, inner, outer) {
+    // get mode
+    var isFit = mode === 'fit';
+    var isFill = mode === 'fill';
+    var isMatch = mode === 'stretch';
+    // resulting layout
+    var layout = {
+        width: '100%',
+        height: '100%',
+        top: 0,
+        left: 0,
+        bottom: 0,
+        right: 0,
+        position: 'absolute',
+        overflow: 'hidden'
+    };
+    // no calculation here
+    if (!mode || isMatch) {
+        return layout;
+    }
+    // get size and aspect
+    var aspectIsGreater = inner.aspect >= outer.aspect;
+    // mode == original
+    var width = inner.width;
+    var height = inner.height;
+    // keep aspect ratio but fit/fill into container
+    if (isFit && aspectIsGreater || isFill && !aspectIsGreater) {
+        width = outer.width;
+        height = outer.width / inner.aspect;
+    }
+    if (isFill && aspectIsGreater || isFit && !aspectIsGreater) {
+        height = outer.height;
+        width = outer.height * inner.aspect;
+    }
+    // floor the numbers
+    width = Math.floor(width);
+    height = Math.floor(height);
+    // position in center
+    layout.width = width;
+    layout.height = height;
+    layout.top = Math.floor((outer.height - height) / 2);
+    layout.left = Math.floor((outer.width - width) / 2);
+    layout.right = layout.left;
+    layout.bottom = layout.top;
+    return layout;
+}
+//# sourceMappingURL=layout.js.map
+
+/***/ }),
+/* 54 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["b"] = measure;
+/* harmony export (immutable) */ __webpack_exports__["a"] = findSpecs;
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__detectSubsampling__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__naturalSize__ = __webpack_require__(21);
+
+
+/**
+ * Measures the image frames that are used in the given data object
+ */
+function measure(images, options) {
+    if (images.length === 1) {
+        return [measureSheet(images[0], options)];
+    }
+    else if (options.framesX && options.framesY) {
+        return measureMutipleSheets(images, options);
+    }
+    else {
+        return measureFrames(images, options);
+    }
+}
+function measureSheet(image, options) {
+    var result = { id: 0, sprites: [] };
+    measureImage(image, options, result);
+    var frames = options.frames;
+    var framesX = Number(options.framesX) || frames;
+    var framesY = Math.ceil(frames / framesX);
+    var frameWidth = Math.floor(result.width / framesX);
+    var frameHeight = Math.floor(result.height / framesY);
+    var divisor = result.isSubsampled ? 2 : 1;
+    for (var i = 0; i < frames; i++) {
+        var x = (i % framesX) * frameWidth;
+        var y = Math.floor(i / framesX) * frameHeight;
+        result.sprites.push({
+            id: i,
+            x: x, y: y,
+            width: frameWidth,
+            height: frameHeight,
+            sampledX: x / divisor,
+            sampledY: y / divisor,
+            sampledWidth: frameWidth / divisor,
+            sampledHeight: frameHeight / divisor
+        });
+    }
+    return result;
+}
+function measureFrames(images, options) {
+    var result = [];
+    for (var id = 0; id < images.length; id++) {
+        // TODO: optimize
+        // dont measure images with same size twice
+        var sheet = measureSheet(images[id], { frames: 1, framesX: 1, detectSubsampling: options.detectSubsampling });
+        sheet.id = id;
+        result.push(sheet);
+    }
+    return result;
+}
+function measureMutipleSheets(images, options) {
+    var result = [];
+    for (var id = 0; id < images.length; id++) {
+        // TODO: optimize
+        // dont measure images with same size twice
+        var sheet = measureSheet(images[id], {
+            frames: undefined,
+            framesX: options.framesX,
+            framesY: options.framesY,
+            detectSubsampling: options.detectSubsampling
+        });
+        sheet.id = id;
+        result.push(sheet);
+    }
+    return result;
+}
+function measureImage(image, options, result) {
+    var size = Object(__WEBPACK_IMPORTED_MODULE_1__naturalSize__["a" /* naturalSize */])(image);
+    result.isSubsampled = options.detectSubsampling && Object(__WEBPACK_IMPORTED_MODULE_0__detectSubsampling__["a" /* detectSubsampling */])(image, size.width, size.height);
+    result.width = size.width;
+    result.height = size.height;
+    result.sampledWidth = size.width / (result.isSubsampled ? 2 : 1);
+    result.sampledHeight = size.height / (result.isSubsampled ? 2 : 1);
+    return result;
+}
+function findSpecs(metrics, frames, frame, lane) {
+    var spriteId = lane * frames + frame;
+    var sheetId = 0;
+    var sprite = null;
+    var sheet = null;
+    while (true) {
+        sheet = metrics[sheetId];
+        if (!sheet) {
+            break;
+        }
+        if (spriteId >= sheet.sprites.length) {
+            spriteId -= sheet.sprites.length;
+            sheetId++;
+            continue;
+        }
+        sprite = sheet.sprites[spriteId];
+        break;
+    }
+    return { sprite: sprite, sheet: sheet };
+}
+//# sourceMappingURL=measure.js.map
+
+/***/ }),
+/* 55 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["a"] = preload;
+function indexOf(element, arr) {
+    for (var i = 0; i < arr.length; i++) {
+        if (arr[i] === element) {
+            return i;
+        }
+    }
+}
+function noop() {
+    //
+}
+function preload(opts) {
+    var src;
+    var input = opts.source;
+    src = typeof input === 'string' ? [input] : input;
+    // const src: string[] =  ? [opts.source] : opts.source
+    var images = [];
+    var targetCount = (opts.preloadCount || src.length);
+    var onInitiated = opts.initiated || noop;
+    var onProgress = opts.progress || noop;
+    var onComplete = opts.complete || noop;
+    var count = 0;
+    var completed = false;
+    var firstLoaded = false;
+    var tick = function () {
+        count += 1;
+        onProgress({
+            index: indexOf(this, images),
+            loaded: count,
+            total: src.length,
+            percent: Math.round((count / src.length) * 100)
+        });
+        firstLoaded = firstLoaded || (this === images[0]);
+        if (firstLoaded && !completed && (count >= targetCount)) {
+            completed = true;
+            onComplete(images);
+        }
+    };
+    for (var _i = 0, src_1 = src; _i < src_1.length; _i++) {
+        var url = src_1[_i];
+        var img = new Image();
+        // push result
+        images.push(img);
+        // bind logic, dont care about abort/errors
+        img.onload = img.onabort = img.onerror = tick;
+        // begin load
+        img.src = url;
+    }
+    onInitiated(images);
+}
+//# sourceMappingURL=preload.js.map
+
+/***/ }),
+/* 56 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["a"] = sourceArray;
+function padNumber(num, length, pad) {
+    var result = String(num);
+    while (result.length < length) {
+        result = String(pad) + result;
+    }
+    return result;
+}
+/**
+ * Generates an array of source strings
+ *
+ * @remarks
+ * Takes a template string and generates an array of strings by interpolating {lane} and {frame} placeholders.
+ *
+ * ```
+ * sourceArray('http://example.com/image_{frame}.jpg, { frame: [1, 3], digits: 2 })
+ * // gives:
+ * // [ 'http://example.com/image_01.jpg', 'http://example.com/image_02.jpg', 'http://example.com/image_03.jpg' ]
+ *
+ * sourceArray('http://example.com/image_FRAME.jpg, { frame: [1, 3], digits: 2, framePlacer: 'FRAME' })
+ * // gives:
+ * // [ 'http://example.com/image_01.jpg', 'http://example.com/image_02.jpg', 'http://example.com/image_03.jpg' ]
+ * ```
+ *
+ * @param template - The template string
+ * @param opts - Interpolation options
+ *
+ * @public
+ */
+function sourceArray(template, opts) {
+    var digits = opts.digits || 2;
+    var lPlacer = opts.lanePlacer || '{lane}';
+    var fPlacer = opts.framePlacer || '{frame}';
+    var fStart = 0;
+    var fEnd = 0;
+    if (opts.frame) {
+        fStart = opts.frame[0];
+        fEnd = opts.frame[1];
+    }
+    var lStart = 0;
+    var lEnd = 0;
+    if (opts.lane) {
+        lStart = opts.lane[0];
+        lEnd = opts.lane[1];
+    }
+    var result = [];
+    for (var lane = lStart; lane <= lEnd; lane += 1) {
+        for (var frame = fStart; frame <= fEnd; frame += 1) {
+            result.push(template
+                .replace(lPlacer, padNumber(lane, digits, '0'))
+                .replace(fPlacer, padNumber(frame, digits, '0')));
+        }
+    }
+    return result;
+}
+//# sourceMappingURL=sourceArray.js.map
+
+/***/ }),
+/* 57 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["f"] = noop;
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return log; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return warn; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return error; });
+/* harmony export (immutable) */ __webpack_exports__["i"] = toArray;
+/* harmony export (immutable) */ __webpack_exports__["b"] = clamp;
+/* harmony export (immutable) */ __webpack_exports__["l"] = wrap;
+/* harmony export (immutable) */ __webpack_exports__["h"] = prevent;
+/* harmony export (immutable) */ __webpack_exports__["a"] = bind;
+/* harmony export (immutable) */ __webpack_exports__["j"] = unbind;
+/* harmony export (immutable) */ __webpack_exports__["d"] = isFunction;
+/* harmony export (immutable) */ __webpack_exports__["g"] = pixelRatio;
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core_constants__ = __webpack_require__(4);
+
+function noop() {
+    // noop
+}
+function wrapConsole(type) {
+    return console && console[type] ? function () {
+        var args = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            args[_i] = arguments[_i];
+        }
+        return console.log.apply(console, args);
+    } : noop;
+}
+var log = wrapConsole('log');
+var warn = wrapConsole('warn');
+var error = wrapConsole('error');
+function toArray(value) {
+    return Array.isArray(value) ? value : [value];
+}
+/**
+ * clamps the given value by the given min and max values
+ */
+function clamp(value, min, max) {
+    return (value > max ? max : (value < min ? min : value));
+}
+/**
+ *
+ */
+function wrap(value, min, max, size) {
+    while (value > max) {
+        value -= size;
+    }
+    while (value < min) {
+        value += size;
+    }
+    return value;
+}
+/**
+ * prevents default action on the given event
+ */
+function prevent(e) {
+    e.preventDefault();
+    return false;
+}
+/**
+ * Binds on the given target and event the given function.
+ * The SpriteSpin namespace is attached to the event name
+ */
+function bind(target, event, func) {
+    if (func) {
+        target.bind(event + '.' + __WEBPACK_IMPORTED_MODULE_0__core_constants__["e" /* namespace */], function (e) {
+            func.apply(target, [e, target.spritespin('data')]);
+        });
+    }
+}
+/**
+ * Unbinds all SpriteSpin events from given target element
+ */
+function unbind(target) {
+    target.unbind('.' + __WEBPACK_IMPORTED_MODULE_0__core_constants__["e" /* namespace */]);
+}
+/**
+ * Checks if given object is a function
+ */
+function isFunction(fn) {
+    return typeof fn === 'function';
+}
+function pixelRatio(context) {
+    var devicePixelRatio = window.devicePixelRatio || 1;
+    var backingStoreRatio = context.webkitBackingStorePixelRatio ||
+        context.mozBackingStorePixelRatio ||
+        context.msBackingStorePixelRatio ||
+        context.oBackingStorePixelRatio ||
+        context.backingStorePixelRatio || 1;
+    return devicePixelRatio / backingStoreRatio;
+}
+//# sourceMappingURL=utils.js.map
+
+/***/ }),
+/* 58 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["a"] = getInputState;
+/* harmony export (immutable) */ __webpack_exports__["c"] = updateInput;
+/* harmony export (immutable) */ __webpack_exports__["b"] = resetInput;
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__state__ = __webpack_require__(9);
+
+
+/**
+ * Gets the current input state
+ *
+ * @public
+ * @param data - The SpriteSpin instance data
+ */
+function getInputState(data) {
+    return Object(__WEBPACK_IMPORTED_MODULE_1__state__["c" /* getState */])(data, 'input');
+}
+/**
+ * Updates the input state using a mous or touch event.
+ *
+ * @public
+ * @param e - The input event
+ * @param data - The SpriteSpin instance data
+ */
+function updateInput(e, data) {
+    var cursor = Object(__WEBPACK_IMPORTED_MODULE_0__utils__["getCursorPosition"])(e);
+    var state = getInputState(data);
+    // cache positions from previous frame
+    state.oldX = state.currentX;
+    state.oldY = state.currentY;
+    state.currentX = cursor.x;
+    state.currentY = cursor.y;
+    // Fix old position.
+    if (state.oldX === undefined || state.oldY === undefined) {
+        state.oldX = state.currentX;
+        state.oldY = state.currentY;
+    }
+    // Cache the initial click/touch position and store the frame number at which the click happened.
+    // Useful for different behavior implementations. This must be restored when the click/touch is released.
+    if (state.startX === undefined || state.startY === undefined) {
+        state.startX = state.currentX;
+        state.startY = state.currentY;
+        state.clickframe = data.frame;
+        state.clicklane = data.lane;
+    }
+    // Calculate the vector from start position to current pointer position.
+    state.dX = state.currentX - state.startX;
+    state.dY = state.currentY - state.startY;
+    // Calculate the vector from last frame position to current pointer position.
+    state.ddX = state.currentX - state.oldX;
+    state.ddY = state.currentY - state.oldY;
+    // Normalize vectors to range [-1:+1]
+    state.ndX = state.dX / data.target.innerWidth();
+    state.ndY = state.dY / data.target.innerHeight();
+    state.nddX = state.ddX / data.target.innerWidth();
+    state.nddY = state.ddY / data.target.innerHeight();
+}
+/**
+ * Resets the input state.
+ *
+ * @public
+ */
+function resetInput(data) {
+    var input = getInputState(data);
+    input.startX = input.startY = undefined;
+    input.currentX = input.currentY = undefined;
+    input.oldX = input.oldY = undefined;
+    input.dX = input.dY = 0;
+    input.ddX = input.ddY = 0;
+    input.ndX = input.ndY = 0;
+    input.nddX = input.nddY = 0;
+}
+//# sourceMappingURL=input.js.map
+
+/***/ }),
+/* 59 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__api__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__boot__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__constants__ = __webpack_require__(4);
+
+
+
+
+function extension(option, value) {
+    var $target = Object(__WEBPACK_IMPORTED_MODULE_0__utils__["$"])(this);
+    if (option === 'data') {
+        return $target.data(__WEBPACK_IMPORTED_MODULE_3__constants__["e" /* namespace */]);
+    }
+    if (option === 'api') {
+        var data = $target.data(__WEBPACK_IMPORTED_MODULE_3__constants__["e" /* namespace */]);
+        data.api = data.api || new __WEBPACK_IMPORTED_MODULE_1__api__["a" /* Api */](data);
+        return data.api;
+    }
+    if (option === 'destroy') {
+        return $target.each(function () {
+            var data = $target.data(__WEBPACK_IMPORTED_MODULE_3__constants__["e" /* namespace */]);
+            if (data) {
+                Object(__WEBPACK_IMPORTED_MODULE_2__boot__["e" /* destroy */])(data);
+            }
+        });
+    }
+    if (arguments.length === 2 && typeof option === 'string') {
+        option = (_a = {}, _a[option] = value, _a);
+    }
+    if (typeof option === 'object') {
+        return Object(__WEBPACK_IMPORTED_MODULE_2__boot__["d" /* createOrUpdate */])(__WEBPACK_IMPORTED_MODULE_0__utils__["$"].extend(true, { target: $target }, option)).target;
+    }
+    throw new Error('Invalid call to spritespin');
+    var _a;
+}
+__WEBPACK_IMPORTED_MODULE_0__utils__["$"].fn[__WEBPACK_IMPORTED_MODULE_3__constants__["e" /* namespace */]] = extension;
+//# sourceMappingURL=jquery.js.map
+
+/***/ }),
+/* 60 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__common__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__fullscreen__ = __webpack_require__(62);
+
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+/* 61 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(0);
+
+// tslint:disable:object-literal-shorthand
+// tslint:disable:only-arrow-functions
+__WEBPACK_IMPORTED_MODULE_0__core__["n" /* extendApi */]({
+    // Gets a value indicating whether the animation is currently running.
+    isPlaying: function () {
+        return __WEBPACK_IMPORTED_MODULE_0__core__["q" /* getPlaybackState */](this.data).handler != null;
+    },
+    // Gets a value indicating whether the animation looping is enabled.
+    isLooping: function () {
+        return this.data.loop;
+    },
+    // Starts/Stops the animation playback
+    toggleAnimation: function () {
+        if (this.isPlaying()) {
+            this.stopAnimation();
+        }
+        else {
+            this.startAnimation();
+        }
+    },
+    // Stops animation playback
+    stopAnimation: function () {
+        this.data.animate = false;
+        __WEBPACK_IMPORTED_MODULE_0__core__["B" /* stopAnimation */](this.data);
+    },
+    // Starts animation playback
+    startAnimation: function () {
+        this.data.animate = true;
+        __WEBPACK_IMPORTED_MODULE_0__core__["b" /* applyAnimation */](this.data);
+    },
+    // Sets a value indicating whether the animation should be looped or not.
+    // This might start the animation (if the 'animate' data attribute is set to true)
+    loop: function (value) {
+        this.data.loop = value;
+        __WEBPACK_IMPORTED_MODULE_0__core__["b" /* applyAnimation */](this.data);
+        return this;
+    },
+    // Gets the current frame number
+    currentFrame: function () {
+        return this.data.frame;
+    },
+    // Updates SpriteSpin to the specified frame.
+    updateFrame: function (frame) {
+        __WEBPACK_IMPORTED_MODULE_0__core__["C" /* updateFrame */](this.data, frame);
+        return this;
+    },
+    // Skips the given number of frames
+    skipFrames: function (step) {
+        var data = this.data;
+        __WEBPACK_IMPORTED_MODULE_0__core__["C" /* updateFrame */](data, data.frame + (data.reverse ? -step : +step));
+        return this;
+    },
+    // Updates SpriteSpin so that the next frame is shown
+    nextFrame: function () {
+        return this.skipFrames(1);
+    },
+    // Updates SpriteSpin so that the previous frame is shown
+    prevFrame: function () {
+        return this.skipFrames(-1);
+    },
+    // Starts the animations that will play until the given frame number is reached
+    // options:
+    //   force [boolean] starts the animation, even if current frame is the target frame
+    //   nearest [boolean] animates to the direction with minimum distance to the target frame
+    playTo: function (frame, options) {
+        var data = this.data;
+        options = options || {};
+        if (!options.force && data.frame === frame) {
+            return;
+        }
+        if (options.nearest) {
+            // distance to the target frame
+            var a = frame - data.frame;
+            // distance to last frame and the to target frame
+            var b = frame > data.frame ? a - data.frames : a + data.frames;
+            // minimum distance
+            var c = Math.abs(a) < Math.abs(b) ? a : b;
+            data.reverse = c < 0;
+        }
+        data.animate = true;
+        data.loop = false;
+        data.stopFrame = frame;
+        __WEBPACK_IMPORTED_MODULE_0__core__["b" /* applyAnimation */](data);
+        return this;
+    }
+});
+//# sourceMappingURL=common.js.map
+
+/***/ }),
+/* 62 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export exitFullscreen */
+/* unused harmony export fullscreenEnabled */
+/* unused harmony export fullscreenElement */
+/* unused harmony export isFullscreen */
+/* unused harmony export toggleFullscreen */
+/* unused harmony export requestFullscreen */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(1);
+
+
+function pick(target, names) {
+    for (var _i = 0, names_1 = names; _i < names_1.length; _i++) {
+        var name_1 = names_1[_i];
+        if (target[name_1] || name_1 in target) {
+            return name_1;
+        }
+    }
+    return names[0];
+}
+var browser = {
+    requestFullscreen: pick(document.documentElement, [
+        'requestFullscreen',
+        'webkitRequestFullScreen',
+        'mozRequestFullScreen',
+        'msRequestFullscreen'
+    ]),
+    exitFullscreen: pick(document, [
+        'exitFullscreen',
+        'webkitExitFullscreen',
+        'webkitCancelFullScreen',
+        'mozCancelFullScreen',
+        'msExitFullscreen'
+    ]),
+    fullscreenElement: pick(document, [
+        'fullscreenElement',
+        'webkitFullscreenElement',
+        'webkitCurrentFullScreenElement',
+        'mozFullScreenElement',
+        'msFullscreenElement'
+    ]),
+    fullscreenEnabled: pick(document, [
+        'fullscreenEnabled',
+        'webkitFullscreenEnabled',
+        'mozFullScreenEnabled',
+        'msFullscreenEnabled'
+    ]),
+    fullscreenchange: pick(document, [
+        'onfullscreenchange',
+        'onwebkitfullscreenchange',
+        'onmozfullscreenchange',
+        'onMSFullscreenChange'
+    ]).replace(/^on/, ''),
+    fullscreenerror: pick(document, [
+        'onfullscreenerror',
+        'onwebkitfullscreenerror',
+        'onmozfullscreenerror',
+        'onMSFullscreenError'
+    ]).replace(/^on/, '')
+};
+var changeEvent = browser.fullscreenchange + '.' + __WEBPACK_IMPORTED_MODULE_0__core__["w" /* namespace */] + '-fullscreen';
+function unbindChangeEvent() {
+    Object(__WEBPACK_IMPORTED_MODULE_1__utils__["$"])(document).unbind(changeEvent);
+}
+function bindChangeEvent(callback) {
+    unbindChangeEvent();
+    Object(__WEBPACK_IMPORTED_MODULE_1__utils__["$"])(document).bind(changeEvent, callback);
+}
+var orientationEvent = 'orientationchange.' + __WEBPACK_IMPORTED_MODULE_0__core__["w" /* namespace */] + '-fullscreen';
+function unbindOrientationEvent() {
+    Object(__WEBPACK_IMPORTED_MODULE_1__utils__["$"])(window).unbind(orientationEvent);
+}
+function bindOrientationEvent(callback) {
+    unbindOrientationEvent();
+    Object(__WEBPACK_IMPORTED_MODULE_1__utils__["$"])(window).bind(orientationEvent, callback);
+}
+function requestFullscreenNative(e) {
+    e = e || document.documentElement;
+    e[browser.requestFullscreen]();
+}
+function exitFullscreen() {
+    return document[browser.exitFullscreen]();
+}
+function fullscreenEnabled() {
+    return document[browser.fullscreenEnabled];
+}
+function fullscreenElement() {
+    return document[browser.fullscreenElement];
+}
+function isFullscreen() {
+    return !!fullscreenElement();
+}
+function toggleFullscreen(data, opts) {
+    if (isFullscreen()) {
+        this.apiRequestFullscreen(opts);
+    }
+    else {
+        this.exitFullscreen();
+    }
+}
+function requestFullscreen(data, opts) {
+    opts = opts || {};
+    var oWidth = data.width;
+    var oHeight = data.height;
+    var oSource = data.source;
+    var oSize = data.sizeMode;
+    var oResponsive = data.responsive;
+    var enter = function () {
+        data.width = window.screen.width;
+        data.height = window.screen.height;
+        data.source = (opts.source || oSource);
+        data.sizeMode = opts.sizeMode || 'fit';
+        data.responsive = false;
+        Object(__WEBPACK_IMPORTED_MODULE_0__core__["f" /* boot */])(data);
+    };
+    var exit = function () {
+        data.width = oWidth;
+        data.height = oHeight;
+        data.source = oSource;
+        data.sizeMode = oSize;
+        data.responsive = oResponsive;
+        Object(__WEBPACK_IMPORTED_MODULE_0__core__["f" /* boot */])(data);
+    };
+    bindChangeEvent(function () {
+        if (isFullscreen()) {
+            enter();
+            bindOrientationEvent(enter);
+        }
+        else {
+            unbindChangeEvent();
+            unbindOrientationEvent();
+            exit();
+        }
+    });
+    requestFullscreenNative(data.target[0]);
+}
+Object(__WEBPACK_IMPORTED_MODULE_0__core__["n" /* extendApi */])({
+    fullscreenEnabled: fullscreenEnabled,
+    fullscreenElement: fullscreenElement,
+    exitFullscreen: exitFullscreen,
+    toggleFullscreen: function (opts) {
+        toggleFullscreen(this.data, opts);
+    },
+    requestFullscreen: function (opts) {
+        requestFullscreen(this.data, opts);
+    }
+});
+//# sourceMappingURL=fullscreen.js.map
+
+/***/ }),
+/* 63 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__input_click__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__input_drag__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__input_hold__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__input_swipe__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__input_wheel__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__progress__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__render_360__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__render_blur__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__render_ease__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__render_gallery__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__render_panorama__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__render_zoom__ = __webpack_require__(75);
+
+
+
+
+
+
+
+
+
+
+
+
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+/* 64 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(0);
+
+(function () {
+    var NAME = 'click';
+    function click(e, data) {
+        if (data.loading || !data.stage.is(':visible')) {
+            return;
+        }
+        __WEBPACK_IMPORTED_MODULE_0__core__["D" /* updateInput */](e, data);
+        var input = __WEBPACK_IMPORTED_MODULE_0__core__["p" /* getInputState */](data);
+        var half, pos;
+        var target = data.target, offset = target.offset();
+        if (data.orientation === 'horizontal') {
+            half = target.innerWidth() / 2;
+            pos = input.currentX - offset.left;
+        }
+        else {
+            half = target.innerHeight() / 2;
+            pos = input.currentY - offset.top;
+        }
+        __WEBPACK_IMPORTED_MODULE_0__core__["C" /* updateFrame */](data, data.frame + (pos > half ? 1 : -1));
+    }
+    __WEBPACK_IMPORTED_MODULE_0__core__["y" /* registerPlugin */](NAME, {
+        name: NAME,
+        mouseup: click,
+        touchend: click
+    });
+})();
+//# sourceMappingURL=input-click.js.map
+
+/***/ }),
+/* 65 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(0);
+
+(function () {
+    var NAME = 'drag';
+    function getState(data) {
+        return __WEBPACK_IMPORTED_MODULE_0__core__["s" /* getPluginState */](data, NAME);
+    }
+    function getAxis(data) {
+        if (typeof data.orientation === 'number') {
+            return data.orientation * Math.PI / 180;
+        }
+        if (data.orientation === 'horizontal') {
+            return 0;
+        }
+        return Math.PI / 2;
+    }
+    function dragStart(e, data) {
+        var state = getState(data);
+        if (data.loading || __WEBPACK_IMPORTED_MODULE_0__core__["v" /* is */](data, 'dragging') || !data.stage.is(':visible')) {
+            return;
+        }
+        // allow browser scroll only on double tap
+        var now = new Date().getTime();
+        if (state.startAt && (now - state.startAt > 200)) {
+            e.preventDefault();
+        }
+        state.startAt = now;
+        state.wasPlaying = !!__WEBPACK_IMPORTED_MODULE_0__core__["q" /* getPlaybackState */](data).handler;
+        state.frame = data.frame || 0;
+        state.lane = data.lane || 0;
+        __WEBPACK_IMPORTED_MODULE_0__core__["o" /* flag */](data, 'dragging', true);
+        __WEBPACK_IMPORTED_MODULE_0__core__["D" /* updateInput */](e, data);
+    }
+    function dragEnd(e, data) {
+        if (__WEBPACK_IMPORTED_MODULE_0__core__["v" /* is */](data, 'dragging')) {
+            __WEBPACK_IMPORTED_MODULE_0__core__["o" /* flag */](data, 'dragging', false);
+            __WEBPACK_IMPORTED_MODULE_0__core__["z" /* resetInput */](data);
+            if (data.retainAnimate && getState(data).wasPlaying) {
+                __WEBPACK_IMPORTED_MODULE_0__core__["A" /* startAnimation */](data);
+            }
+        }
+    }
+    function drag(e, data) {
+        var state = getState(data);
+        var input = __WEBPACK_IMPORTED_MODULE_0__core__["p" /* getInputState */](data);
+        if (!__WEBPACK_IMPORTED_MODULE_0__core__["v" /* is */](data, 'dragging')) {
+            return;
+        }
+        __WEBPACK_IMPORTED_MODULE_0__core__["D" /* updateInput */](e, data);
+        var rad = getAxis(data);
+        var sn = Math.sin(rad);
+        var cs = Math.cos(rad);
+        var x = ((input.nddX * cs - input.nddY * sn) * data.sense) || 0;
+        var y = ((input.nddX * sn + input.nddY * cs) * (data.senseLane || data.sense)) || 0;
+        // accumulate
+        state.frame += data.frames * x;
+        state.lane += data.lanes * y;
+        // update spritespin
+        var oldFrame = data.frame;
+        var oldLane = data.lane;
+        __WEBPACK_IMPORTED_MODULE_0__core__["C" /* updateFrame */](data, Math.floor(state.frame), Math.floor(state.lane));
+        __WEBPACK_IMPORTED_MODULE_0__core__["B" /* stopAnimation */](data);
+    }
+    function mousemove(e, data) {
+        dragStart(e, data);
+        drag(e, data);
+    }
+    __WEBPACK_IMPORTED_MODULE_0__core__["y" /* registerPlugin */]('drag', {
+        name: 'drag',
+        mousedown: dragStart,
+        mousemove: drag,
+        mouseup: dragEnd,
+        documentmousemove: drag,
+        documentmouseup: dragEnd,
+        touchstart: dragStart,
+        touchmove: drag,
+        touchend: dragEnd,
+        touchcancel: dragEnd
+    });
+    __WEBPACK_IMPORTED_MODULE_0__core__["y" /* registerPlugin */]('move', {
+        name: 'move',
+        mousemove: mousemove,
+        mouseleave: dragEnd,
+        touchstart: dragStart,
+        touchmove: drag,
+        touchend: dragEnd,
+        touchcancel: dragEnd
+    });
+})();
+//# sourceMappingURL=input-drag.js.map
+
+/***/ }),
+/* 66 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(0);
+
+(function () {
+    var NAME = 'hold';
+    function getState(data) {
+        return __WEBPACK_IMPORTED_MODULE_0__core__["s" /* getPluginState */](data, NAME);
+    }
+    function rememberOptions(data) {
+        var state = getState(data);
+        state.frameTime = data.frameTime;
+        state.animate = data.animate;
+        state.reverse = data.reverse;
+    }
+    function restoreOptions(data) {
+        var state = getState(data);
+        data.frameTime = state.frameTime;
+        data.animate = state.animate;
+        data.reverse = state.reverse;
+    }
+    function start(e, data) {
+        if (__WEBPACK_IMPORTED_MODULE_0__core__["v" /* is */](data, 'loading') || __WEBPACK_IMPORTED_MODULE_0__core__["v" /* is */](data, 'dragging') || !data.stage.is(':visible')) {
+            return;
+        }
+        rememberOptions(data);
+        __WEBPACK_IMPORTED_MODULE_0__core__["D" /* updateInput */](e, data);
+        __WEBPACK_IMPORTED_MODULE_0__core__["o" /* flag */](data, 'dragging', true);
+        data.animate = true;
+        __WEBPACK_IMPORTED_MODULE_0__core__["b" /* applyAnimation */](data);
+    }
+    function stop(e, data) {
+        __WEBPACK_IMPORTED_MODULE_0__core__["o" /* flag */](data, 'dragging', false);
+        __WEBPACK_IMPORTED_MODULE_0__core__["z" /* resetInput */](data);
+        __WEBPACK_IMPORTED_MODULE_0__core__["B" /* stopAnimation */](data);
+        restoreOptions(data);
+        __WEBPACK_IMPORTED_MODULE_0__core__["b" /* applyAnimation */](data);
+    }
+    function update(e, data) {
+        if (!__WEBPACK_IMPORTED_MODULE_0__core__["v" /* is */](data, 'dragging')) {
+            return;
+        }
+        __WEBPACK_IMPORTED_MODULE_0__core__["D" /* updateInput */](e, data);
+        var input = __WEBPACK_IMPORTED_MODULE_0__core__["p" /* getInputState */](data);
+        var half, delta;
+        var target = data.target, offset = target.offset();
+        if (data.orientation === 'horizontal') {
+            half = target.innerWidth() / 2;
+            delta = (input.currentX - offset.left - half) / half;
+        }
+        else {
+            half = (data.height / 2);
+            delta = (input.currentY - offset.top - half) / half;
+        }
+        data.reverse = delta < 0;
+        delta = delta < 0 ? -delta : delta;
+        data.frameTime = 80 * (1 - delta) + 20;
+        if (((data.orientation === 'horizontal') && (input.dX < input.dY)) ||
+            ((data.orientation === 'vertical') && (input.dX < input.dY))) {
+            e.preventDefault();
+        }
+    }
+    function onFrame(e, data) {
+        data.animate = true;
+        __WEBPACK_IMPORTED_MODULE_0__core__["b" /* applyAnimation */](data);
+    }
+    __WEBPACK_IMPORTED_MODULE_0__core__["y" /* registerPlugin */](NAME, {
+        name: NAME,
+        mousedown: start,
+        mousemove: update,
+        mouseup: stop,
+        mouseleave: stop,
+        touchstart: start,
+        touchmove: update,
+        touchend: stop,
+        touchcancel: stop,
+        onFrame: onFrame
+    });
+})();
+//# sourceMappingURL=input-hold.js.map
+
+/***/ }),
+/* 67 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(0);
+
+(function () {
+    var NAME = 'swipe';
+    function getState(data) {
+        return __WEBPACK_IMPORTED_MODULE_0__core__["s" /* getPluginState */](data, NAME);
+    }
+    function getOption(data, name, fallback) {
+        return data[name] || fallback;
+    }
+    function init(e, data) {
+        var state = getState(data);
+        state.fling = getOption(data, 'swipeFling', 10);
+        state.snap = getOption(data, 'swipeSnap', 0.50);
+    }
+    function start(e, data) {
+        if (!data.loading && !__WEBPACK_IMPORTED_MODULE_0__core__["v" /* is */](data, 'dragging')) {
+            __WEBPACK_IMPORTED_MODULE_0__core__["D" /* updateInput */](e, data);
+            __WEBPACK_IMPORTED_MODULE_0__core__["o" /* flag */](data, 'dragging', true);
+        }
+    }
+    function update(e, data) {
+        if (!__WEBPACK_IMPORTED_MODULE_0__core__["v" /* is */](data, 'dragging')) {
+            return;
+        }
+        __WEBPACK_IMPORTED_MODULE_0__core__["D" /* updateInput */](e, data);
+        var frame = data.frame;
+        var lane = data.lane;
+        __WEBPACK_IMPORTED_MODULE_0__core__["C" /* updateFrame */](data, frame, lane);
+    }
+    function end(e, data) {
+        if (!__WEBPACK_IMPORTED_MODULE_0__core__["v" /* is */](data, 'dragging')) {
+            return;
+        }
+        __WEBPACK_IMPORTED_MODULE_0__core__["o" /* flag */](data, 'dragging', false);
+        var state = getState(data);
+        var input = __WEBPACK_IMPORTED_MODULE_0__core__["p" /* getInputState */](data);
+        var frame = data.frame;
+        var lane = data.lane;
+        var snap = state.snap;
+        var fling = state.fling;
+        var dS, dF;
+        if (data.orientation === 'horizontal') {
+            dS = input.ndX;
+            dF = input.ddX;
+        }
+        else {
+            dS = input.ndY;
+            dF = input.ddY;
+        }
+        if (dS >= snap || dF >= fling) {
+            frame = data.frame - 1;
+        }
+        else if (dS <= -snap || dF <= -fling) {
+            frame = data.frame + 1;
+        }
+        __WEBPACK_IMPORTED_MODULE_0__core__["z" /* resetInput */](data);
+        __WEBPACK_IMPORTED_MODULE_0__core__["C" /* updateFrame */](data, frame, lane);
+        __WEBPACK_IMPORTED_MODULE_0__core__["B" /* stopAnimation */](data);
+    }
+    __WEBPACK_IMPORTED_MODULE_0__core__["y" /* registerPlugin */](NAME, {
+        name: NAME,
+        onLoad: init,
+        mousedown: start,
+        mousemove: update,
+        mouseup: end,
+        mouseleave: end,
+        touchstart: start,
+        touchmove: update,
+        touchend: end,
+        touchcancel: end
+    });
+})();
+//# sourceMappingURL=input-swipe.js.map
+
+/***/ }),
+/* 68 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(0);
+
+(function () {
+    var NAME = 'wheel';
+    function wheel(e, data) {
+        if (!data.loading && data.stage.is(':visible')) {
+            e.preventDefault();
+            var we = e.originalEvent;
+            var signX = we.deltaX === 0 ? 0 : we.deltaX > 0 ? 1 : -1;
+            var signY = we.deltaY === 0 ? 0 : we.deltaY > 0 ? 1 : -1;
+            __WEBPACK_IMPORTED_MODULE_0__core__["C" /* updateFrame */](data, data.frame + signY, data.lane + signX);
+        }
+    }
+    __WEBPACK_IMPORTED_MODULE_0__core__["y" /* registerPlugin */](NAME, {
+        name: NAME,
+        wheel: wheel
+    });
+})();
+//# sourceMappingURL=input-wheel.js.map
+
+/***/ }),
+/* 69 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(1);
+
+
+(function () {
+    var template = "\n<div class='spritespin-progress'>\n  <div class='spritespin-progress-label'></div>\n  <div class='spritespin-progress-bar'></div>\n</div>\n";
+    function getState(data) {
+        return __WEBPACK_IMPORTED_MODULE_0__core__["s" /* getPluginState */](data, NAME);
+    }
+    var NAME = 'progress';
+    function onInit(e, data) {
+        var state = getState(data);
+        if (!state.stage) {
+            state.stage = __WEBPACK_IMPORTED_MODULE_1__utils__["$"](template);
+            state.stage.appendTo(data.target);
+        }
+        state.stage.find('.spritespin-progress-label')
+            .text("0%")
+            .css({ 'text-align': 'center' });
+        state.stage.find('.spritespin-progress-bar').css({
+            width: "0%"
+        });
+        state.stage.hide().fadeIn();
+    }
+    function onProgress(e, data) {
+        var state = getState(data);
+        state.stage.find('.spritespin-progress-label')
+            .text(data.progress.percent + "%")
+            .css({ 'text-align': 'center' });
+        state.stage.find('.spritespin-progress-bar').css({
+            width: data.progress.percent + "%"
+        });
+    }
+    function onLoad(e, data) {
+        __WEBPACK_IMPORTED_MODULE_1__utils__["$"](getState(data).stage).fadeOut();
+    }
+    function onDestroy(e, data) {
+        __WEBPACK_IMPORTED_MODULE_1__utils__["$"](getState(data).stage).remove();
+    }
+    __WEBPACK_IMPORTED_MODULE_0__core__["y" /* registerPlugin */](NAME, {
+        name: NAME,
+        onInit: onInit,
+        onProgress: onProgress,
+        onLoad: onLoad,
+        onDestroy: onDestroy
+    });
+})();
+//# sourceMappingURL=progress.js.map
+
+/***/ }),
+/* 70 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(1);
+
+
+(function () {
+    var floor = Math.floor;
+    var NAME = '360';
+    function onLoad(e, data) {
+        data.stage.find('.spritespin-frames').detach();
+        if (data.renderer === 'image') {
+            $(data.images).addClass('spritespin-frames').appendTo(data.stage);
+        }
+    }
+    function onDraw(e, data) {
+        var specs = __WEBPACK_IMPORTED_MODULE_1__utils__["findSpecs"](data.metrics, data.frames, data.frame, data.lane);
+        var sheet = specs.sheet;
+        var sprite = specs.sprite;
+        if (!sheet || !sprite) {
+            return;
+        }
+        var src = data.source[sheet.id];
+        var image = data.images[sheet.id];
+        if (data.renderer === 'canvas') {
+            data.canvas.show();
+            var w = data.canvas[0].width / data.canvasRatio;
+            var h = data.canvas[0].height / data.canvasRatio;
+            data.context.clearRect(0, 0, w, h);
+            data.context.drawImage(image, sprite.sampledX, sprite.sampledY, sprite.sampledWidth, sprite.sampledHeight, 0, 0, w, h);
+            return;
+        }
+        var scaleX = data.stage.innerWidth() / sprite.sampledWidth;
+        var scaleY = data.stage.innerHeight() / sprite.sampledHeight;
+        var top = Math.floor(-sprite.sampledY * scaleY);
+        var left = Math.floor(-sprite.sampledX * scaleX);
+        var width = Math.floor(sheet.sampledWidth * scaleX);
+        var height = Math.floor(sheet.sampledHeight * scaleY);
+        if (data.renderer === 'background') {
+            data.stage.css({
+                'background-image': "url('" + src + "')",
+                'background-position': left + "px " + top + "px",
+                'background-repeat': 'no-repeat',
+                // set custom background size to enable responsive rendering
+                '-webkit-background-size': width + "px " + height + "px",
+                '-moz-background-size': width + "px " + height + "px",
+                '-o-background-size': width + "px " + height + "px",
+                'background-size': width + "px " + height + "px" /* Chrome, Firefox 4+, IE 9+, Opera, Safari 5+ */
+            });
+            return;
+        }
+        $(data.images).hide();
+        $(image).show().css({
+            position: 'absolute',
+            top: top,
+            left: left,
+            'max-width': 'initial',
+            width: width,
+            height: height
+        });
+    }
+    __WEBPACK_IMPORTED_MODULE_0__core__["y" /* registerPlugin */](NAME, {
+        name: NAME,
+        onLoad: onLoad,
+        onDraw: onDraw
+    });
+})();
+//# sourceMappingURL=render-360.js.map
+
+/***/ }),
+/* 71 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(1);
+
+
+(function () {
+    var NAME = 'blur';
+    function getState(data) {
+        return __WEBPACK_IMPORTED_MODULE_0__core__["s" /* getPluginState */](data, NAME);
+    }
+    function getOption(data, name, fallback) {
+        return data[name] || fallback;
+    }
+    function init(e, data) {
+        var state = getState(data);
+        state.canvas = state.canvas || __WEBPACK_IMPORTED_MODULE_1__utils__["$"]("<canvas class='blur-layer'></canvas>");
+        state.context = state.context || state.canvas[0].getContext('2d');
+        state.steps = state.steps || [];
+        state.fadeTime = Math.max(getOption(data, 'blurFadeTime', 200), 1);
+        state.frameTime = Math.max(getOption(data, 'blurFrameTime', data.frameTime), 16);
+        state.trackTime = null;
+        state.cssBlur = !!getOption(data, 'blurCss', false);
+        var inner = __WEBPACK_IMPORTED_MODULE_1__utils__["getInnerSize"](data);
+        var outer = data.responsive ? __WEBPACK_IMPORTED_MODULE_1__utils__["getComputedSize"](data) : __WEBPACK_IMPORTED_MODULE_1__utils__["getOuterSize"](data);
+        var css = __WEBPACK_IMPORTED_MODULE_1__utils__["getInnerLayout"](data.sizeMode, inner, outer);
+        state.canvas[0].width = data.width * data.canvasRatio;
+        state.canvas[0].height = data.height * data.canvasRatio;
+        state.canvas.css(css).show();
+        state.context.scale(data.canvasRatio, data.canvasRatio);
+        data.target.append(state.canvas);
+    }
+    function onFrame(e, data) {
+        var state = getState(data);
+        trackFrame(data);
+        if (state.timeout == null) {
+            loop(data);
+        }
+    }
+    function trackFrame(data) {
+        var state = getState(data);
+        var ani = __WEBPACK_IMPORTED_MODULE_0__core__["q" /* getPlaybackState */](data);
+        // distance between frames
+        var d = Math.abs(data.frame - ani.lastFrame);
+        // shortest distance
+        d = d >= data.frames / 2 ? data.frames - d : d;
+        state.steps.unshift({
+            frame: data.frame,
+            lane: data.lane,
+            live: 1,
+            step: state.frameTime / state.fadeTime,
+            d: d,
+            alpha: 0
+        });
+    }
+    var toRemove = [];
+    function removeOldFrames(frames) {
+        toRemove.length = 0;
+        for (var i = 0; i < frames.length; i += 1) {
+            if (frames[i].alpha <= 0) {
+                toRemove.push(i);
+            }
+        }
+        for (var _i = 0, toRemove_1 = toRemove; _i < toRemove_1.length; _i++) {
+            var item = toRemove_1[_i];
+            frames.splice(item, 1);
+        }
+    }
+    function loop(data) {
+        var state = getState(data);
+        state.timeout = window.setTimeout(function () { tick(data); }, state.frameTime);
+    }
+    function killLoop(data) {
+        var state = getState(data);
+        window.clearTimeout(state.timeout);
+        state.timeout = null;
+    }
+    function applyCssBlur(canvas, d) {
+        var amount = Math.min(Math.max((d / 2) - 4, 0), 2.5);
+        var blur = "blur(" + amount + "px)";
+        canvas.css({
+            '-webkit-filter': blur,
+            filter: blur
+        });
+    }
+    function clearFrame(data, state) {
+        state.canvas.show();
+        var w = state.canvas[0].width / data.canvasRatio;
+        var h = state.canvas[0].height / data.canvasRatio;
+        // state.context.clearRect(0, 0, w, h)
+    }
+    function drawFrame(data, state, step) {
+        if (step.alpha <= 0) {
+            return;
+        }
+        var specs = __WEBPACK_IMPORTED_MODULE_1__utils__["findSpecs"](data.metrics, data.frames, step.frame, step.lane);
+        var sheet = specs.sheet;
+        var sprite = specs.sprite;
+        if (!sheet || !sprite) {
+            return;
+        }
+        var src = data.source[sheet.id];
+        var image = data.images[sheet.id];
+        if (image.complete === false) {
+            return;
+        }
+        state.canvas.show();
+        var w = state.canvas[0].width / data.canvasRatio;
+        var h = state.canvas[0].height / data.canvasRatio;
+        state.context.globalAlpha = step.alpha;
+        state.context.drawImage(image, sprite.sampledX, sprite.sampledY, sprite.sampledWidth, sprite.sampledHeight, 0, 0, w, h);
+    }
+    function tick(data) {
+        var state = getState(data);
+        killLoop(data);
+        if (!state.context) {
+            return;
+        }
+        var d = 0;
+        clearFrame(data, state);
+        state.context.clearRect(0, 0, data.width, data.height);
+        for (var _i = 0, _a = state.steps; _i < _a.length; _i++) {
+            var step = _a[_i];
+            step.live = Math.max(step.live - step.step, 0);
+            step.alpha = Math.max(step.live - 0.25, 0);
+            drawFrame(data, state, step);
+            d += step.alpha + step.d;
+        }
+        if (state.cssBlur) {
+            applyCssBlur(state.canvas, d);
+        }
+        removeOldFrames(state.steps);
+        if (state.steps.length) {
+            loop(data);
+        }
+    }
+    __WEBPACK_IMPORTED_MODULE_0__core__["y" /* registerPlugin */](NAME, {
+        name: NAME,
+        onLoad: init,
+        onFrameChanged: onFrame
+    });
+})();
+//# sourceMappingURL=render-blur.js.map
+
+/***/ }),
+/* 72 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(0);
+
+(function () {
+    var max = Math.max;
+    var min = Math.min;
+    var NAME = 'ease';
+    function getState(data) {
+        return __WEBPACK_IMPORTED_MODULE_0__core__["s" /* getPluginState */](data, NAME);
+    }
+    function getOption(data, name, fallback) {
+        return data[name] || fallback;
+    }
+    function init(e, data) {
+        var state = getState(data);
+        state.maxSamples = max(getOption(data, 'easeMaxSamples', 5), 0);
+        state.damping = max(min(getOption(data, 'easeDamping', 0.9), 0.999), 0);
+        state.abortTime = max(getOption(data, 'easeAbortTime', 250), 16);
+        state.updateTime = max(getOption(data, 'easeUpdateTime', data.frameTime), 16);
+        state.samples = [];
+        state.steps = [];
+    }
+    function update(e, data) {
+        if (__WEBPACK_IMPORTED_MODULE_0__core__["v" /* is */](data, 'dragging')) {
+            killLoop(data);
+            sampleInput(data);
+        }
+    }
+    function end(e, data) {
+        var state = getState(data);
+        var samples = state.samples;
+        var last;
+        var lanes = 0;
+        var frames = 0;
+        var time = 0;
+        for (var _i = 0, samples_1 = samples; _i < samples_1.length; _i++) {
+            var sample = samples_1[_i];
+            if (!last) {
+                last = sample;
+                continue;
+            }
+            var dt = sample.time - last.time;
+            if (dt > state.abortTime) {
+                lanes = frames = time = 0;
+                return killLoop(data);
+            }
+            frames += sample.frame - last.frame;
+            lanes += sample.lane - last.lane;
+            time += dt;
+            last = sample;
+        }
+        samples.length = 0;
+        if (!time) {
+            return;
+        }
+        state.lane = data.lane;
+        state.lanes = 0;
+        state.laneStep = lanes / time * state.updateTime;
+        state.frame = data.frame;
+        state.frames = 0;
+        state.frameStep = frames / time * state.updateTime;
+        loop(data);
+    }
+    function sampleInput(data) {
+        var state = getState(data);
+        // add a new sample
+        state.samples.push({
+            time: new Date().getTime(),
+            frame: data.frame,
+            lane: data.lane
+        });
+        // drop old samples
+        while (state.samples.length > state.maxSamples) {
+            state.samples.shift();
+        }
+    }
+    function killLoop(data) {
+        var state = getState(data);
+        if (state.handler != null) {
+            window.clearTimeout(state.handler);
+            state.handler = null;
+        }
+    }
+    function loop(data) {
+        var state = getState(data);
+        state.handler = window.setTimeout(function () { tick(data); }, state.updateTime);
+    }
+    function tick(data) {
+        var state = getState(data);
+        state.lanes += state.laneStep;
+        state.frames += state.frameStep;
+        state.laneStep *= state.damping;
+        state.frameStep *= state.damping;
+        var frame = Math.floor(state.frame + state.frames);
+        var lane = Math.floor(state.lane + state.lanes);
+        __WEBPACK_IMPORTED_MODULE_0__core__["C" /* updateFrame */](data, frame, lane);
+        if (__WEBPACK_IMPORTED_MODULE_0__core__["v" /* is */](data, 'dragging')) {
+            killLoop(data);
+        }
+        else if (Math.abs(state.frameStep) > 0.005 || Math.abs(state.laneStep) > 0.005) {
+            loop(data);
+        }
+        else {
+            killLoop(data);
+        }
+    }
+    __WEBPACK_IMPORTED_MODULE_0__core__["y" /* registerPlugin */](NAME, {
+        name: NAME,
+        onLoad: init,
+        mousemove: update,
+        mouseup: end,
+        mouseleave: end,
+        touchmove: update,
+        touchend: end,
+        touchcancel: end
+    });
+})();
+//# sourceMappingURL=render-ease.js.map
+
+/***/ }),
+/* 73 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(1);
+
+
+(function () {
+    var NAME = 'gallery';
+    function getState(data) {
+        return __WEBPACK_IMPORTED_MODULE_0__core__["s" /* getPluginState */](data, NAME);
+    }
+    function getOption(data, name, fallback) {
+        return data[name] || fallback;
+    }
+    function load(e, data) {
+        var state = getState(data);
+        state.images = [];
+        state.offsets = [];
+        state.frame = data.frame;
+        state.speed = getOption(data, 'gallerySpeed', 500);
+        state.opacity = getOption(data, 'galleryOpacity', 0.25);
+        state.stage = getOption(data, 'galleryStage', __WEBPACK_IMPORTED_MODULE_1__utils__["$"]('<div></div>'));
+        state.stage.empty().addClass('gallery-stage').prependTo(data.stage);
+        var size = 0;
+        for (var _i = 0, _a = data.images; _i < _a.length; _i++) {
+            var image = _a[_i];
+            var naturalSize = __WEBPACK_IMPORTED_MODULE_1__utils__["naturalSize"](image);
+            var scale = data.height / naturalSize.height;
+            var img = __WEBPACK_IMPORTED_MODULE_1__utils__["$"](image);
+            state.stage.append(img);
+            state.images.push(img);
+            state.offsets.push(-size + (data.width - image.width * scale) / 2);
+            size += data.width;
+            img.css({
+                'max-width': 'initial',
+                opacity: state.opacity,
+                width: data.width,
+                height: data.height
+            });
+        }
+        var innerSize = __WEBPACK_IMPORTED_MODULE_1__utils__["getInnerSize"](data);
+        var outerSize = data.responsive ? __WEBPACK_IMPORTED_MODULE_1__utils__["getComputedSize"](data) : __WEBPACK_IMPORTED_MODULE_1__utils__["getOuterSize"](data);
+        var layout = __WEBPACK_IMPORTED_MODULE_1__utils__["getInnerLayout"](data.sizeMode, innerSize, outerSize);
+        state.stage.css(layout).css({ width: size, left: state.offsets[state.frame] });
+        state.images[state.frame].animate({ opacity: 1 }, { duration: state.speed });
+    }
+    function draw(e, data) {
+        var state = getState(data);
+        var input = __WEBPACK_IMPORTED_MODULE_0__core__["p" /* getInputState */](data);
+        var isDragging = __WEBPACK_IMPORTED_MODULE_0__core__["v" /* is */](data, 'dragging');
+        if (state.frame !== data.frame && !isDragging) {
+            state.stage.stop(true, false).animate({ left: state.offsets[data.frame] }, { duration: state.speed });
+            state.images[state.frame].animate({ opacity: state.opacity }, { duration: state.speed });
+            state.frame = data.frame;
+            state.images[state.frame].animate({ opacity: 1 }, { duration: state.speed });
+            state.stage.animate({ left: state.offsets[state.frame] });
+        }
+        else if (isDragging || state.dX !== input.dX) {
+            state.dX = input.dX;
+            state.ddX = input.ddX;
+            state.stage.stop(true, true).css({ left: state.offsets[state.frame] + state.dX });
+        }
+    }
+    __WEBPACK_IMPORTED_MODULE_0__core__["y" /* registerPlugin */](NAME, {
+        name: NAME,
+        onLoad: load,
+        onDraw: draw
+    });
+})();
+//# sourceMappingURL=render-gallery.js.map
+
+/***/ }),
+/* 74 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(0);
+
+(function () {
+    var NAME = 'panorama';
+    function getState(data) {
+        return __WEBPACK_IMPORTED_MODULE_0__core__["s" /* getPluginState */](data, NAME);
+    }
+    function onLoad(e, data) {
+        var state = getState(data);
+        var sprite = data.metrics[0];
+        if (!sprite) {
+            return;
+        }
+        if (data.orientation === 'horizontal') {
+            state.scale = data.target.innerHeight() / sprite.sampledHeight;
+            data.frames = sprite.sampledWidth;
+        }
+        else {
+            state.scale = data.target.innerWidth() / sprite.sampledWidth;
+            data.frames = sprite.sampledHeight;
+        }
+        var width = Math.floor(sprite.sampledWidth * state.scale);
+        var height = Math.floor(sprite.sampledHeight * state.scale);
+        data.stage.css({
+            'background-image': "url(" + data.source[sprite.id] + ")",
+            'background-repeat': 'repeat-both',
+            // set custom background size to enable responsive rendering
+            '-webkit-background-size': width + "px " + height + "px",
+            '-moz-background-size': width + "px " + height + "px",
+            '-o-background-size': width + "px " + height + "px",
+            'background-size': width + "px " + height + "px" /* Chrome, Firefox 4+, IE 9+, Opera, Safari 5+ */
+        });
+    }
+    function onDraw(e, data) {
+        var state = getState(data);
+        var px = data.orientation === 'horizontal' ? 1 : 0;
+        var py = px ? 0 : 1;
+        var offset = data.frame % data.frames;
+        var left = Math.round(px * offset * state.scale);
+        var top = Math.round(py * offset * state.scale);
+        data.stage.css({ 'background-position': left + "px " + top + "px" });
+    }
+    __WEBPACK_IMPORTED_MODULE_0__core__["y" /* registerPlugin */](NAME, {
+        name: NAME,
+        onLoad: onLoad,
+        onDraw: onDraw
+    });
+})();
+//# sourceMappingURL=render-panorama.js.map
+
+/***/ }),
+/* 75 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(1);
+
+
+(function () {
+    var NAME = 'zoom';
+    function getState(data) {
+        return __WEBPACK_IMPORTED_MODULE_0__core__["s" /* getPluginState */](data, NAME);
+    }
+    function getOption(data, name, fallback) {
+        return data[name] || fallback;
+    }
+    function onInit(e, data) {
+        var state = getState(data);
+        state.source = getOption(data, 'zoomSource', data.source);
+        state.doubleClickTime = getOption(data, 'zoomDoubleClickTime', 500);
+        state.stage = state.stage || __WEBPACK_IMPORTED_MODULE_1__utils__["$"]("<div class='zoom-stage'></div>");
+        state.stage.css({
+            width: '100%',
+            height: '100%',
+            top: 0,
+            left: 0,
+            bottom: 0,
+            right: 0,
+            position: 'absolute'
+        })
+            .appendTo(data.target)
+            .hide();
+    }
+    function onDestroy(e, data) {
+        var state = getState(data);
+        if (state.stage) {
+            state.stage.remove();
+            delete state.stage;
+        }
+    }
+    function updateInput(e, data) {
+        var state = getState(data);
+        if (!state.stage.is(':visible')) {
+            return;
+        }
+        e.preventDefault();
+        // hack into drag/move module and disable dragging
+        // prevents frame change during zoom mode
+        __WEBPACK_IMPORTED_MODULE_0__core__["o" /* flag */](data, 'dragging', false);
+        // grab touch/cursor position
+        var cursor = __WEBPACK_IMPORTED_MODULE_1__utils__["getCursorPosition"](e);
+        // normalize cursor position into [0:1] range
+        var x = cursor.x / data.width;
+        var y = cursor.y / data.height;
+        if (state.oldX == null) {
+            state.oldX = x;
+            state.oldY = y;
+        }
+        if (state.currentX == null) {
+            state.currentX = x;
+            state.currentY = y;
+        }
+        // calculate move delta since last frame and remember current position
+        var dx = x - state.oldX;
+        var dy = y - state.oldY;
+        state.oldX = x;
+        state.oldY = y;
+        // invert drag direction for touch events to enable 'natural' scrolling
+        if (e.type.match(/touch/)) {
+            dx = -dx;
+            dy = -dy;
+        }
+        // accumulate display coordinates
+        state.currentX = __WEBPACK_IMPORTED_MODULE_1__utils__["clamp"](state.currentX + dx, 0, 1);
+        state.currentY = __WEBPACK_IMPORTED_MODULE_1__utils__["clamp"](state.currentY + dy, 0, 1);
+        __WEBPACK_IMPORTED_MODULE_0__core__["C" /* updateFrame */](data, data.frame, data.lane);
+    }
+    function onClick(e, data) {
+        e.preventDefault();
+        var state = getState(data);
+        // simulate double click
+        var clickTime = new Date().getTime();
+        if (!state.clickTime) {
+            // on first click
+            state.clickTime = clickTime;
+            return;
+        }
+        // on second click
+        var timeDelta = clickTime - state.clickTime;
+        if (timeDelta > state.doubleClickTime) {
+            // took too long, back to first click
+            state.clickTime = clickTime;
+            return;
+        }
+        // on valid double click
+        state.clickTime = undefined;
+        if (toggleZoom(data)) {
+            updateInput(e, data);
+        }
+    }
+    function onMove(e, data) {
+        var state = getState(data);
+        if (state.stage.is(':visible')) {
+            updateInput(e, data);
+        }
+    }
+    function onDraw(e, data) {
+        var state = getState(data);
+        // calculate the frame index
+        var index = data.lane * data.frames + data.frame;
+        // get the zoom image. Use original frames as fallback. This won't work for spritesheets
+        var source = state.source[index];
+        var spec = __WEBPACK_IMPORTED_MODULE_1__utils__["findSpecs"](data.metrics, data.frames, data.frame, data.lane);
+        // get display position
+        var x = state.currentX;
+        var y = state.currentY;
+        // fallback to centered position
+        if (x == null) {
+            x = state.currentX = 0.5;
+            y = state.currentY = 0.5;
+        }
+        if (source) {
+            // scale up from [0:1] to [0:100] range
+            x = Math.floor(x * 100);
+            y = Math.floor(y * 100);
+            // update background image and position
+            state.stage.css({
+                'background-repeat': 'no-repeat',
+                'background-image': "url('" + source + "')",
+                'background-position': x + "% " + y + "%"
+            });
+        }
+        else if (spec.sheet && spec.sprite) {
+            var sprite = spec.sprite;
+            var sheet = spec.sheet;
+            var src = data.source[sheet.id];
+            var left = -Math.floor(sprite.sampledX + x * (sprite.sampledWidth - data.width));
+            var top_1 = -Math.floor(sprite.sampledY + y * (sprite.sampledHeight - data.height));
+            var width = sheet.sampledWidth;
+            var height = sheet.sampledHeight;
+            state.stage.css({
+                'background-image': "url('" + src + "')",
+                'background-position': left + "px " + top_1 + "px",
+                'background-repeat': 'no-repeat',
+                // set custom background size to enable responsive rendering
+                '-webkit-background-size': width + "px " + height + "px",
+                '-moz-background-size': width + "px " + height + "px",
+                '-o-background-size': width + "px " + height + "px",
+                'background-size': width + "px " + height + "px" /* Chrome, Firefox 4+, IE 9+, Opera, Safari 5+ */
+            });
+        }
+    }
+    function toggleZoom(data) {
+        var state = getState(data);
+        if (!state.stage) {
+            throw new Error('zoom module is not initialized or is not available.');
+        }
+        if (state.stage.is(':visible')) {
+            state.stage.fadeOut();
+            data.stage.fadeIn();
+        }
+        else {
+            state.stage.fadeIn();
+            data.stage.fadeOut();
+            return true;
+        }
+        return false;
+    }
+    __WEBPACK_IMPORTED_MODULE_0__core__["y" /* registerPlugin */](NAME, {
+        name: NAME,
+        mousedown: onClick,
+        touchstart: onClick,
+        mousemove: onMove,
+        touchmove: onMove,
+        onInit: onInit,
+        onDestroy: onDestroy,
+        onDraw: onDraw
+    });
+    __WEBPACK_IMPORTED_MODULE_0__core__["n" /* extendApi */]({
+        toggleZoom: function () { toggleZoom(this.data); } // tslint:disable-line
+    });
+})();
+//# sourceMappingURL=render-zoom.js.map
 
 /***/ }),
 /* 76 */
@@ -50504,7 +50504,7 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
     attachTo.clearImmediate = clearImmediate;
 }(typeof self === "undefined" ? typeof global === "undefined" ? this : global : self));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3), __webpack_require__(20)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3), __webpack_require__(13)))
 
 /***/ }),
 /* 79 */
@@ -51316,6 +51316,13 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -51432,6 +51439,21 @@ var render = function() {
                   ]
                 : _vm._e(),
               _vm._v(" "),
+              _vm.currentObject.media["1"].type == "video"
+                ? [
+                    _c("div", { attrs: { id: "spincontainer" } }, [
+                      _c("video", { attrs: { autoplay: "" } }, [
+                        _c("source", {
+                          attrs: {
+                            src: "images/" + _vm.currentObject.media["1"].file,
+                            type: "video/mp4"
+                          }
+                        })
+                      ])
+                    ])
+                  ]
+                : _vm._e(),
+              _vm._v(" "),
               _c("div", { attrs: { id: "closerow" } }, [
                 _c(
                   "div",
@@ -51485,27 +51507,18 @@ if (false) {
 
 /***/ }),
 /* 102 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 103 */,
-/* 104 */,
-/* 105 */,
-/* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(107)
+  __webpack_require__(103)
 }
 var normalizeComponent = __webpack_require__(7)
 /* script */
-var __vue_script__ = __webpack_require__(109)
+var __vue_script__ = __webpack_require__(105)
 /* template */
-var __vue_template__ = __webpack_require__(110)
+var __vue_template__ = __webpack_require__(106)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -51544,13 +51557,13 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 107 */
+/* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(108);
+var content = __webpack_require__(104);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -51570,7 +51583,7 @@ if(false) {
 }
 
 /***/ }),
-/* 108 */
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(5)(false);
@@ -51584,7 +51597,7 @@ exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\
 
 
 /***/ }),
-/* 109 */
+/* 105 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -51629,7 +51642,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 110 */
+/* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -51647,6 +51660,12 @@ if (false) {
     require("vue-hot-reload-api")      .rerender("data-v-39d0ad18", module.exports)
   }
 }
+
+/***/ }),
+/* 107 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
 
 /***/ })
 /******/ ]);

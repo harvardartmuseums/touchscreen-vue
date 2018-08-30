@@ -29,6 +29,13 @@
                                 </div>
                               </template>
                       
+                              <template v-if="currentObject.media['1'].type == 'video'">
+                                <div id="spincontainer">
+                                  <video autoplay>
+                                       <source :src="'images/' + currentObject.media['1'].file" type="video/mp4">
+                                  </video>
+                                </div>
+                              </template>
 
                             <div id="closerow">
                               <div id="closebuttoncontainer" @click="close">
