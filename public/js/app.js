@@ -50824,10 +50824,12 @@ var render = function() {
         },
         [
           _c("div", { staticClass: "agecontainer" }, [
-            _c("span", { staticClass: "epoch" }, [_vm._v(_vm._s(era.name))]),
+            _c("span", { staticClass: "epoch" }, [
+              _c("h2", [_vm._v(_vm._s(era.name))])
+            ]),
             _vm._v(" "),
             _c("span", { staticClass: "dates" }, [
-              _vm._v("(" + _vm._s(era.dates) + ")")
+              _c("h3", [_vm._v("(" + _vm._s(era.dates) + ")")])
             ])
           ])
         ]
