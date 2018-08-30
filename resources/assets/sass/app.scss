@@ -6,10 +6,9 @@
 // Variables
 @import "variables";
 
-#app {
-  width: 100%;
-  height: 100%;
-  position:relative;
+html {
+min-height: 100% !important;
+height: 100%;
 }
 
 body  {
@@ -26,6 +25,13 @@ body  {
 #overlay {
   width: 100%;
   height: 100%;
+}
+
+
+#app {
+  width: 100%;
+  height: 100%;
+  position:relative;
 }
 
 
@@ -105,9 +111,134 @@ body  {
 }
 
 //Modal
-
 #modal {
   position: absolute;
+  display: hidden;
   width: 100%;
   height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  top:0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#content {
+  width: 95vw;
+  position: absolute;
+  top: 2vw;
+  height: calc(100% - 9vw);
+  display: block;
+  box-sizing: border-box;
+  padding: 1vw;
+  background-color: #E6E7E8;
+  display: grid;
+  grid-template-columns: 21% 79%; 
+  grid-template-rows: 20.25vw 20.25vw auto;
+  grid-column-gap: 1vw;
+  grid-row-gap: 1vw;
+
+
+}
+
+#minicontainer {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-column-end: 2;
+  width: 100%;
+  padding-bottom: 47.25%;
+}
+
+#minimap {
+  display: block;
+  background-image: url('../images/map.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#objectname {
+  text-decoration: underline;
+}
+
+#tombstone {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+#mediacontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: calc(100% - 1vw);
+  box-sizing: border-box;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+#imagewrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100%;
+  width: auto;
+}
+
+#imagewrapper img {
+  height: 100%;
+  width: auto;
+}
+
+#minicontainer {
+  width: 100%;
+  padding-bottom: 47.25%;
+}
+
+#minimap {
+  display: block;
+  background-image: url('../images/map.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#minioverlay {
+    width: 100%;
+    height: 100%;
+}
+
+
+#closerow {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 3vw;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-gap: 3;
+}
+
+#closebuttoncontainer {
+  display: block;
+  width: 3vw;
+  height: 3vw;
+  margin-right: 1vw;
+  margin-bottom: 1vw;
+}
+
+.closeButton {
+  fill:none;stroke:#58595b;stroke-miterlimit:10;stroke-width:3px;
 }

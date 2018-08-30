@@ -27,8 +27,10 @@
     },
 	methods:{
 		setCurrentEra(era) {
-			this.$store.currentEra = era;
-            this.$store.showMapModal = false;
+            this.$store.currentEra = era;
+            this.$store.currentOverlay = era.overlay;
+            this.$store.showObjectModal = false;
+            this.$store.currentMiniOverlay = "";
 		},
 	}
     };

@@ -1,7 +1,7 @@
 <template>
     <div id="thumbstrip">
         <div class="thumbcontainer"  v-for="(object, index) in objects" v-bind:key="object.name" @click="setCurrentObject(index)">
-            <img class="thumb" :src="'images/' + object.thumbnail">
+            <img class="thumb" :src="'images/objects/thumbnails/' + object.thumbnail">
                 <div class="thumbnumber">
                     {{index}}
                 </div>
@@ -24,10 +24,12 @@
     },
 	methods:{
 		setCurrentObject(index) {
-            console.log(index);
-			this.$store.currentObject = this.$store.currentEra.objects[index];
-            this.$store.showMapModal = true;
-		},
+            var touchpoint = document.querySelector('[data-name="' + index + '"]');
+            this.$store.currentObject = this.$store.currentEra.objects[index];
+            this.$store.currentTouchpointName = index;
+            this.$store.currentTouchpointGraphic = touchpoint.firstChild.outerHTML;
+            this.$store.showObjectModal = true;
+		}
 	}
     };
  </script>
