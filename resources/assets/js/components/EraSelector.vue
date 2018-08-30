@@ -37,5 +37,8 @@
  </script>
 
  <style>
+ #erastrip {
+     font-size: 0.9em;
+ }
 
  </style>
