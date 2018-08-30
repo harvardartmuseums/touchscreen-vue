@@ -50719,7 +50719,7 @@ exports = module.exports = __webpack_require__(3)(false);
 
 
 // module
-exports.push([module.i, "\n#erastrip {\n}\n\n", ""]);
+exports.push([module.i, "\n#erastrip {\n font-size: 1.1em;\n}\n\n\n", ""]);
 
 // exports
 
@@ -50824,12 +50824,10 @@ var render = function() {
         },
         [
           _c("div", { staticClass: "agecontainer" }, [
-            _c("span", { staticClass: "epoch" }, [
-              _c("h2", [_vm._v(_vm._s(era.name))])
-            ]),
+            _c("span", { staticClass: "epoch" }, [_vm._v(_vm._s(era.name))]),
             _vm._v(" "),
             _c("span", { staticClass: "dates" }, [
-              _c("h3", [_vm._v("(" + _vm._s(era.dates) + ")")])
+              _vm._v("(" + _vm._s(era.dates) + ")")
             ])
           ])
         ]
