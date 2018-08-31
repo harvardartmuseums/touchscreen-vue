@@ -6,9 +6,10 @@
                         
                             <div id="minicontainer">
                                 <div id="minimap" @click="close">
-                                    <div id="minioverlay" v-html="selectedGraphic"></div>
-                                </div> 
-                            </div>
+                                      <img id="basemap" src="images/map.png">
+                                      <svg id="minioverlay" xmlns="http://www.w3.org/svg" viewBox="0 0 4096 2190" v-html="selectedGraphic"></svg>
+                                </div>
+                            </div> 
                             
                             <div id="tombstone">
                               <span id="objectname">{{currentObject.name}}</span><br />
@@ -52,7 +53,7 @@
 
   computed: {
       selectedGraphic () {
-        var graphic = '<svg id=\"minioverlay" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewBox=\"0 0 3840 2160\"><defs><style>.cls-1{fill:#fff;}<\/style><\/defs><title>iron<\/title><g id=\"selected\">' + this.$store.currentTouchpointGraphic.replace("radius=\"36.25\"", "radius=\"75\"") + "<\/g><\/svg>";
+        var graphic = '<defs><style>.cls-1{fill:#fff;}<\/style><\/defs><title>iron<\/title><g id=\"selected\">' + this.$store.currentTouchpointGraphic.replace("radius=\"36.25\"", "radius=\"75\"") + "<\/g><\/svg>";
         return graphic
       },
       currentObject () {
@@ -136,5 +137,96 @@
   width:100% !important;
   height:100% !important;
 }
+
+#objectname {
+  text-decoration: underline;
+}
+
+#tombstone {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+#mediacontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: calc(100% - 1vw);
+  box-sizing: border-box;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}  
+
+#imagewrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100%;
+  width: auto;
+}
+
+#imagewrapper img {
+  height: 100%;
+  width: auto;
+}
+
+#minicontainer {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  width: 100%;
+}
+
+#minimap {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+#basemap {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#minioverlay {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-height: 100%;
+}
+
+#closerow {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 3vw;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-gap: 3;
+}
+
+#closebuttoncontainer {
+  display: block;
+  width: 3vw;
+  height: 3vw;
+  margin-right: 1vw;
+  margin-bottom: 1vw;
+}
+
+.closeButton {
+  fill:none;stroke:#58595b;stroke-miterlimit:10;stroke-width:3px;
+}
+
+
 
  </style>
