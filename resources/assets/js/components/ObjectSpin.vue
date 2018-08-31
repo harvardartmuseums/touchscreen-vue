@@ -39,4 +39,17 @@
 
  <style>
 
+.spritespin-progress {
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  top: 45%;
+}
+.spritespin-progress-label {
+  color: grey;
+}
+.spritespin-progress-bar {
+  background-color: grey;
+  height: 1px;
+}
  </style>

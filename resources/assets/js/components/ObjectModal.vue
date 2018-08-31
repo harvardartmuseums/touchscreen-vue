@@ -1,6 +1,6 @@
 <template>
     <transition name="modal">
-                <div id="modalwrapper"v-show="show">
+                <div id="modalwrapper"v-if="show">
                 <div id="modal">
                     <div id="content">
                         
