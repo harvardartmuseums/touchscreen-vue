@@ -6,7 +6,7 @@
                         
                             <div id="minicontainer">
                                 <div id="minimap" @click="close">
-                                      <img id="basemap" src="images/SVG/base.svg">
+                                      <img id="basemap" src="images/base.png">
                                       <svg id="minioverlay" xmlns="http://www.w3.org/svg" viewBox="0 0 3840 2160" v-html="selectedGraphic"></svg>
                                 </div>
                             </div> 
