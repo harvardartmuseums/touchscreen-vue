@@ -6,8 +6,8 @@
                         
                             <div id="minicontainer">
                                 <div id="minimap" @click="close">
-                                      <img id="basemap" src="images/map.png">
-                                      <svg id="minioverlay" xmlns="http://www.w3.org/svg" viewBox="0 0 4096 2190" v-html="selectedGraphic"></svg>
+                                      <img id="basemap" src="images/SVG/base.svg">
+                                      <svg id="minioverlay" xmlns="http://www.w3.org/svg" viewBox="0 0 3840 2160" v-html="selectedGraphic"></svg>
                                 </div>
                             </div> 
                             
@@ -53,7 +53,7 @@
 
   computed: {
       selectedGraphic () {
-        var graphic = '<defs><style>.cls-1{fill:#fff;}<\/style><\/defs><title>iron<\/title><g id=\"selected\">' + this.$store.currentTouchpointGraphic.replace("radius=\"36.25\"", "radius=\"75\"") + "<\/g><\/svg>";
+        var graphic = '<defs><style>.cls-1{fill:#fff;}<\/style><\/defs><title>iron<\/title><g id=\"selected\">' + this.$store.currentObject.location + "<\/g><\/svg>";
         return graphic
       },
       currentObject () {
