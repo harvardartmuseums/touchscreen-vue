@@ -1,1 +1,1 @@
-function ConfirmDelete(){return confirm("Are you sure?")}$(".proposalStatus").change(function(){var a=$(this).data("proposal_id");console.log(a);var s=$(this).val();$.ajax({url:"/api/proposal/"+a+"/status",type:"POST",data:{statusid:s},success:function(a){console.log("User status changed.")}})});
+

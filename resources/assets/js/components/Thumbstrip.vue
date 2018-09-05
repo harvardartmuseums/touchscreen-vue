@@ -35,5 +35,38 @@
  </script>
 
  <style>
+#thumbstrip {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position:absolute;
+  top:2vw;
+  width: 100vw;
+}
+
+.thumbcontainer {
+  width: 6vw;
+  height: 12vh;
+  display: block;
+  background-color: black;
+  margin-left: 2vw;
+  position: relative;
+}
+
+.thumbcontainer:first-child {
+  margin-left: 0;
+}
+
+.thumb {
+  height: 100%;
+  width: auto;
+}
+
+.thumbnumber {
+  position: absolute;
+  top: .5vw;
+  left: .5vw;
+  color: white;
+}
 
  </style>

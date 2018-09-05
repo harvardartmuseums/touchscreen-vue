@@ -1,13 +1,14 @@
 <template>
+    <!-- Using v-if for this modal instead of v-show in order to reset spin animation by destroying child components !-->
     <transition name="modal">
-                <div id="modalwrapper"v-if="show">
+                <div id="modalwrapper" v-if="show">
                 <div id="modal">
                     <div id="content">
                         
                             <div id="minicontainer">
                                 <div id="minimap" @click="close">
                                       <img id="basemap" src="images/base.png">
-                                      <svg id="minioverlay" xmlns="http://www.w3.org/svg" viewBox="0 0 3840 2160" v-html="selectedGraphic"></svg>
+                                      <svg id="minioverlay" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 3840 2160" v-html="selectedGraphic"></svg>
                                 </div>
                             </div> 
                             
@@ -19,7 +20,7 @@
                               <template v-if="currentObject.media['1'].type == 'image'"> 
                                 <div id="mediacontainer">
                                   <div id="imagewrapper">
-                                    <img :src="'images/objects/' + currentObject.media['1'].file"></img>
+                                    <img :src="'images/objects/' + currentObject.media['1'].file">
                                   </div>
                                 </div>
                               </template>
@@ -75,7 +76,6 @@
   mounted: function () {
     this.$nextTick(function () {
       if(this.currentObject.media['1'].type == 'video'){
-      console.log("inside video tick");
       var video = document.getElementById("modalvideo");
       video.play();
       }
@@ -84,8 +84,42 @@
 }
  </script>
 
- <style>
+<style>
 
+/* Modal Container */
+
+#modal {
+  position: absolute;
+  display: hidden;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  top:0;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size:1.5em;
+}
+
+#content {
+  width: 95vw;
+  position: absolute;
+  top: 2vw;
+  height: calc(100% - 9vw);
+  display: block;
+  box-sizing: border-box;
+  padding: 1vw;
+  background-color: #E6E7E8;
+  display: grid;
+  grid-template-columns: 21% 79%; 
+  grid-template-rows: 20.25vw 20.25vw auto;
+  grid-column-gap: 1vw;
+  grid-row-gap: 1vw;
+
+
+}
+
+/* Modal Transition */
  .modal-enter {
   opacity: 0;
 }
@@ -100,82 +134,7 @@
   transform: scale(1.1);
 }
 
-#spincontainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: calc(100% - 1vw);
-  height: auto;
-  box-sizing: border-box;
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-
-#videocontainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: calc(100% - 1vw);
-  height: auto;
-  box-sizing: border-box;
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-#spinwrapper {
-  height: 0;
-  padding-bottom: 56.25%; /* 16:9 */
-  position: relative;
-}
-
-.spritespin, .spritespin-instance {
-  width:100% !important;
-  height:100% !important;
-}
-
-#objectname {
-  text-decoration: underline;
-}
-
-#tombstone {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-
-#mediacontainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: calc(100% - 1vw);
-  box-sizing: border-box;
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}  
-
-#imagewrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  height: 100%;
-  width: auto;
-}
-
-#imagewrapper img {
-  height: 100%;
-  width: auto;
-}
+/* MiniMap */
 
 #minicontainer {
   grid-column-start: 1;
@@ -203,6 +162,93 @@
     width: 100%;
     max-height: 100%;
 }
+
+/* Object Information */
+
+#objectname {
+  text-decoration: underline;
+}
+
+#tombstone {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+/* Content Types */
+#mediacontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: calc(100% - 1vw);
+  box-sizing: border-box;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}  
+
+/* Image media type */
+
+#imagewrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100%;
+  width: auto;
+}
+
+#imagewrapper img {
+  height: 100%;
+  width: auto;
+}
+
+/* SpriteSpin for object rotatiosn */
+
+#spincontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: calc(100% - 1vw);
+  height: auto;
+  box-sizing: border-box;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+#spinwrapper {
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 */
+  position: relative;
+}
+
+.spritespin, .spritespin-instance {
+  width:100% !important;
+  height:100% !important;
+}
+
+/* Video media type */
+
+#videocontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: calc(100% - 1vw);
+  height: auto;
+  box-sizing: border-box;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+/* Closeout Row */
 
 #closerow {
   display: flex;
