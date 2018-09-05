@@ -40,7 +40,7 @@
  #erastrip {
   font-size: 1.1em;
  }
-//Era Control
+ 
 #erastrip {
   display: flex;
   flex-direction: row;
