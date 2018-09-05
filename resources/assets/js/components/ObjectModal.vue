@@ -13,7 +13,7 @@
                             </div> 
                             
                             <div id="tombstone">
-                              <span id="objectname">{{currentObject.name}}</span><br />
+                              <span id="objectname">{{currentObject.name}}</span>
                               {{currentObject.tombstone}}
                             </div>
                               
@@ -177,6 +177,7 @@
   grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 3;
+  white-space: pre-line;
 }
 
 /* Content Types */
