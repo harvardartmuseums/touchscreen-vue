@@ -17,8 +17,9 @@
         "laravel-mix": "^2.0",
         "lodash": "^4.17.4",
         "popper.js": "^1.12",
+        "spin-360": "0.0.5",
         "vue": "^2.5.7",
-        "spin-360": "0.0.5"
+        "vue2-editor": "^2.6.6"
     },
     "dependencies": {
         "ajv": "^6.0.0",
@@ -27,7 +28,6 @@
         "spritespin": "^4.0.6",
         "vue-stash": "^2.0.1-beta",
         "vue-video": "^0.1.7",
-        "vue2-editor": "^2.5.0",
         "vuex": "^3.0.1"
     }
 }
