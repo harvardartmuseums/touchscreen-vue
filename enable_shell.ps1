@@ -1,4 +1,4 @@
-$COMPUTER = "localhost"
+cd $COMPUTER = "localhost"
 $NAMESPACE = "root\standardcimv2\embedded"
 
 # Create a handle to the class instance so we can call the static methods.
@@ -16,7 +16,7 @@ function Get-UsernameSID($AccountName) {
     $NTUserObject = New-Object System.Security.Principal.NTAccount($AccountName)
     $NTUserSID = $NTUserObject.Translate([System.Security.Principal.SecurityIdentifier])
 
-    return $NTUserSID.Value
+    return $NTUserSID.Valuegit
 
 }
 

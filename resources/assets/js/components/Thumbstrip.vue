@@ -1,11 +1,9 @@
 <template>
     <div id="thumbstrip">
-        <div class="thumbcontainer"  v-for="(object, index) in objects" v-bind:key="object.name" @click="setCurrentObject(index)">
-            <img class="thumb" :src="'images/objects/thumbnails/' + object.thumbnail">
-                <div class="thumbnumber">
-                    {{index}}
-                </div>
-            </div>
+        <div class="thumbcontainer"  v-for="(video, index) in videos" v-bind:key="index" @click="showModal = true">
+            <img class="thumb" src="https://picsum.photos/1180/663">
+        </div>
+
     </div>
 </template>
     
@@ -18,18 +16,11 @@
       }
     },
     computed: {
-      objects () {
-      return this.$store.currentEra.objects;
+      videos () {
+      return this.$store.videos;
       }
     },
 	methods:{
-		setCurrentObject(index) {
-            var touchpoint = document.querySelector('[data-name="' + index + '"]');
-            this.$store.currentObject = this.$store.currentEra.objects[index];
-            this.$store.currentTouchpointName = index;
-            this.$store.currentTouchpointGraphic = touchpoint.firstChild.outerHTML;
-            this.$store.showObjectModal = true;
-		}
 	}
     };
  </script>
@@ -45,8 +36,6 @@
 }
 
 .thumbcontainer {
-  width: 6vw;
-  height: 12vh;
   display: block;
   background-color: black;
   margin-left: 2vw;
@@ -62,11 +51,5 @@
   width: auto;
 }
 
-.thumbnumber {
-  position: absolute;
-  top: .5vw;
-  left: .5vw;
-  color: white;
-}
 
  </style>

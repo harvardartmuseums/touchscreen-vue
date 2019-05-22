@@ -39,11 +39,8 @@ Object.defineProperties(Vue.prototype, {
 /* Vue.component('map-overlay', require('./components/MapOverlay.vue'));
 Vue.component('map-modal', require('./components/MapModal.vue')); */
 
-Vue.component('era-selector', require('./components/EraSelector.vue'));
-Vue.component('map-overlay', require('./components/MapOverlay.vue'));
 Vue.component('thumbstrip', require('./components/Thumbstrip.vue'));
 Vue.component('object-modal', require('./components/ObjectModal.vue'));
-Vue.component('object-spin', require('./components/ObjectSpin.vue'));
 Vue.component('object-video', require('./components/ObjectVideo.vue'));
 
 const app = new Vue({
