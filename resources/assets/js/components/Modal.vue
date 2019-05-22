@@ -1,6 +1,6 @@
 <template>
  <transition name="modal">
-        <div class="modal-mask" @click="close" v-show="show">
+        <div class="modal-mask" @click="close" v-if="show">
             <div class="modal-container" @click.stop>
               <slot></slot>
             </div>
@@ -47,8 +47,6 @@
 .modal-container {
     display: inline-block;
     margin: auto;
-    background-color: #fff;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
     transition: all .3s ease;
 }
 

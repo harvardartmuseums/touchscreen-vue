@@ -40,20 +40,16 @@ Object.defineProperties(Vue.prototype, {
 Vue.component('map-modal', require('./components/MapModal.vue')); */
 
 Vue.component('thumbstrip', require('./components/Thumbstrip.vue'));
-Vue.component('object-modal', require('./components/ObjectModal.vue'));
-Vue.component('object-video', require('./components/ObjectVideo.vue'));
+Vue.component('video-modal', require('./components/VideoModal.vue'));
+Vue.component('app-title', require('./components/AppTitle.vue'));
+Vue.component('modal', require('./components/Modal.vue'));
 
 const app = new Vue({
     el: '#app',
     data: {
         store: {
-            showObjectModal: false,
-            currentEra: window.mapConfig.eras["1"],
-            currentTouchpointName: null,
-            currentTouchpointGraphic: "",
-            currentObject: window.mapConfig.eras["1"].objects["1"],
-            currentOverlay: window.mapConfig.eras["1"].overlay,
-            configData: mapConfig
+            videos: window.videoConfig.videos,
+            title: window.videoConfig.title
         },  
         
     }

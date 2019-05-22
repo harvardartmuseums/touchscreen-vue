@@ -17,14 +17,13 @@ height: 100%;
 }
 
 body  {
-  background-image: url('../images/SVG/base.svg');
-  background-size: contain; 
+  background-color:#414042; 
   width: 100%;
   height: 100%;
   margin: 0;
   font-family: 'Neutral Std', sans-serif;
-  font-weight: 500;
   overflow: hidden;
+  color: white;
 }
 
 #app {

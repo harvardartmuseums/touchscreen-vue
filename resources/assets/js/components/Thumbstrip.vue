@@ -1,9 +1,10 @@
 <template>
     <div id="thumbstrip">
-        <div class="thumbcontainer"  v-for="(video, index) in videos" v-bind:key="index" @click="showModal = true">
-            <img class="thumb" src="https://picsum.photos/1180/663">
+        <div class="thumbcontainer"  v-for="(video, index) in videos" v-bind:key="index" @click="loadVideo(index)">
+              <img class="thumb" :src="'images/' + video.thumbnail">
+              <span class="caption">{{video.title}} ({{video.runtime}})</span>
         </div>
-
+        <video-modal :index="index" :show="show" @close="show = false"></video-modal>
     </div>
 </template>
     
@@ -13,6 +14,8 @@
 
    data() {
       return {
+        index: 0,
+        show: false
       }
     },
     computed: {
@@ -21,6 +24,10 @@
       }
     },
 	methods:{
+    loadVideo: function(index){
+        this.index = index;
+        this.show = true;
+    }
 	}
     };
  </script>
@@ -29,26 +36,29 @@
 #thumbstrip {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  position:absolute;
-  top:2vw;
-  width: 100vw;
+  justify-content: space-between;
+  width: 90vw;
+  height: 11.5vw;
+  margin: 0 auto;
+  margin-top: 7vh;
 }
 
 .thumbcontainer {
   display: block;
-  background-color: black;
-  margin-left: 2vw;
+  height: 100%;
+  width: auto;
   position: relative;
-}
-
-.thumbcontainer:first-child {
-  margin-left: 0;
 }
 
 .thumb {
   height: 100%;
   width: auto;
+}
+
+.caption {
+  font-size: 1.1em;
+  margin-top: 1em;
+  display: block;
 }
 
 
