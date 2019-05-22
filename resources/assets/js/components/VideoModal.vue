@@ -1,6 +1,6 @@
 <template>
   <modal :show="show" @close="close">
-    <video id="objectvideo" autoplay muted>
+    <video id="objectvideo">
       <source :src="'videos/' + video.filename" type="video/mp4">
     </video>
     <div id="closerow">
