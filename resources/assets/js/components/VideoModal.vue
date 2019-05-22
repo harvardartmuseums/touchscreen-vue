@@ -1,6 +1,6 @@
 <template>
   <modal :show="show" @close="close">
-    <video id="objectvideo">
+    <video id="objectvideo" @ended="close" width="2880" autoplay>
       <source :src="'videos/' + video.filename" type="video/mp4">
     </video>
     <div id="closerow">
@@ -23,11 +23,6 @@
   
   watch: {
 
-  },
-  mounted: function() {
-		this.$nextTick(() => {
-			document.getElementById("objectvideo").play();
-		});
   },
   methods: {
     close: function () {
@@ -53,6 +48,7 @@
   height: 3vw;
   margin-top: .1vw;
   color: #58595b;
+  font-size: 1.5em;
 }
 .closeButton {
   fill:none;stroke:#58595b;stroke-miterlimit:10;stroke-width:3px;

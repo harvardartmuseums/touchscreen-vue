@@ -2,7 +2,7 @@
     <div id="thumbstrip">
         <div class="thumbcontainer"  v-for="(video, index) in videos" v-bind:key="index" @click="loadVideo(index)">
               <img class="thumb" :src="'images/' + video.thumbnail">
-              <span class="caption">{{video.title}} ({{video.runtime}})</span>
+              <span class="caption">{{video.title}} <span class="runtime">({{video.runtime}})</span></span>
         </div>
         <video-modal :index="index" :show="show" @close="show = false"></video-modal>
     </div>
@@ -40,7 +40,7 @@
   width: 90vw;
   height: 11.5vw;
   margin: 0 auto;
-  margin-top: 7vh;
+  margin-top: 5vh;
 }
 
 .thumbcontainer {
@@ -56,9 +56,13 @@
 }
 
 .caption {
-  font-size: 1.1em;
+  font-size: 1.4em;
   margin-top: 1em;
   display: block;
+}
+
+.runtime {
+  display: none;
 }
 
 

@@ -1,7 +1,7 @@
 window.videoConfig = {
     "videos": {
       "0": {
-        "title": "Prince Shōtoku’s Journey",
+        "title": "The Life of Shōtoku",
         "filename": "overview.mp4",
         "thumbnail": "overview.png",
         "runtime": "2:20"
@@ -13,13 +13,13 @@ window.videoConfig = {
         "runtime": "2:11"
       },
       "2": {
-        "title": "Paper Treasures of Shōtoku",
+        "title": "Learning from Paper",
         "filename": "penley.mp4",
         "thumbnail": "penley.png",
         "runtime": "1:45"
       },
       "3": {
-        "title": "A Closer Look at the Lotus Sutra",
+        "title": "A Closer Look at the Library of Congress Lotus Sutra, ca. 1160",
         "filename": "lotus.mp4",
         "thumbnail": "lotus.png",
         "runtime": "5:13"
